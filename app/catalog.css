@@ -2,10 +2,10 @@
 .filters button { border:1px solid var(--line); background:transparent; padding:10px 14px; color:#64584d; font:600 10px Arial,sans-serif; text-transform:uppercase; letter-spacing:.08em; cursor:pointer; }
 .filters button:hover, .filters button.active { background:var(--wine); border-color:var(--wine); color:#fffaf0; }
 .modalBack { position:fixed; z-index:10; inset:0; background:#17110dcc; display:grid; place-items:center; padding:22px; }
-.modal { width:min(860px,100%); max-height:min(720px,90vh); background:var(--cream); border:1px solid #bca98b; display:grid; grid-template-columns:34% 1fr; position:relative; overflow:hidden; box-shadow:0 32px 90px #0008; }
+.modal { width:min(860px,100%); max-height:90vh; background:var(--cream); border:1px solid #bca98b; display:flex; flex-direction:column; position:relative; overflow:hidden; box-shadow:0 32px 90px #0008; }
 .close { position:absolute; z-index:2; right:14px; top:12px; border:1px solid var(--line); background:#fffaf0dd; width:38px; height:38px; font:28px Georgia,serif; color:var(--wine); cursor:pointer; }
-.modalArtifact { height:auto; min-height:480px; }
-.modalBody { padding:58px 46px; overflow:auto; }
+.modalArtifact { width:100%; height:280px; min-height:280px; }
+.modalBody { padding:40px 46px 48px; overflow:auto; }
 .modalBody h2 { font-size:44px; line-height:1.05; font-weight:400; margin:15px 0 22px; }
 .price { padding:14px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:#6d6156; font-size:14px; }
 .price strong { color:var(--wine); font-weight:400; }
@@ -21,4 +21,4 @@
 .cardInfo strong { font-size:11px; font-weight:400; text-transform:none; letter-spacing:0; white-space:nowrap; }
 .hero { border-bottom:0; }
 .catalog { padding-top:42px; }
-@media(max-width:600px) { .modal{display:block;overflow:auto}.modalArtifact{height:150px;min-height:150px}.modalBody{padding:32px 24px}.modalBody h2{font-size:32px}.modalBack{padding:10px}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filters button{white-space:nowrap} }
+@media(max-width:600px) { .modal{overflow:auto}.modalArtifact{height:180px;min-height:180px}.modalBody{padding:32px 24px}.modalBody h2{font-size:32px}.modalBack{padding:10px}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filters button{white-space:nowrap} }

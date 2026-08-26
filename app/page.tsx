@@ -8,9 +8,14 @@ const categoryOrder = ['Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'F
 const categories = ['Mind', ...categoryOrder.filter((name) => items.some((item) => item.category === name))];
 const itemImages: Record<string, string> = {
   'Adamantin Sisak': '/items/adamantin-sisak.jpeg',
+  'Amulet of wisdom': '/items/amulet-of-wisdom.jpeg',
   'Belt of the Hill Giant': '/items/belt-of-the-hill-giant.jpeg',
   'Black Panter Studded Armor': '/items/black-panter-studded-armor.jpeg',
   'Black Wolf Fur': '/items/black-wolf-fur.jpeg',
+  'Boots of Longstrider': '/items/boots-of-longstrider.jpeg',
+  'Bracer of fire resistance': '/items/bracer-of-fire-resistance.jpeg',
+  'Braclet of sleight hands': '/items/braclet-of-sleight-hands.jpeg',
+  'Catpaw boots': '/items/catpaw-boots.jpeg',
 };
 
 function ItemArtwork({ item, modal = false }: { item: Item; modal?: boolean }) {
