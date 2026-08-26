@@ -6,6 +6,7 @@ const auroraPath = '/Users/szabotibor/Desktop/DnD - dr 1502/Knowledge base/Auror
 const availableFiles = [
   ...readdirSync(campaign).filter((name) => name.endsWith('.md')).map((name) => join(campaign, name)),
   ...readdirSync(join(campaign, 'Equipement')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Equipement', name)),
+  ...readdirSync(join(campaign, 'Potions')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Potions', name)),
 ];
 const fileByName = new Map(availableFiles.map((file) => [basename(file, '.md'), file]));
 const auroraItemNames = [...readFileSync(auroraPath, 'utf8').matchAll(/\[\[([^\]]+)\]\]/g)].map((match) => match[1]);
@@ -13,6 +14,7 @@ const files = [...new Set(auroraItemNames)].map((name) => fileByName.get(name)).
 
 const classify = (name, text) => {
   const value = `${name} ${text}`.toLowerCase();
+  if (/potion|elixir|poison|dragon rum|incense|powder|ellenszer|csillapító|stout of valor/.test(value)) return 'Főzet';
   if (/armor|helmet|sisak|cloak|cloak|coat|láncing|vestment|fur|daróc/.test(value)) return 'Páncél';
   if (/sword|rapier|mace|maul|javelin|hammer|sickle|dagger|fegyver/.test(value)) return 'Fegyver';
   if (/wand|staff|orb|scepter|focus|gömb|pálca/.test(value)) return 'Fókusz';

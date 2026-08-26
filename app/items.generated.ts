@@ -16,6 +16,14 @@ export const items = [
     "details": "+1 wishdom savere\n\n500 arany"
   },
   {
+    "id": 34,
+    "name": "Basic poison",
+    "category": "Főzet",
+    "price": 25,
+    "summary": "Tárgy típusa: fiola",
+    "details": "Tárgy típusa: fiola\nKenegetési idő: 1 akció\nCélpont: 1 fegyver vagy legfeljebb 3 lőszer\nIdőtartam: 1 perc, vagy amíg találatot nem ér el.\nA célpont DC 10 Constitution mentőt dob. Sikertelenségnél 1d4 méregsebzést szenved. Nem okoz poisoned állapotot.\n\n**Készítési DC:** –\n**Ár:** 25 arany\n**Készítési idő:** –\n**Típus:** Mérgek, Potion\n\n**Alapanyagok**\n- 1× Gyenge méreg\n- 1× Kis fiola"
+  },
+  {
     "id": 21,
     "name": "Belt of the Hill Giant",
     "category": "Viselhető",
@@ -88,12 +96,188 @@ export const items = [
     "details": "Délibábos Doromboló Duvad Daróc\n\n+2 Studden leather armor (14+ dex mod)\nLongrestenként 1x aktiválható a Displacement képesség aminek hatására 10 körig minden támadás disadvantage lesz a használó ellen.\n\n6000 arany"
   },
   {
+    "id": 36,
+    "name": "Dragon rum",
+    "category": "Főzet",
+    "price": 100,
+    "summary": "Dragon's Breath. Egy egység alkohol. Egy palack 10 használatra elegendő.",
+    "details": "Dragon's Breath. Egy egység alkohol. Egy palack 10 használatra elegendő.\n\n**Készítési DC:** 14\n**Ár:** 100 arany\n**Készítési idő:** 2 nap (napi 2 óra)\n**Típus:** Harci buffok, Alkoholos ital\n\n**Alapanyagok**\n- 2× Sárkánygyökér\n- 2× Cukornádmelasz\n- 3× Forrásvíz\n- 1× Sárkánypikkely\n- 1× Fél literes palack"
+  },
+  {
+    "id": 41,
+    "name": "Elixir of Aboleth",
+    "category": "Főzet",
+    "price": 250,
+    "summary": "Az INT értéked 21 lesz 24 óráig vagy a következő long restig.",
+    "details": "Az INT értéked 21 lesz 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 25\n**Ár:** 250 arany\n**Készítési idő:** 20 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 4× Ametiszt\n- 1× Aboleth szem\n- 30× Forrásvíz\n- 1× Rozmaring\n- 1× Nagy fiola"
+  },
+  {
+    "id": 59,
+    "name": "Elixir of Acid Resistance",
+    "category": "Főzet",
+    "price": 40,
+    "summary": "Ellenállást ad a(z) acid sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) acid sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 3 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 4× Malachit\n- 2× Lenmag\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 53,
+    "name": "Elixir of Bear",
+    "category": "Főzet",
+    "price": 140,
+    "summary": "+2 STR 1 percig.",
+    "details": "+2 STR 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 3 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Gránát\n- 1× Medvekarom\n- 10× Fekete bors\n- 5× Forrásvíz\n- 1× Közepes fiola"
+  },
+  {
+    "id": 37,
+    "name": "Elixir of Bloodlust",
+    "category": "Főzet",
+    "price": 100,
+    "summary": "1 órán át, körönként egyszer egy ellenfél megölésekor 5 ideiglenes HP-t és egy extra, nem mágikus akciót vagy bónuszakciót kapsz. Harcon kívül DC 10 Wisdom mentő; sikerte",
+    "details": "1 órán át, körönként egyszer egy ellenfél megölésekor 5 ideiglenes HP-t és egy extra, nem mágikus akciót vagy bónuszakciót kapsz. Harcon kívül DC 10 Wisdom mentő; sikertelenségnél 1 percig a legközelebbi célpontra támadsz.\n\n**Készítési DC:** 17\n**Ár:** 100 arany\n**Készítési idő:** 1 óra\n**Típus:** Harci buffok, Elixir\n\n**Alapanyagok**\n- 4× Vérkő\n- 10× Forrásvíz\n- 3× Vadállat fog\n- 1× Közepes fiola"
+  },
+  {
+    "id": 39,
+    "name": "Elixir of Cloud Giant Strength",
+    "category": "Főzet",
+    "price": 500,
+    "summary": "Az STR értéked 27 lesz 24 óráig vagy a következő long restig.",
+    "details": "Az STR értéked 27 lesz 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 28\n**Ár:** 500 arany\n**Készítési idő:** 20 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 3× Óriás csont\n- 1× Gyémánt\n- 50× Forrásvíz\n- 1× Nagy fiola"
+  },
+  {
+    "id": 60,
+    "name": "Elixir of Cold Resistance",
+    "category": "Főzet",
+    "price": 40,
+    "summary": "Ellenállást ad a(z) cold sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) cold sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 4× Kék kvarc\n- 4× Csipkebogyó\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 61,
+    "name": "Elixir of Fire Resistance",
+    "category": "Főzet",
+    "price": 40,
+    "summary": "Ellenállást ad a(z) fire sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) fire sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 1× Karneol\n- 4× Menta\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 38,
+    "name": "Elixir of Hill Giant",
+    "category": "Főzet",
+    "price": 250,
+    "summary": "Az STR értéked 21 lesz 24 óráig vagy a következő long restig.",
+    "details": "Az STR értéked 21 lesz 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 25\n**Ár:** 250 arany\n**Készítési idő:** 10 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 1× Óriás csont\n- 4× Gránát\n- 10× Kecsketej\n- 30× Forrásvíz\n- 1× Nagy fiola"
+  },
+  {
+    "id": 62,
+    "name": "Elixir of Lightning Resistance",
+    "category": "Főzet",
+    "price": 40,
+    "summary": "Ellenállást ad a(z) lightning sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) lightning sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 1× Citrin\n- 2× Fagyöngy\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 54,
+    "name": "Elixir of Lynx",
+    "category": "Főzet",
+    "price": 140,
+    "summary": "+2 DEX 1 percig.",
+    "details": "+2 DEX 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 2 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Jáde\n- 1× Hiúzbajusz\n- 2× Mezei zsurló\n- 5× Forrásvíz\n- 1× Közepes fiola"
+  },
+  {
+    "id": 64,
+    "name": "Elixir of Necrotic Resistance",
+    "category": "Főzet",
+    "price": 120,
+    "summary": "Ellenállást ad a(z) necrotic sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) necrotic sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 18\n**Ár:** 120 arany\n**Készítési idő:** 3 óra\n**Típus:** Ellenállás, Elixir\n\n**Alapanyagok**\n- 8× Obszidián\n- 4× Szegfűszeg\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 56,
+    "name": "Elixir of Owl",
+    "category": "Főzet",
+    "price": 140,
+    "summary": "+2 INT 1 percig.",
+    "details": "+2 INT 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 4 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Ametiszt\n- 1× Bagoly toll\n- 2× Dió\n- 5× Forrásvíz\n- 1× Közepes fiola"
+  },
+  {
+    "id": 55,
+    "name": "Elixir of Ox",
+    "category": "Főzet",
+    "price": 140,
+    "summary": "+2 CON 1 percig.",
+    "details": "+2 CON 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 4 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Spinell\n- 1× Ökörszarv\n- 2× Fokhagyma\n- 5× Forrásvíz\n- 1× Közepes fiola"
+  },
+  {
+    "id": 57,
+    "name": "Elixir of Peacock",
+    "category": "Főzet",
+    "price": 140,
+    "summary": "+2 CHA 1 percig.",
+    "details": "+2 CHA 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 3 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Turmalin\n- 1× Pávatoll\n- 1× Méz\n- 5× Forrásvíz\n- 1× Közepes fiola"
+  },
+  {
+    "id": 63,
+    "name": "Elixir of Poison Resistance",
+    "category": "Főzet",
+    "price": 40,
+    "summary": "Ellenállást ad a(z) poison sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) poison sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 1× Krizopráz\n- 2× Fekete üröm\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 65,
+    "name": "Elixir of Psychic Resistance",
+    "category": "Főzet",
+    "price": 120,
+    "summary": "Ellenállást ad a(z) psychic sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) psychic sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 18\n**Ár:** 120 arany\n**Készítési idő:** 3 óra\n**Típus:** Ellenállás, Elixir\n\n**Alapanyagok**\n- 8× Azurit\n- 2× Levendula\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 66,
+    "name": "Elixir of Radiant Resistance",
+    "category": "Főzet",
+    "price": 120,
+    "summary": "Ellenállást ad a(z) radiant sebzéssel szemben 24 óráig vagy a következő long restig.",
+    "details": "Ellenállást ad a(z) radiant sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 18\n**Ár:** 120 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir\n\n**Alapanyagok**\n- 2× Holdkő\n- 4× Napraforgó mag\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
+    "id": 58,
+    "name": "Elixir of Stag",
+    "category": "Főzet",
+    "price": 140,
+    "summary": "+2 WIS 1 percig.",
+    "details": "+2 WIS 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 2 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Borostyán\n- 1× Szarvasagancs\n- 2× Orbáncfű\n- 5× Forrásvíz\n- 1× Közepes fiola"
+  },
+  {
+    "id": 52,
+    "name": "Elixir of Tressym",
+    "category": "Főzet",
+    "price": 50,
+    "summary": "Infravision.",
+    "details": "Infravision.\n\n**Készítési DC:** 16\n**Ár:** 50 arany\n**Készítési idő:** 2 óra\n**Típus:** Utility, Elixir\n\n**Alapanyagok**\n- 1× Tressym bajusz\n- 3× Tigrisszem\n- 3× Forrásvíz\n- 1× Kis fiola"
+  },
+  {
     "id": 23,
     "name": "Gauntlet of strong hands",
     "category": "Viselhető",
     "price": 1200,
     "summary": "Min Str: 12",
     "details": "Min Str: 12\n+1 AC\nAdvantage str checkre\n\n1200 arany"
+  },
+  {
+    "id": 42,
+    "name": "Greater healing potion",
+    "category": "Főzet",
+    "price": 200,
+    "summary": "4d4 + 4 HP gyógyítás.",
+    "details": "4d4 + 4 HP gyógyítás.\nMedicine check.\n\n**Készítési DC:** 20\n**Ár:** 200 arany\n**Készítési idő:** 2 óra\n**Típus:** Gyógyítás, Potion\n\n**Alapanyagok**\n- 3× Forrásvíz\n- 2× Hajnalfű\n- 2× Spinell\n- 1× Közepes fiola"
+  },
+  {
+    "id": 43,
+    "name": "Healing potion",
+    "category": "Főzet",
+    "price": 50,
+    "summary": "2d4 + 2 HP gyógyítás.",
+    "details": "2d4 + 2 HP gyógyítás.\nMedicine check.\n\n**Készítési DC:** 10\n**Ár:** 50 arany\n**Készítési idő:** 1 óra\n**Típus:** Gyógyítás, Potion, Alkímia 1\n\n**Alapanyagok**\n- 1× Forrásvíz\n- 1× Hajnalfű\n- 1× Karneol\n- 1× Kis fiola"
   },
   {
     "id": 24,
@@ -136,6 +320,22 @@ export const items = [
     "details": "15 str\n+1 Maul\nA topple elleni constitution mentőt disadvantagevel dobja az ellenfél.\n\n1400 arany"
   },
   {
+    "id": 44,
+    "name": "Megtört akarat csillapító szere",
+    "category": "Főzet",
+    "price": 150,
+    "summary": "Orvosság, egy elkészítés 50 adagot ad.",
+    "details": "Orvosság, egy elkészítés 50 adagot ad.\nMedicine check.\n\n**Készítési DC:** 21\n**Ár:** 150 arany\n**Készítési idő:** 3 óra\n**Típus:** Gyógyítás\n\n**Alapanyagok**\n- 3× Holdkő\n- 2× Ezüstlevél\n- 3× Sárkánygyökér\n- 10× Levendula"
+  },
+  {
+    "id": 45,
+    "name": "Méreg ellenszer",
+    "category": "Főzet",
+    "price": 20,
+    "summary": "Semlegesíti a poisoned állapotot.",
+    "details": "Semlegesíti a poisoned állapotot.\nMedicine check.\n\n**Készítési DC:** 11\n**Ár:** 20 arany\n**Készítési idő:** 30 perc\n**Típus:** Gyógyítás, Potion, Alkímia 1\n\n**Alapanyagok**\n- 1× Forrásvíz\n- 2× Ezüstlevél\n- 10× Fekete üröm\n- 1× Malachit\n- 1× Kis fiola"
+  },
+  {
     "id": 1,
     "name": "Misztikus Rúnakő",
     "category": "Páncél",
@@ -152,6 +352,38 @@ export const items = [
     "details": "Shorrestenként 1x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő.\n\n500 arany"
   },
   {
+    "id": 46,
+    "name": "Potion of arcane recovery",
+    "category": "Főzet",
+    "price": 110,
+    "summary": "Visszatölt egy 1. szintű spell slotot.",
+    "details": "Visszatölt egy 1. szintű spell slotot.\n\n**Készítési DC:** 15\n**Ár:** 110 arany\n**Készítési idő:** 5 óra\n**Típus:** Utility, Potion, Alkímia 1\n\n**Alapanyagok**\n- 10× Kék kvarc\n- 1× Forrásvíz\n- 20× Levendula\n- 1× Bagoly toll\n- 1× Közepes fiola"
+  },
+  {
+    "id": 50,
+    "name": "Potion of feather fall",
+    "category": "Főzet",
+    "price": 40,
+    "summary": "Feather Fall hatás.",
+    "details": "Feather Fall hatás.\n\n**Készítési DC:** 12\n**Ár:** 40 arany\n**Készítési idő:** 1 óra\n**Típus:** Utility, Potion, Alkímia 1\n\n**Alapanyagok**\n- 1× Bármilyen toll\n- 8× Forrásvíz\n- 5× Pitypang\n- 3× Pehely liliom\n- 1× Kis fiola"
+  },
+  {
+    "id": 40,
+    "name": "Potion of Invisibility",
+    "category": "Főzet",
+    "price": 160,
+    "summary": "Invisibility 1 órára.",
+    "details": "Invisibility 1 órára.\n\n**Készítési DC:** 17\n**Ár:** 160 arany\n**Készítési idő:** 3 óra\n**Típus:** Utility, Potion, Alkímia 1\n\n**Alapanyagok**\n- 4× Kvarc\n- 20× Forrásvíz\n- 6× Ezüstlevél\n- 1× Közepes fiola"
+  },
+  {
+    "id": 47,
+    "name": "Potion of Speed",
+    "category": "Főzet",
+    "price": 300,
+    "summary": "Haste hatás.",
+    "details": "Haste hatás.\n\n**Készítési DC:** 28\n**Ár:** 300 arany\n**Készítési idő:** 3 óra\n**Típus:** Harci buffok, Potion\n\n**Alapanyagok**\n- 2× Citrin\n- 2× Kék spinell\n- 1× Zöld tea\n- 20× Forrásvíz\n- 1× Sólyom toll\n- 1× Nagy fiola"
+  },
+  {
     "id": 10,
     "name": "Prismatic Psychedelic Peepers",
     "category": "Csodás tárgy",
@@ -160,12 +392,28 @@ export const items = [
     "details": "Prizmatikus Pszichedelikus Pápaszem\n\nShortrestenként 1x Hypnotic pattern\n3000 arany"
   },
   {
+    "id": 48,
+    "name": "Purifying Incense",
+    "category": "Főzet",
+    "price": 100,
+    "summary": "Short rest alatt használható. Tíz percig füstöl; a füstjében tartózkodó játékosokról eltávolít minden enyhe átkot, majd hamuvá válik.",
+    "details": "Short rest alatt használható. Tíz percig füstöl; a füstjében tartózkodó játékosokról eltávolít minden enyhe átkot, majd hamuvá válik.\nMedicine check.\n\n**Készítési DC:** 16\n**Ár:** 100 arany\n**Készítési idő:** 1 óra\n**Típus:** Gyógyítás, Utility\n\n**Alapanyagok**\n- 1× Tömjén\n- 2× Ezüstlevél\n- 2× Fehér zsálya\n- 3× Hajnalfű\n- 2× Holdkő"
+  },
+  {
     "id": 18,
     "name": "Quickling steps",
     "category": "Csodás tárgy",
     "price": 3000,
     "summary": "+10 feet sebesség",
     "details": "+10 feet sebesség\nLongrestenként 1x megduplázza a használó mozgássebességét 10 körre\n\n3000 arany"
+  },
+  {
+    "id": 49,
+    "name": "Quickly Powder",
+    "category": "Főzet",
+    "price": 25,
+    "summary": "8 órán át nem lehet elaltatni, +5 speedet kap és megszűnik az exhaustion állapota. A hatás végén a használatkor meglévő értéknél 1-gyel magasabb exhaustiont kap.",
+    "details": "8 órán át nem lehet elaltatni, +5 speedet kap és megszűnik az exhaustion állapota. A hatás végén a használatkor meglévő értéknél 1-gyel magasabb exhaustiont kap.\n\n**Készítési DC:** 11\n**Ár:** 25 arany\n**Készítési idő:** 1 óra\n**Típus:** Harci buffok\n\n**Alapanyagok**\n- 1× Citrin\n- 1× Kávé\n- 1× Quickling vér"
   },
   {
     "id": 14,
@@ -206,6 +454,22 @@ export const items = [
     "price": 300,
     "summary": "Longrestenként 1x Sleep",
     "details": "Longrestenként 1x Sleep\nSpellcasting focusként használható.\n\n300 arany"
+  },
+  {
+    "id": 51,
+    "name": "Stout of Valor",
+    "category": "Főzet",
+    "price": 80,
+    "summary": "Heroism hatás. Egy egység alkohol; egy főzés 12 palackot ad.",
+    "details": "Heroism hatás. Egy egység alkohol; egy főzés 12 palackot ad.\n\n**Készítési DC:** 13\n**Ár:** 80 arany\n**Készítési idő:** 5 nap (napi 1 óra)\n**Típus:** Harci buffok, Alkoholos ital\n\n**Alapanyagok**\n- 1× Komló\n- 2× Árpa\n- 2× Maláta\n- 1× Sörélesztő\n- 12× Forrásvíz\n- 1× Ónix\n- 1× Oroszlán sörény\n- 12× Fél literes palack"
+  },
+  {
+    "id": 35,
+    "name": "Strong poison",
+    "category": "Főzet",
+    "price": 100,
+    "summary": "Bónuszakcióként egy fegyverre vagy legfeljebb három lőszerre kenhető. A célpont DC 14 Constitution mentőt dob; a méreg 2d8 extra méregsebzést okoz. Hatása 1 percig vagy a",
+    "details": "Bónuszakcióként egy fegyverre vagy legfeljebb három lőszerre kenhető. A célpont DC 14 Constitution mentőt dob; a méreg 2d8 extra méregsebzést okoz. Hatása 1 percig vagy az első sebzésig tart.\n\n**Készítési DC:** –\n**Ár:** 100 arany\n**Készítési idő:** –\n**Típus:** Mérgek, Potion\n\n**Alapanyagok**\n- 1× Erős méreg\n- 1× Közepes fiola"
   },
   {
     "id": 27,
