@@ -2,11 +2,11 @@
 .filters button { border:1px solid var(--line); background:transparent; padding:10px 14px; color:#64584d; font:600 10px Arial,sans-serif; text-transform:uppercase; letter-spacing:.08em; cursor:pointer; }
 .filters button:hover, .filters button.active { background:var(--wine); border-color:var(--wine); color:#fffaf0; }
 .modalBack { position:fixed; z-index:10; inset:0; background:#17110dcc; display:grid; place-items:center; padding:22px; }
-.modal { width:min(1120px,100%); max-height:90vh; background:var(--cream); border:1px solid #bca98b; display:grid; grid-template-columns:minmax(0,1fr) 320px; align-items:start; position:relative; overflow:hidden; box-shadow:0 32px 90px #0008; }
+.modal { width:min(1400px,100%); max-height:90vh; background:var(--cream); border:1px solid #bca98b; display:grid; grid-template-columns:minmax(0,1fr) 390px; align-items:start; position:relative; overflow:hidden; box-shadow:0 32px 90px #0008; }
 .close { position:absolute; z-index:2; right:14px; top:12px; border:1px solid var(--line); background:#fffaf0dd; width:38px; height:38px; font:28px Georgia,serif; color:var(--wine); cursor:pointer; }
 .modalArtifact { width:100%; height:auto; min-height:0; aspect-ratio:16 / 9; }
-.modalBody { align-self:stretch; min-height:0; max-height:90vh; padding:54px 28px 36px; overflow:auto; border-left:1px solid var(--line); }
-.modalBody h2 { font-size:30px; line-height:1.08; font-weight:400; margin:15px 0 22px; }
+.modalBody { align-self:stretch; min-height:0; max-height:90vh; padding:58px 36px 40px; overflow:auto; border-left:1px solid var(--line); }
+.modalBody h2 { font-size:34px; line-height:1.08; font-weight:400; margin:15px 0 22px; }
 .price { padding:14px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:#6d6156; font-size:14px; }
 .price strong { color:var(--wine); font-weight:400; }
 .details { white-space:pre-wrap; margin-top:25px; color:#554c43; font-size:15px; line-height:1.75; }
