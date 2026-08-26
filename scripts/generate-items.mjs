@@ -25,7 +25,14 @@ const classify = (name, text) => {
   if (/scroll|bomb|shard|fenőkő|rúnakő/.test(value)) return 'Fogyóeszköz';
   return 'Mágikus tárgy';
 };
-const clean = (text) => text.replace(/\[\[([^\]]+)\]\]/g, '$1').replace(/^#+\s*/gm, '').trim();
+const clean = (text) => text
+  .replace(/!\[\[[^\]]+\]\]/g, '')
+  .replace(/!\[[^\]]*\]\([^\)]+\)/g, '')
+  .replace(/^!?[^\n]*(?:Gemini_Generated_Image|\.(?:jpe?g|png|webp|gif))[^\n]*$/gim, '')
+  .replace(/\[\[([^\]]+)\]\]/g, '$1')
+  .replace(/^#+\s*/gm, '')
+  .replace(/\n{3,}/g, '\n\n')
+  .trim();
 const summary = (text) => clean(text).split(/\n\s*\n|\n/).find((line) => line.trim() && !/^\*\*/.test(line))?.replace(/^[-*]\s*/, '').slice(0, 170) || 'Ismeretlen eredetű mágikus tárgy.';
 const price = (text) => {
   const matches = [...text.matchAll(/([\d .]+)\s*(?:arany|Arany)/g)];

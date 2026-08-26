@@ -4,16 +4,16 @@ export const items = [
     "name": "Adamantin Sisak",
     "category": "Páncél",
     "price": 5000,
-    "summary": "!Gemini_Generated_Image_379dsm379dsm379d.jpeg",
-    "details": "!Gemini_Generated_Image_379dsm379dsm379d.jpeg\n\n+1 AC\nAdvantage dex save sebzés / támadás elhárítására\nA viselő elleni kritikus találatok normál találatnak minősülnek.\n\n5000 Arany"
+    "summary": "+1 AC",
+    "details": "+1 AC\nAdvantage dex save sebzés / támadás elhárítására\nA viselő elleni kritikus találatok normál találatnak minősülnek.\n\n5000 Arany"
   },
   {
     "id": 35,
     "name": "Amulet of wisdom",
     "category": "Ékszer",
     "price": 500,
-    "summary": "!Gemini_Generated_Image_hzswq2hzswq2hzsw.jpeg",
-    "details": "!Gemini_Generated_Image_hzswq2hzswq2hzsw.jpeg\n\n+1 wishdom savere\n\n500 arany"
+    "summary": "+1 wishdom savere",
+    "details": "+1 wishdom savere\n\n500 arany"
   },
   {
     "id": 41,
@@ -28,16 +28,16 @@ export const items = [
     "name": "Belt of the Hill Giant",
     "category": "Páncél",
     "price": 3300,
-    "summary": "!Gemini_Generated_Image_wh5wu8wh5wu8wh5w.jpeg",
-    "details": "!Gemini_Generated_Image_wh5wu8wh5wu8wh5w.jpeg\n\nMin Str: 15\nStr up to max 21\n\n3300 arany"
+    "summary": "Min Str: 15",
+    "details": "Min Str: 15\nStr up to max 21\n\n3300 arany"
   },
   {
     "id": 15,
     "name": "Black Panter Studded Armor",
     "category": "Páncél",
     "price": 1200,
-    "summary": "!Gemini_Generated_Image_jafalvjafalvjafa.jpeg",
-    "details": "!Gemini_Generated_Image_jafalvjafalvjafa.jpeg\n\n13 AC (+ dex) +1 Studded leather armor\n+1 dexterity save\n\n1200 arany"
+    "summary": "13 AC (+ dex) +1 Studded leather armor",
+    "details": "13 AC (+ dex) +1 Studded leather armor\n+1 dexterity save\n\n1200 arany"
   },
   {
     "id": 13,
@@ -60,8 +60,8 @@ export const items = [
     "name": "Bracer of fire resistance",
     "category": "Páncél",
     "price": 1200,
-    "summary": "Mind Str: 12",
-    "details": "Mind Str: 12\nFire ressistancet ad\n\n1200 arany"
+    "summary": "Fire ressistancet ad",
+    "details": "Fire ressistancet ad\n\n1200 arany"
   },
   {
     "id": 33,
