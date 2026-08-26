@@ -25,7 +25,6 @@ export default function Home() {
   }, [selected]);
 
   return <main>
-    <nav className="topbar"><a className="brand" href="#top" aria-label="Aurora Katalógusháza kezdőlap"><span className="brandMark">A</span><span><strong>Aurora</strong><small>Katalógusház</small></span></a><span className="edition">Játékosi kiadás · 1502 DR</span></nav>
     <header className="hero" id="top"><div className="eyebrow">Válogatott mágikus ritkaságok Faerûnból</div><h1>A rendkívüli tárgyak<br/><em>rendes jegyzéke.</em></h1><p>Fegyverek, ereklyék és különös portékák egy helyen.</p><label className="search"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Keress név, típus vagy hatás szerint…" aria-label="Keresés a tárgyak között"/><kbd>{filtered.length} találat</kbd></label></header>
     <section className="catalog" aria-label="Mágikus tárgyak"><div className="sectionHead"><div><span className="eyebrow">A gyűjtemény</span><h2>Frissen lajstromozva</h2></div><p>Minden ár tájékoztató jellegű.<br/>A készlet kalandonként változhat.</p></div>
       <div className="filters" role="group" aria-label="Kategóriaszűrő">{categories.map((name) => <button key={name} className={category === name ? 'active' : ''} onClick={() => setCategory(name)}>{name}</button>)}</div>
