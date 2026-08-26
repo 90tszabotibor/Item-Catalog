@@ -4,13 +4,16 @@ import { useEffect, useMemo, useState } from 'react';
 import { items } from './items.generated';
 
 type Item = (typeof items)[number];
+const categories = ['Mind', 'Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Csodás tárgy'];
+
 export default function Home() {
   const [query, setQuery] = useState('');
+  const [category, setCategory] = useState('Mind');
   const [selected, setSelected] = useState<Item | null>(null);
   const filtered = useMemo(() => items.filter((item) => {
     const haystack = `${item.name} ${item.category} ${item.summary} ${item.details}`.toLocaleLowerCase('hu');
-    return haystack.includes(query.toLocaleLowerCase('hu').trim());
-  }), [query]);
+    return (category === 'Mind' || item.category === category) && haystack.includes(query.toLocaleLowerCase('hu').trim());
+  }), [query, category]);
 
   useEffect(() => {
     if (!selected) return;
@@ -23,6 +26,7 @@ export default function Home() {
   return <main>
     <header className="hero" id="top"><div className="eyebrow">Válogatott mágikus ritkaságok Faerûnból</div><h1>A rendkívüli tárgyak<br/><em>rendes jegyzéke.</em></h1><p>Fegyverek, ereklyék és különös portékák egy helyen.</p><label className="search"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Keress név, típus vagy hatás szerint…" aria-label="Keresés a tárgyak között"/><kbd>{filtered.length} találat</kbd></label></header>
     <section className="catalog" aria-label="Mágikus tárgyak">
+      <div className="filters" role="group" aria-label="Kategóriaszűrő">{categories.map((name) => <button key={name} className={category === name ? 'active' : ''} onClick={() => setCategory(name)}>{name}</button>)}</div>
       <div className="grid">{filtered.map((item) => <button className="card itemCard" key={item.id} onClick={() => setSelected(item)} aria-label={`${item.name} részletei`}><div className={`artifact artifact${item.id % 4}`} aria-hidden="true"><span>{item.name.charAt(0)}</span></div><div className="cardBody"><h3>{item.name}</h3><div className="cardInfo"><span>{item.category}</span><strong>{item.price ? `${item.price.toLocaleString('hu-HU')} arany` : 'Ár megegyezés szerint'}</strong></div></div></button>)}</div>
       {filtered.length === 0 && <div className="empty">A kereséshez nem találtunk tárgyat. Próbálj más kifejezést.</div>}
     </section>

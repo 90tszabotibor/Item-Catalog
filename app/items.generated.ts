@@ -10,7 +10,7 @@ export const items = [
   {
     "id": 31,
     "name": "Amulet of wisdom",
-    "category": "Páncél",
+    "category": "Ékszer",
     "price": 500,
     "summary": "+1 wishdom savere",
     "details": "+1 wishdom savere\n\n500 arany"
