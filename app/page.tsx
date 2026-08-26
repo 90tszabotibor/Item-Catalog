@@ -21,6 +21,7 @@ const itemImages: Record<string, string> = {
   'Crystal ball': '/items/crystal-ball.jpeg',
   'Diadem of arcane knowledge': '/items/diadem-of-arcane-knowledge.jpeg',
   'Displacer’s Deceptive Duster': '/items/displacers-deceptive-duster.jpeg',
+  'Handbreaker': '/items/handbreaker.png',
 };
 
 function ItemArtwork({ item, modal = false }: { item: Item; modal?: boolean }) {
