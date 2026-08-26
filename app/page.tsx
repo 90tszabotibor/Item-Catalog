@@ -16,6 +16,11 @@ const itemImages: Record<string, string> = {
   'Bracer of fire resistance': '/items/bracer-of-fire-resistance.jpeg',
   'Braclet of sleight hands': '/items/braclet-of-sleight-hands.jpeg',
   'Catpaw boots': '/items/catpaw-boots.jpeg',
+  'Circlet of Blasting': '/items/circlet-of-blasting.jpeg',
+  'Cloak of Invisibility': '/items/cloak-of-invisibility.png',
+  'Crystal ball': '/items/crystal-ball.jpeg',
+  'Diadem of arcane knowledge': '/items/diadem-of-arcane-knowledge.jpeg',
+  'Displacer’s Deceptive Duster': '/items/displacers-deceptive-duster.jpeg',
 };
 
 function ItemArtwork({ item, modal = false }: { item: Item; modal?: boolean }) {
