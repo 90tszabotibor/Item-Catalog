@@ -32,6 +32,7 @@ const itemImages: Record<string, string> = {
   'Immovable Rod': '/items/immovable-rod.jpeg',
   'Legbreaker': '/items/legbreaker.jpeg',
   'Mithral Láncing': '/items/mithral-lancing.jpeg',
+  'Misztikus Rúnakő': '/items/misztikus-runako.jpeg',
   'Orb of Detect magic': '/items/orb-of-detect-magic.png',
   'Prismatic Psychedelic Peepers': '/items/prismatic-psychedelic-peepers.jpeg',
   'Potion of arcane recovery': '/items/potion-of-arcane-recovery.jpeg',
