@@ -16,9 +16,9 @@ const classify = (name, text) => {
   const value = `${name} ${text}`.toLowerCase();
   if (/potion|elixir|poison|dragon rum|incense|powder|ellenszer|csillapító|stout of valor/.test(value)) return 'Főzet';
   if (/armor|helmet|sisak|cloak|cloak|coat|láncing|vestment|fur|daróc/.test(value)) return 'Páncél';
+  if (/boot|gauntlet|bracer|ring|amulet|belt|circlet|diadem|earring|monocle|braclet/.test(value)) return 'Páncél';
   if (/sword|rapier|mace|maul|javelin|hammer|sickle|dagger|fegyver/.test(value)) return 'Fegyver';
   if (/wand|staff|orb|scepter|focus|gömb|pálca/.test(value)) return 'Fókusz';
-  if (/boot|gauntlet|bracer|ring|amulet|belt|circlet|diadem|earring|monocle|braclet/.test(value)) return 'Viselhető';
   if (/scroll|bomb|shard|fenőkő|rúnakő/.test(value)) return 'Fogyóeszköz';
   return 'Csodás tárgy';
 };
