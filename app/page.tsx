@@ -5,7 +5,6 @@ import { items } from './items.generated';
 
 type Item = (typeof items)[number];
 const categoryOrder = ['Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Mágikus tárgy'];
-const categories = ['Mind', ...categoryOrder.filter((name) => items.some((item) => item.category === name))];
 const itemImages: Record<string, string> = {
   'Adamantin Sisak': '/items/adamantin-sisak.jpeg',
   'Amulet of wisdom': '/items/amulet-of-wisdom.jpeg',
@@ -54,6 +53,9 @@ const itemImages: Record<string, string> = {
   'Wand of Ice Knife': '/items/wand-of-ice-knife.jpeg',
   'Wand of Sickeness': '/items/wand-of-sickeness.jpeg',
 };
+const catalogItems = items.filter((item) => Boolean(itemImages[item.name]));
+const categories = ['Mind', ...categoryOrder.filter((name) => catalogItems.some((item) => item.category === name))];
+type SortOrder = 'name' | 'price-asc' | 'price-desc';
 
 function ItemArtwork({ item, modal = false }: { item: Item; modal?: boolean }) {
   const image = itemImages[item.name];
@@ -65,11 +67,16 @@ function ItemArtwork({ item, modal = false }: { item: Item; modal?: boolean }) {
 export default function Home() {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('Mind');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('name');
   const [selected, setSelected] = useState<Item | null>(null);
-  const filtered = useMemo(() => items.filter((item) => {
+  const filtered = useMemo(() => catalogItems.filter((item) => {
     const haystack = `${item.name} ${item.category} ${item.summary} ${item.details}`.toLocaleLowerCase('hu');
     return (category === 'Mind' || item.category === category) && haystack.includes(query.toLocaleLowerCase('hu').trim());
-  }), [query, category]);
+  }).sort((a, b) => {
+    if (sortOrder === 'price-asc') return (a.price ?? Infinity) - (b.price ?? Infinity) || a.name.localeCompare(b.name, 'hu');
+    if (sortOrder === 'price-desc') return (b.price ?? -Infinity) - (a.price ?? -Infinity) || a.name.localeCompare(b.name, 'hu');
+    return a.name.localeCompare(b.name, 'hu');
+  }), [query, category, sortOrder]);
 
   useEffect(() => {
     if (!selected) return;
@@ -82,11 +89,11 @@ export default function Home() {
   return <main>
     <header className="hero" id="top"><div className="eyebrow">Válogatott mágikus ritkaságok Faerûnból</div><h1>A rendkívüli tárgyak<br/><em>rendes jegyzéke.</em></h1><p>Fegyverek, ereklyék és különös portékák egy helyen.</p><label className="search"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Keress név, típus vagy hatás szerint…" aria-label="Keresés a tárgyak között"/><kbd>{filtered.length} találat</kbd></label></header>
     <section className="catalog" aria-label="Mágikus tárgyak">
-      <div className="filters" role="group" aria-label="Kategóriaszűrő">{categories.map((name) => <button key={name} className={category === name ? 'active' : ''} onClick={() => setCategory(name)}>{name}</button>)}</div>
+      <div className="catalogTools"><div className="filters" role="group" aria-label="Kategóriaszűrő">{categories.map((name) => <button key={name} className={category === name ? 'active' : ''} onClick={() => setCategory(name)}>{name}</button>)}</div><label className="sort">Rendezés<select value={sortOrder} onChange={(event) => setSortOrder(event.target.value as SortOrder)} aria-label="Tárgyak rendezése"><option value="name">Név szerint</option><option value="price-asc">Érték: növekvő</option><option value="price-desc">Érték: csökkenő</option></select></label></div>
       <div className="grid">{filtered.map((item) => <button className="card itemCard" key={item.id} onClick={() => setSelected(item)} aria-label={`${item.name} részletei`}><ItemArtwork item={item}/><div className="cardBody"><h3>{item.name}</h3><div className="cardInfo"><span>{item.category}</span><strong>{item.price ? `${item.price.toLocaleString('hu-HU')} arany` : 'Ár megegyezés szerint'}</strong></div></div></button>)}</div>
       {filtered.length === 0 && <div className="empty">A kereséshez nem találtunk tárgyat. Próbálj más kifejezést.</div>}
     </section>
-    <footer><span>Aurora Katalógusháza · {items.length} lajstromozott tárgy</span><span>„Nincs olyan ritkaság, amelyet ne tudnánk felkutatni.”</span></footer>
+    <footer><span>Aurora Katalógusháza · {catalogItems.length} lajstromozott tárgy</span><span>„Nincs olyan ritkaság, amelyet ne tudnánk felkutatni.”</span></footer>
     {selected && <div className="modalBack" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setSelected(null)}><section className="modal" role="dialog" aria-modal="true" aria-labelledby="item-title"><button className="close" onClick={() => setSelected(null)} aria-label="Bezárás">×</button><ItemArtwork item={selected} modal/><div className="modalBody"><div className="eyebrow">{selected.category}</div><h2 id="item-title">{selected.name}</h2>{selected.price && <div className="price">Érték: <strong>{selected.price.toLocaleString('hu-HU')} arany</strong></div>}<div className="details">{selected.details}</div></div></section></div>}
   </main>;
 }
