@@ -39,6 +39,7 @@ const itemImages: Record<string, string> = {
   'Potion of Invisibility': '/items/potion-of-invisibility.jpeg',
   'Potion of Speed': '/items/potion-of-speed.jpeg',
   'Quickly Powder': '/items/quickly-powder.jpeg',
+  'Reinforced Leather Coat': '/items/reinforced-leather-coat.jpeg',
   'Ring of Arcane Recovery': '/items/ring-of-arcane-recovery.jpeg',
   'Ring of Remove Curse': '/items/ring-of-remove-curse.jpeg',
   'Ritual Dagger': '/items/ritual-dagger.png',
