@@ -349,7 +349,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 500,
     "summary": "Uncommon magic itemmé tesz bármilyen tárgyat.",
-    "details": "Uncommon magic itemmé tesz bármilyen tárgyat.\nArmor: +1 AC\nFegyver: +1 találat és sebzés\nV1: +1 DC, találat és sebezés sebzéstípusonként.\nV2: 1d4 sebzéstípusonként.\nV3: 1x lvl 1 spellslot\nV4: +1d4 minden healhez\nV5: +1 DC valameilyik DC-re\n\n1 óra alatt alkalmazható. Kell hozzá a fejlesztendő tárgy megmunkálásához szükséges szakmai ismeret."
+    "details": "Uncommon magic itemmé tesz bármilyen tárgyat.\nArmor: +1 AC\nFegyver: +1 találat és sebzés\nV1: +1 DC, találat és sebezés sebzéstípusonként.\nV2: 1d4 sebzéstípusonként.\nV3: 1x lvl 1 spellslot\nV4: +1d4 minden healhez\nV5: +1 DC valameilyik DC-re"
   },
   {
     "id": 26,
