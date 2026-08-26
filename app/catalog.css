@@ -14,4 +14,6 @@
 .itemCard .cardBody { display:flex; align-items:center; padding:20px 24px; }
 .itemCard h3 { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; min-height:2.3em; max-height:2.3em; line-height:1.15; margin:0; }
 .itemCard:focus-visible { outline:3px solid var(--wine); outline-offset:3px; }
+.hero { border-bottom:0; }
+.catalog { padding-top:42px; }
 @media(max-width:600px) { .modal{display:block;overflow:auto}.modalArtifact{height:150px;min-height:150px}.modalBody{padding:32px 24px}.modalBody h2{font-size:32px}.modalBack{padding:10px}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filters button{white-space:nowrap} }
