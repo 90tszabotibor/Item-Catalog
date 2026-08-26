@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { items } from './items.generated';
 
 type Item = (typeof items)[number];
-const categories = ['Mind', 'Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Csodás tárgy'];
+const categories = ['Mind', 'Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Mágikus tárgy'];
 
 export default function Home() {
   const [query, setQuery] = useState('');
