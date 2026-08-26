@@ -29,6 +29,7 @@ const clean = (text) => text
   .replace(/!\[\[[^\]]+\]\]/g, '')
   .replace(/!\[[^\]]*\]\([^\)]+\)/g, '')
   .replace(/^!?[^\n]*(?:Gemini_Generated_Image|\.(?:jpe?g|png|webp|gif))[^\n]*$/gim, '')
+  .replace(/^\s*(?:\*\*Ár:\*\*\s*)?[\d .]+\s*arany\s*$/gim, '')
   .replace(/\[\[([^\]]+)\]\]/g, '$1')
   .replace(/^#+\s*/gm, '')
   .replace(/\n{3,}/g, '\n\n')
