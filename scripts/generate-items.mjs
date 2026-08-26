@@ -15,7 +15,7 @@ const files = [...new Set(auroraItemNames)].map((name) => fileByName.get(name)).
 const classify = (name, text) => {
   const value = `${name} ${text}`.toLowerCase();
   if (/potion|elixir|poison|dragon rum|incense|powder|ellenszer|csillapító|stout of valor/.test(value)) return 'Főzet';
-  if (/misztikus rúnakő|\borb\b|prismatic psychedelic peepers|\bstaff\b/.test(value)) return 'Mágikus tárgy';
+  if (/misztikus rúnakő|\borb\b|prismatic psychedelic peepers|tigereye monocle of darkvision|\bstaff\b|\bwand\b/.test(value)) return 'Mágikus tárgy';
   if (/\bamulet\b|\bring\b/.test(value)) return 'Ékszer';
   if (/armor|helmet|sisak|cloak|cloak|coat|láncing|vestment|fur|daróc/.test(value)) return 'Páncél';
   if (/boot|gauntlet|bracer|ring|amulet|belt|circlet|diadem|earring|monocle|braclet/.test(value)) return 'Páncél';

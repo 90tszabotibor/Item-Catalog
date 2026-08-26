@@ -458,7 +458,7 @@ export const items = [
   {
     "id": 30,
     "name": "Tigereye Monocle of Darkvision",
-    "category": "Páncél",
+    "category": "Mágikus tárgy",
     "price": 200,
     "summary": "Tigrisszem, ezüst",
     "details": "Tigrisszem, ezüst\n\n60 ft Darkvisiont ad\n\n200 arany"
@@ -474,7 +474,7 @@ export const items = [
   {
     "id": 5,
     "name": "Wand of Ice Knife",
-    "category": "Fókusz",
+    "category": "Mágikus tárgy",
     "price": 700,
     "summary": "+1 találat és sebezés Cold damage.",
     "details": "+1 találat és sebezés Cold damage.\nLongrestenként 1x Ice Knife\n\n700 Arany"
@@ -482,7 +482,7 @@ export const items = [
   {
     "id": 8,
     "name": "Wand of magic missile",
-    "category": "Fókusz",
+    "category": "Mágikus tárgy",
     "price": 300,
     "summary": "Longrestenként 1x Magic Missles",
     "details": "Longrestenként 1x Magic Missles\nSpellcasting focusként használható.\n\n300 arany"
@@ -490,7 +490,7 @@ export const items = [
   {
     "id": 6,
     "name": "Wand of Sickeness",
-    "category": "Fókusz",
+    "category": "Mágikus tárgy",
     "price": 400,
     "summary": "Shortrestenként 1x Ray od Sickess",
     "details": "Shortrestenként 1x Ray od Sickess\nSpellcasting focusként használható.\n\n400 arany"
