@@ -3,7 +3,13 @@
 .filters button { border:1px solid var(--line); background:transparent; padding:10px 14px; color:#64584d; font:600 10px Arial,sans-serif; text-transform:uppercase; letter-spacing:.08em; cursor:pointer; }
 .filters button:hover, .filters button.active { background:var(--wine); border-color:var(--wine); color:#fffaf0; }
 .sort { display:flex; align-items:center; gap:9px; flex:0 0 auto; color:#64584d; font:600 10px Arial,sans-serif; text-transform:uppercase; letter-spacing:.08em; }
-.sort select { min-height:36px; border:1px solid var(--line); border-radius:0; background:var(--cream); color:#51473e; padding:0 34px 0 12px; font:12px Georgia,serif; }
+.sortDropdown { position:relative; min-width:174px; }
+.sortTrigger { width:100%; min-height:38px; border:1px solid var(--line); background:var(--cream); color:#51473e; padding:0 12px; display:flex; align-items:center; justify-content:space-between; gap:12px; cursor:pointer; font:12px Georgia,serif; text-align:left; }
+.sortArrow { color:var(--wine); font:18px/1 Georgia,serif; transform:translateY(-2px); transition:transform .2s ease; }
+.sortTrigger[aria-expanded="true"] .sortArrow { transform:translateY(2px) rotate(180deg); }
+.sortMenu { position:absolute; z-index:5; top:calc(100% + 5px); right:0; width:100%; padding:5px; border:1px solid var(--line); background:var(--cream); box-shadow:0 14px 30px #3d2a1822; }
+.sortMenu button { width:100%; border:0; background:transparent; color:#51473e; padding:10px 9px; cursor:pointer; font:12px Georgia,serif; text-align:left; }
+.sortMenu button:hover, .sortMenu button.selected { background:#eee3d1; color:var(--wine); }
 .modalBack { position:fixed; z-index:10; inset:0; background:#17110dcc; display:grid; place-items:center; padding:22px; }
 .modal { width:min(1400px,100%); max-height:90vh; background:var(--cream); border:1px solid #bca98b; display:grid; grid-template-columns:minmax(0,1fr) 390px; align-items:start; position:relative; overflow:hidden; box-shadow:0 32px 90px #0008; }
 .close { position:absolute; z-index:2; right:14px; top:12px; border:1px solid var(--line); background:#fffaf0dd; width:38px; height:38px; font:28px Georgia,serif; color:var(--wine); cursor:pointer; }
@@ -26,4 +32,4 @@
 .hero { border-bottom:0; }
 .hero h1 { font-family:'Cinzel', Georgia, serif; font-weight:600; line-height:1.05; letter-spacing:.01em; }
 .catalog { padding-top:42px; }
-@media(max-width:760px) { .modal{display:flex;flex-direction:column;align-items:stretch}.modalBody{align-self:auto;max-height:none;padding:32px 24px;border-left:0;border-top:1px solid var(--line)}.modalBody h2{font-size:32px}.modalBack{padding:10px}.catalogTools{display:block}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filters button{white-space:nowrap}.sort{margin-top:14px;justify-content:space-between}.sort select{flex:1} }
+@media(max-width:760px) { .modal{display:flex;flex-direction:column;align-items:stretch}.modalBody{align-self:auto;max-height:none;padding:32px 24px;border-left:0;border-top:1px solid var(--line)}.modalBody h2{font-size:32px}.modalBack{padding:10px}.catalogTools{display:block}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filters button{white-space:nowrap}.sort{margin-top:14px;justify-content:space-between}.sortDropdown{flex:1;max-width:230px} }

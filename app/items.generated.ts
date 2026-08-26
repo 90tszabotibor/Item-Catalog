@@ -307,7 +307,7 @@ export const items = [
     "id": 21,
     "name": "Handbreaker",
     "category": "Fegyver",
-    "price": null,
+    "price": 1200,
     "summary": "+1 Mace",
     "details": "+1 Mace\nTalálat esetén a Sap állapot fennmarad mindaddig ameddig a célpont nem dob sikeres constitution mentőt DC10-re"
   },
