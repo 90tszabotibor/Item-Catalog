@@ -2,8 +2,14 @@ import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
 
 const campaign = '/Users/szabotibor/Desktop/DnD - dr 1502/Items';
-const roots = ['A homály küszöbének kulcsa.md', 'Mesterfenőkő.md', 'Misztikus Rúnakő.md', 'Remove course scroll.md', 'Shatter shard.md', 'Smoke Bomb.md', 'Sphare of Divination.md'];
-const files = [...roots.map((name) => join(campaign, name)), ...readdirSync(join(campaign, 'Equipement')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Equipement', name))];
+const auroraPath = '/Users/szabotibor/Desktop/DnD - dr 1502/Knowledge base/Aurora Katalógusháza.md';
+const availableFiles = [
+  ...readdirSync(campaign).filter((name) => name.endsWith('.md')).map((name) => join(campaign, name)),
+  ...readdirSync(join(campaign, 'Equipement')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Equipement', name)),
+];
+const fileByName = new Map(availableFiles.map((file) => [basename(file, '.md'), file]));
+const auroraItemNames = [...readFileSync(auroraPath, 'utf8').matchAll(/\[\[([^\]]+)\]\]/g)].map((match) => match[1]);
+const files = [...new Set(auroraItemNames)].map((name) => fileByName.get(name)).filter(Boolean);
 
 const classify = (name, text) => {
   const value = `${name} ${text}`.toLowerCase();
@@ -28,4 +34,4 @@ const items = files.map((file, id) => {
 }).filter((item) => item.details).sort((a, b) => a.name.localeCompare(b.name, 'hu'));
 
 writeFileSync(new URL('../app/items.generated.ts', import.meta.url), `export const items = ${JSON.stringify(items, null, 2)} as const;\n`);
-console.log(`${items.length} tárgy feldolgozva.`);
+console.log(`${items.length} Aurora-tárgy feldolgozva.`);
