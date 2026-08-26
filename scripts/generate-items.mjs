@@ -1,0 +1,31 @@
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { basename, join } from 'node:path';
+
+const campaign = '/Users/szabotibor/Desktop/DnD - dr 1502/Items';
+const roots = ['A homály küszöbének kulcsa.md', 'Mesterfenőkő.md', 'Misztikus Rúnakő.md', 'Remove course scroll.md', 'Shatter shard.md', 'Smoke Bomb.md', 'Sphare of Divination.md'];
+const files = [...roots.map((name) => join(campaign, name)), ...readdirSync(join(campaign, 'Equipement')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Equipement', name))];
+
+const classify = (name, text) => {
+  const value = `${name} ${text}`.toLowerCase();
+  if (/armor|helmet|sisak|cloak|cloak|coat|láncing|vestment|fur|daróc/.test(value)) return 'Páncél';
+  if (/sword|rapier|mace|maul|javelin|hammer|sickle|dagger|fegyver/.test(value)) return 'Fegyver';
+  if (/wand|staff|orb|scepter|focus|gömb|pálca/.test(value)) return 'Fókusz';
+  if (/boot|gauntlet|bracer|ring|amulet|belt|circlet|diadem|earring|monocle|braclet/.test(value)) return 'Viselhető';
+  if (/scroll|bomb|shard|fenőkő|rúnakő/.test(value)) return 'Fogyóeszköz';
+  return 'Csodás tárgy';
+};
+const clean = (text) => text.replace(/\[\[([^\]]+)\]\]/g, '$1').replace(/^#+\s*/gm, '').trim();
+const summary = (text) => clean(text).split(/\n\s*\n|\n/).find((line) => line.trim() && !/^\*\*/.test(line))?.replace(/^[-*]\s*/, '').slice(0, 170) || 'Ismeretlen eredetű mágikus tárgy.';
+const price = (text) => {
+  const matches = [...text.matchAll(/([\d .]+)\s*(?:arany|Arany)/g)];
+  if (!matches.length) return null;
+  return Number(matches.at(-1)[1].replace(/[ .]/g, '')) || null;
+};
+const items = files.map((file, id) => {
+  const raw = readFileSync(file, 'utf8').trim();
+  const name = basename(file, '.md').replaceAll('ressistance', 'resistance').replaceAll('wishdom', 'wisdom').replaceAll('Cloack', 'Cloak');
+  return { id: id + 1, name, category: classify(name, raw), price: price(raw), summary: summary(raw), details: clean(raw) };
+}).filter((item) => item.details).sort((a, b) => a.name.localeCompare(b.name, 'hu'));
+
+writeFileSync(new URL('../app/items.generated.ts', import.meta.url), `export const items = ${JSON.stringify(items, null, 2)} as const;\n`);
+console.log(`${items.length} tárgy feldolgozva.`);
