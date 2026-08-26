@@ -112,7 +112,7 @@ export const items = [
     "details": "Az INT értéked 21 lesz 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 25\n**Ár:** 250 arany\n**Készítési idő:** 20 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 4× Ametiszt\n- 1× Aboleth szem\n- 30× Forrásvíz\n- 1× Rozmaring\n- 1× Nagy fiola"
   },
   {
-    "id": 59,
+    "id": 58,
     "name": "Elixir of Acid Resistance",
     "category": "Főzet",
     "price": 40,
@@ -120,7 +120,7 @@ export const items = [
     "details": "Ellenállást ad a(z) acid sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 3 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 4× Malachit\n- 2× Lenmag\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 53,
+    "id": 52,
     "name": "Elixir of Bear",
     "category": "Főzet",
     "price": 140,
@@ -137,14 +137,14 @@ export const items = [
   },
   {
     "id": 39,
-    "name": "Elixir of Cloud Giant Strength",
+    "name": "Elixir of Cloud Giant",
     "category": "Főzet",
     "price": 500,
     "summary": "Az STR értéked 27 lesz 24 óráig vagy a következő long restig.",
     "details": "Az STR értéked 27 lesz 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 28\n**Ár:** 500 arany\n**Készítési idő:** 20 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 3× Óriás csont\n- 1× Gyémánt\n- 50× Forrásvíz\n- 1× Nagy fiola"
   },
   {
-    "id": 60,
+    "id": 59,
     "name": "Elixir of Cold Resistance",
     "category": "Főzet",
     "price": 40,
@@ -152,7 +152,7 @@ export const items = [
     "details": "Ellenállást ad a(z) cold sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 4× Kék kvarc\n- 4× Csipkebogyó\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 61,
+    "id": 60,
     "name": "Elixir of Fire Resistance",
     "category": "Főzet",
     "price": 40,
@@ -168,7 +168,7 @@ export const items = [
     "details": "Az STR értéked 21 lesz 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 25\n**Ár:** 250 arany\n**Készítési idő:** 10 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 1× Óriás csont\n- 4× Gránát\n- 10× Kecsketej\n- 30× Forrásvíz\n- 1× Nagy fiola"
   },
   {
-    "id": 62,
+    "id": 61,
     "name": "Elixir of Lightning Resistance",
     "category": "Főzet",
     "price": 40,
@@ -176,7 +176,7 @@ export const items = [
     "details": "Ellenállást ad a(z) lightning sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 1× Citrin\n- 2× Fagyöngy\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 54,
+    "id": 53,
     "name": "Elixir of Lynx",
     "category": "Főzet",
     "price": 140,
@@ -184,7 +184,7 @@ export const items = [
     "details": "+2 DEX 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 2 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Jáde\n- 1× Hiúzbajusz\n- 2× Mezei zsurló\n- 5× Forrásvíz\n- 1× Közepes fiola"
   },
   {
-    "id": 64,
+    "id": 63,
     "name": "Elixir of Necrotic Resistance",
     "category": "Főzet",
     "price": 120,
@@ -192,7 +192,7 @@ export const items = [
     "details": "Ellenállást ad a(z) necrotic sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 18\n**Ár:** 120 arany\n**Készítési idő:** 3 óra\n**Típus:** Ellenállás, Elixir\n\n**Alapanyagok**\n- 8× Obszidián\n- 4× Szegfűszeg\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 56,
+    "id": 55,
     "name": "Elixir of Owl",
     "category": "Főzet",
     "price": 140,
@@ -200,7 +200,7 @@ export const items = [
     "details": "+2 INT 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 4 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Ametiszt\n- 1× Bagoly toll\n- 2× Dió\n- 5× Forrásvíz\n- 1× Közepes fiola"
   },
   {
-    "id": 55,
+    "id": 54,
     "name": "Elixir of Ox",
     "category": "Főzet",
     "price": 140,
@@ -208,7 +208,7 @@ export const items = [
     "details": "+2 CON 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 4 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Spinell\n- 1× Ökörszarv\n- 2× Fokhagyma\n- 5× Forrásvíz\n- 1× Közepes fiola"
   },
   {
-    "id": 57,
+    "id": 56,
     "name": "Elixir of Peacock",
     "category": "Főzet",
     "price": 140,
@@ -216,7 +216,7 @@ export const items = [
     "details": "+2 CHA 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 3 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Turmalin\n- 1× Pávatoll\n- 1× Méz\n- 5× Forrásvíz\n- 1× Közepes fiola"
   },
   {
-    "id": 63,
+    "id": 62,
     "name": "Elixir of Poison Resistance",
     "category": "Főzet",
     "price": 40,
@@ -224,7 +224,7 @@ export const items = [
     "details": "Ellenállást ad a(z) poison sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 14\n**Ár:** 40 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir, Alkímia 1\n\n**Alapanyagok**\n- 1× Krizopráz\n- 2× Fekete üröm\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 65,
+    "id": 64,
     "name": "Elixir of Psychic Resistance",
     "category": "Főzet",
     "price": 120,
@@ -232,7 +232,7 @@ export const items = [
     "details": "Ellenállást ad a(z) psychic sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 18\n**Ár:** 120 arany\n**Készítési idő:** 3 óra\n**Típus:** Ellenállás, Elixir\n\n**Alapanyagok**\n- 8× Azurit\n- 2× Levendula\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 66,
+    "id": 65,
     "name": "Elixir of Radiant Resistance",
     "category": "Főzet",
     "price": 120,
@@ -240,7 +240,7 @@ export const items = [
     "details": "Ellenállást ad a(z) radiant sebzéssel szemben 24 óráig vagy a következő long restig.\n\n**Készítési DC:** 18\n**Ár:** 120 arany\n**Készítési idő:** 4 óra\n**Típus:** Ellenállás, Elixir\n\n**Alapanyagok**\n- 2× Holdkő\n- 4× Napraforgó mag\n- 3× Forrásvíz\n- 1× Kis fiola"
   },
   {
-    "id": 58,
+    "id": 57,
     "name": "Elixir of Stag",
     "category": "Főzet",
     "price": 140,
@@ -248,7 +248,7 @@ export const items = [
     "details": "+2 WIS 1 percig.\n\n**Készítési DC:** 19\n**Ár:** 140 arany\n**Készítési idő:** 2 óra\n**Típus:** Képességnövelők, Elixir\n\n**Alapanyagok**\n- 2× Borostyán\n- 1× Szarvasagancs\n- 2× Orbáncfű\n- 5× Forrásvíz\n- 1× Közepes fiola"
   },
   {
-    "id": 52,
+    "id": 51,
     "name": "Elixir of Tressym",
     "category": "Főzet",
     "price": 50,
@@ -321,14 +321,6 @@ export const items = [
   },
   {
     "id": 44,
-    "name": "Megtört akarat csillapító szere",
-    "category": "Főzet",
-    "price": 150,
-    "summary": "Orvosság, egy elkészítés 50 adagot ad.",
-    "details": "Orvosság, egy elkészítés 50 adagot ad.\nMedicine check.\n\n**Készítési DC:** 21\n**Ár:** 150 arany\n**Készítési idő:** 3 óra\n**Típus:** Gyógyítás\n\n**Alapanyagok**\n- 3× Holdkő\n- 2× Ezüstlevél\n- 3× Sárkánygyökér\n- 10× Levendula"
-  },
-  {
-    "id": 45,
     "name": "Méreg ellenszer",
     "category": "Főzet",
     "price": 20,
@@ -352,7 +344,7 @@ export const items = [
     "details": "Shorrestenként 1x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő.\n\n500 arany"
   },
   {
-    "id": 46,
+    "id": 45,
     "name": "Potion of arcane recovery",
     "category": "Főzet",
     "price": 110,
@@ -360,7 +352,7 @@ export const items = [
     "details": "Visszatölt egy 1. szintű spell slotot.\n\n**Készítési DC:** 15\n**Ár:** 110 arany\n**Készítési idő:** 5 óra\n**Típus:** Utility, Potion, Alkímia 1\n\n**Alapanyagok**\n- 10× Kék kvarc\n- 1× Forrásvíz\n- 20× Levendula\n- 1× Bagoly toll\n- 1× Közepes fiola"
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "Potion of feather fall",
     "category": "Főzet",
     "price": 40,
@@ -376,7 +368,7 @@ export const items = [
     "details": "Invisibility 1 órára.\n\n**Készítési DC:** 17\n**Ár:** 160 arany\n**Készítési idő:** 3 óra\n**Típus:** Utility, Potion, Alkímia 1\n\n**Alapanyagok**\n- 4× Kvarc\n- 20× Forrásvíz\n- 6× Ezüstlevél\n- 1× Közepes fiola"
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "Potion of Speed",
     "category": "Főzet",
     "price": 300,
@@ -392,7 +384,7 @@ export const items = [
     "details": "Prizmatikus Pszichedelikus Pápaszem\n\nShortrestenként 1x Hypnotic pattern\n3000 arany"
   },
   {
-    "id": 48,
+    "id": 47,
     "name": "Purifying Incense",
     "category": "Főzet",
     "price": 100,
@@ -408,7 +400,7 @@ export const items = [
     "details": "+10 feet sebesség\nLongrestenként 1x megduplázza a használó mozgássebességét 10 körre\n\n3000 arany"
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "Quickly Powder",
     "category": "Főzet",
     "price": 25,
@@ -456,7 +448,7 @@ export const items = [
     "details": "Longrestenként 1x Sleep\nSpellcasting focusként használható.\n\n300 arany"
   },
   {
-    "id": 51,
+    "id": 50,
     "name": "Stout of Valor",
     "category": "Főzet",
     "price": 80,
