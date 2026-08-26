@@ -4,7 +4,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { items } from './items.generated';
 
 type Item = (typeof items)[number];
-const categories = ['Mind', 'Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Mágikus tárgy'];
+const categoryOrder = ['Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Mágikus tárgy'];
+const categories = ['Mind', ...categoryOrder.filter((name) => items.some((item) => item.category === name))];
 
 export default function Home() {
   const [query, setQuery] = useState('');
