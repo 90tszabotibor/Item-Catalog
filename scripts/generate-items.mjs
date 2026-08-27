@@ -1,9 +1,11 @@
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
 
-const campaign = '/Users/szabotibor/Desktop/DnD - dr 1502/Items';
+const campaignRoot = '/Users/szabotibor/Desktop/DnD - dr 1502';
+const campaign = join(campaignRoot, 'Items');
 const auroraPath = '/Users/szabotibor/Desktop/DnD - dr 1502/Knowledge base/Aurora Katalógusháza.md';
 const availableFiles = [
+  ...readdirSync(campaignRoot).filter((name) => name.endsWith('.md')).map((name) => join(campaignRoot, name)),
   ...readdirSync(campaign).filter((name) => name.endsWith('.md')).map((name) => join(campaign, name)),
   ...readdirSync(join(campaign, 'Equipement')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Equipement', name)),
   ...readdirSync(join(campaign, 'Potions')).filter((name) => name.endsWith('.md')).map((name) => join(campaign, 'Potions', name)),
