@@ -429,7 +429,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 500,
     "summary": "Alaptulajdonság: Mágikus gömb",
-    "details": "Alaptulajdonság: Mágikus gömb\n\nDetect Magic:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a gömbből a Detect Magic varázslatot. A varázslat hatótávolsága a kétszeresére nő."
+    "details": "Alaptulajdonság: Mágikus gömb\n\nDetect Magic:\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a gömbből a Detect Magic varázslatot. A varázslat hatótávolsága a kétszeresére nő."
   },
   {
     "id": 59,
@@ -469,7 +469,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 7490,
     "summary": "Prizmatikus Pszichedelikus Pápaszem",
-    "details": "Prizmatikus Pszichedelikus Pápaszem\n\nAlaptulajdonság: +1 illusion\n\nHypnotic Pattern:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
+    "details": "Prizmatikus Pszichedelikus Pápaszem\n\nAlaptulajdonság: +1 illusion\n\nHypnotic Pattern:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
   },
   {
     "id": 61,
@@ -605,7 +605,7 @@ export const items = [
     "category": "Fegyver",
     "price": 700,
     "summary": "Alaptulajdonság: +1 a cold",
-    "details": "Alaptulajdonság: +1 a cold\n\nIce Knife:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából az Ice Knife varázslatot."
+    "details": "Alaptulajdonság: +1 a cold\n\nIce Knife:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából az Ice Knife varázslatot."
   },
   {
     "id": 14,
