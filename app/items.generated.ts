@@ -92,8 +92,8 @@ export const items = [
     "name": "Broom of Flying",
     "category": "Mágikus tárgy",
     "price": 4500,
-    "summary": "Egy repülő seprű",
-    "details": "Egy repülő seprű\nKoncentrációt igényel a használata"
+    "summary": "Alaptulajdonság: Repülő seprű",
+    "details": "Alaptulajdonság: Repülő seprű\n\nFlying:\n\nAktiválás: Akció, verbális\nKoncentráció: Igen\nRepülési sebesség: 60 ft\n\nA seprű repülési képességének használata koncentrációt igényel."
   },
   {
     "id": 37,
@@ -140,8 +140,8 @@ export const items = [
     "name": "Decanter of Endless Water",
     "category": "Mágikus tárgy",
     "price": 800,
-    "summary": "Parancsszóra korlátlan mennyiségű vizet képes kibocsátani.",
-    "details": "Parancsszóra korlátlan mennyiségű vizet képes kibocsátani."
+    "summary": "Alaptulajdonság: Mágikus kancsó",
+    "details": "Alaptulajdonság: Mágikus kancsó\n\nEndless Water:\n\nAktiválás: Akció, verbális\n\nA kancsó parancsszóra korlátlan mennyiségű vizet képes kibocsátani."
   },
   {
     "id": 40,
@@ -428,8 +428,8 @@ export const items = [
     "name": "Orb of Detect magic",
     "category": "Mágikus tárgy",
     "price": 500,
-    "summary": "Longrestenként 3x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő.",
-    "details": "Longrestenként 3x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő."
+    "summary": "Alaptulajdonság: Mágikus gömb",
+    "details": "Alaptulajdonság: Mágikus gömb\n\nDetect Magic:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a gömbből a Detect Magic varázslatot. A varázslat hatótávolsága a kétszeresére nő."
   },
   {
     "id": 59,
