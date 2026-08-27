@@ -51,7 +51,7 @@ export const items = [
     "id": 31,
     "name": "Blinkdagger",
     "category": "Fegyver",
-    "price": 3000,
+    "price": 5500,
     "summary": "+1 dagger",
     "details": "+1 dagger\n\nAkcióként eldobhatod a tőrt, vagy elvégezhetsz vele egy közelharci támadást. A támadás pillanatában a tőr (és vele együtt te is) átlépi a síkokat.\n- Ha a tőr eltalál egy célnak szánt lényt vagy egy általad látható, üres pontot 30 lábon belül, azonnal teleportálhatsz a tőr megérkezési helyére (vagy a célpont melletti legközelebbi szabad mezőre).\n- A tőr ezután mágikusan visszatér a kezedbe (vagy a lábadhoz esik, ha a kezed tele van)."
   },
