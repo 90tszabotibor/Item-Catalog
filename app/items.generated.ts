@@ -331,7 +331,7 @@ export const items = [
     "id": 32,
     "name": "Flametongue shortsword",
     "category": "Fegyver",
-    "price": 2800,
+    "price": 1600,
     "summary": "A penge fényforrásként is használható.",
     "details": "**+1 Shortsword**\n\n**+1d6 fire sebzés**\n\nA penge fényforrásként is használható."
   },
@@ -395,7 +395,7 @@ export const items = [
     "id": 27,
     "name": "Lightbringer",
     "category": "Fegyver",
-    "price": 2200,
+    "price": 1400,
     "summary": "+1d4 radiant sebzés",
     "details": "**+1 Light hammer**\n\n+1d4 radiant sebzés"
   },
