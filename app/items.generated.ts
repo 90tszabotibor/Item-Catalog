@@ -396,8 +396,8 @@ export const items = [
     "name": "Lightbringer",
     "category": "Fegyver",
     "price": 1000,
-    "summary": "+1 Hammer",
-    "details": "+1 Hammer\n+1d4 minden radiant sebzéshez"
+    "summary": "Ismeretlen eredetű mágikus tárgy.",
+    "details": "**+1 radiant**"
   },
   {
     "id": 58,
@@ -524,16 +524,16 @@ export const items = [
     "name": "Ring of Spell Storing",
     "category": "Ékszer",
     "price": 4500,
-    "summary": "Longrestenként 1x",
-    "details": "Longrestenként 1x\nBárki beletölthet varázslatokat max. 5. szintig a gyűrűbe, amit később bárki más (akár nem varázshasználó is) elsüthet belőle parancsszóra.\nNem varázshasználó esetén a DC 14 és találathoz dex-et kell használni."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Mágikus gyűrű**\n\n**Spell Storing:**\n\nHasználat: Hosszú pihenőnként 1x\n\nA gyűrűbe bárki elhelyezhet egy legfeljebb 5. szintű varázslattöltetet, amelyet később a viselője süthet el. A tárolt varázslatot olyan lény is használhatja, aki egyébként nem képes varázsolni.\n\nNem varázshasználó esetén a varázslat DC-je 14, a támadódobáshoz pedig Dexterity módosítót kell használni."
   },
   {
     "id": 4,
     "name": "Ritual Dagger",
     "category": "Fegyver",
     "price": 300,
-    "summary": "Rituálék ideje feleződik",
-    "details": "Rituálék ideje feleződik"
+    "summary": "A tőr használatával végzett rituálék ideje a felére csökken.",
+    "details": "**Dagger**\n\n**Ritual Focus:**\n\nA tőr használatával végzett rituálék ideje a felére csökken."
   },
   {
     "id": 5,
