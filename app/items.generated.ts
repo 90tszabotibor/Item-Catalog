@@ -28,8 +28,8 @@ export const items = [
     "name": "Belt of the Hill Giant",
     "category": "Páncél",
     "price": 3300,
-    "summary": "Min Str: 15",
-    "details": "Min Str: 15\nStr up to max 21"
+    "summary": "Minimum 15 Strength",
+    "details": "Minimum 15 Strength\n\n**Giant Strength:**\n\nA viselő Strength értéke 21-re növekszik."
   },
   {
     "id": 18,
@@ -116,8 +116,8 @@ export const items = [
     "name": "Circlet of Blasting",
     "category": "Ékszer",
     "price": 1800,
-    "summary": "+1 találat és sebezés fire damage.",
-    "details": "+1 találat és sebezés fire damage.\nLongrestenként 1x Sorcing Ray"
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**+1 fire**\n\n**Scorching Ray:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a fejdíszből a Scorching Ray varázslatot."
   },
   {
     "id": 22,
@@ -588,8 +588,8 @@ export const items = [
     "name": "Tigereye Monocle of Darkvision",
     "category": "Mágikus tárgy",
     "price": 200,
-    "summary": "Tigrisszem, ezüst",
-    "details": "Tigrisszem, ezüst\n\n60 ft Darkvisiont ad"
+    "summary": "A monokli viselője **60 ft Darkvision** képességet kap.",
+    "details": "**Darkvision:**\n\nA monokli viselője **60 ft Darkvision** képességet kap."
   },
   {
     "id": 19,
