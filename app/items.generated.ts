@@ -157,7 +157,7 @@ export const items = [
     "category": "Páncél",
     "price": 5990,
     "summary": "Délibábos Doromboló Duvad Daróc",
-    "details": "Délibábos Doromboló Duvad Daróc\n\n+2 Studden leather armor (14+ dex mod)\nLongrestenként 1x aktiválható a Displacement képesség aminek hatására 10 körig minden támadás disadvantage lesz a használó ellen."
+    "details": "Délibábos Doromboló Duvad Daróc\n\nAlaptulajdonság: 14 AC + Dexterity módosító\n\nDisplacement:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
   },
   {
     "id": 50,
@@ -469,7 +469,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 7490,
     "summary": "Prizmatikus Pszichedelikus Pápaszem",
-    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n+1 DC a használó illúzió varázslataira\nAz Illúzió képességek 1-el kisebb spellslotba kerülnek 5. szintig.\nAz 1. szintű képességek Cantripnek minősülnek\nLongrestenként 1x Hypnotic pattern"
+    "details": "Prizmatikus Pszichedelikus Pápaszem\n\nAlaptulajdonság: +1 illusion\n\nHypnotic Pattern:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
   },
   {
     "id": 61,
@@ -604,8 +604,8 @@ export const items = [
     "name": "Wand of Ice Knife",
     "category": "Fegyver",
     "price": 700,
-    "summary": "+1 találat és sebezés Cold damage.",
-    "details": "+1 találat és sebezés Cold damage.\nLongrestenként 1x Ice Knife"
+    "summary": "Alaptulajdonság: +1 a cold",
+    "details": "Alaptulajdonság: +1 a cold\n\nIce Knife:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából az Ice Knife varázslatot."
   },
   {
     "id": 14,
