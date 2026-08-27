@@ -157,7 +157,7 @@ export const items = [
     "category": "Páncél",
     "price": 5990,
     "summary": "Délibábos Doromboló Duvad Daróc",
-    "details": "Délibábos Doromboló Duvad Daróc\n\n**14 AC + Dexterity módosító**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
+    "details": "Délibábos Doromboló Duvad Daróc\n\n**14 AC + Dex mod**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
   },
   {
     "id": 50,
