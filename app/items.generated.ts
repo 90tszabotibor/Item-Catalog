@@ -82,7 +82,7 @@ export const items = [
   {
     "id": 38,
     "name": "Braclet of sleight hands",
-    "category": "Páncél",
+    "category": "Ékszer",
     "price": 400,
     "summary": "Advantage Sleight of hands checkre",
     "details": "Advantage Sleight of hands checkre"
@@ -106,7 +106,7 @@ export const items = [
   {
     "id": 45,
     "name": "Circlet of Blasting",
-    "category": "Páncél",
+    "category": "Ékszer",
     "price": 1800,
     "summary": "+1 találat és sebezés fire damage.",
     "details": "+1 találat és sebezés fire damage.\nLongrestenként 1x Sorcing Ray"
@@ -138,7 +138,7 @@ export const items = [
   {
     "id": 40,
     "name": "Diadem of arcane knowledge",
-    "category": "Páncél",
+    "category": "Ékszer",
     "price": 400,
     "summary": "Advantage arcana checkre",
     "details": "Advantage arcana checkre"
@@ -386,7 +386,7 @@ export const items = [
   {
     "id": 27,
     "name": "Lightbringer",
-    "category": "Páncél",
+    "category": "Fegyver",
     "price": 1000,
     "summary": "+1 light Hammer",
     "details": "+1 light Hammer\n+1d4 minden radiant sebzéshez"

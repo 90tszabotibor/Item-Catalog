@@ -20,7 +20,8 @@ const classify = (name, text) => {
   if (/\bstaff\b|\bwand\b/.test(value)) return 'Fegyver';
   if (/shatter shard/.test(value)) return 'Mágikus tárgy';
   if (/misztikus rúnakő|\borb\b|prismatic psychedelic peepers|tigereye monocle of darkvision/.test(value)) return 'Mágikus tárgy';
-  if (/\bamulet\b|\bring\b|earring/.test(value)) return 'Ékszer';
+  if (/\bamulet\b|\bring\b|earring|circlet of blasting|diadem of arcane knowledge|braclet of sleight hands/.test(value)) return 'Ékszer';
+  if (/lightbringer/.test(value)) return 'Fegyver';
   if (/armor|helmet|sisak|cloak|cloak|coat|láncing|vestment|fur|daróc/.test(value)) return 'Páncél';
   if (/boot|gauntlet|bracer|ring|amulet|belt|circlet|diadem|monocle|braclet/.test(value)) return 'Páncél';
   if (/sword|rapier|mace|maul|javelin|hammer|sickle|dagger|fegyver/.test(value)) return 'Fegyver';
