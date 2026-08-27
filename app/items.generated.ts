@@ -96,6 +96,14 @@ export const items = [
     "details": "A seprű repülési képességének használata koncentrációt igényel, mintha varázslatra koncentrálnál."
   },
   {
+    "id": 37,
+    "name": "Cast-Iron Critical Clanger",
+    "category": "Fegyver",
+    "price": 4000,
+    "summary": "A Konyhai Kritikus Kongató",
+    "details": "A Konyhai Kritikus Kongató\n\n+2 Mace\n**Kritikus találatkor** Fülsüketítő Kongás.\n30 lábon belül mindenki:\n- 15 Cons save\n- Sikertelen mentőnél **3d8 thunder sebzést** szenvednek, és a használó következő körének kezdetéig **Deafened** állapotba kerülnek.\n- Save: fele sebzés"
+  },
+  {
     "id": 17,
     "name": "Catpaw boots",
     "category": "Páncél",
@@ -574,14 +582,6 @@ export const items = [
     "price": 9999,
     "summary": "Szolmizáló Szoláris Szerenád-Sugársarló",
     "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n+2 Radiant hit, damage, DC\nAkcióként, **long restenként egyszer** kilőhető belőle Sunbeam varázslat. A varázslat fenntartásához egy csapattaggal énekelni kell egy napfényről szóló dalt. Ugyan azt a dalt nem fogadja el a sarló."
-  },
-  {
-    "id": 37,
-    "name": "The Cast-Iron Critical Clanger",
-    "category": "Fegyver",
-    "price": 4000,
-    "summary": "A Konyhai Kritikus Kongató",
-    "details": "A Konyhai Kritikus Kongató\n\n+2 Mace\n**Kritikus találatkor** Fülsüketítő Kongás.\n30 lábon belül mindenki:\n- 15 Cons save\n- Sikertelen mentőnél **3d8 thunder sebzést** szenvednek, és a használó következő körének kezdetéig **Deafened** állapotba kerülnek.\n- Save: fele sebzés"
   },
   {
     "id": 42,

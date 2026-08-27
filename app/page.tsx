@@ -76,7 +76,7 @@ const itemImages: Record<string, string> = {
   'Staff of Sleep': '/items/staff-of-sleep.jpeg',
   'Strong poison': '/items/strong-poison.jpeg',
   'Sunshine-Singer’s Solar Serenade Sickle': '/items/sunshine-singers-solar-serenade-sickle.jpeg',
-  'The Cast-Iron Critical Clanger': '/items/the-cast-iron-critical-clanger.jpeg',
+  'Cast-Iron Critical Clanger': '/items/the-cast-iron-critical-clanger.jpeg',
   'Tigereye Monocle of Darkvision': '/items/tigereye-monocle-of-darkvision.png',
   'Vestments of the Noble Snow-Leopard': '/items/vestments-of-the-noble-snow-leopard.jpeg',
   'Wand of Ice Knife': '/items/wand-of-ice-knife.jpeg',
