@@ -538,7 +538,7 @@ export const items = [
   {
     "id": 2,
     "name": "Shatter shard",
-    "category": "Fogyóeszköz",
+    "category": "Mágikus tárgy",
     "price": 100,
     "summary": "Egy lila kristályszilánk ami Shatter képességet okoz ha eldobják",
     "details": "Egy lila kristályszilánk ami Shatter képességet okoz ha eldobják"
