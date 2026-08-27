@@ -14,11 +14,11 @@
 .modal { width:min(1400px,100%); max-height:90vh; background:var(--cream); border:1px solid #bca98b; display:grid; grid-template-columns:minmax(0,1fr) 390px; align-items:start; position:relative; overflow:hidden; box-shadow:0 32px 90px #0008; }
 .close { position:absolute; z-index:2; right:14px; top:12px; border:1px solid var(--line); background:#fffaf0dd; width:38px; height:38px; font:28px Georgia,serif; color:var(--wine); cursor:pointer; }
 .modalArtifact { width:100%; height:auto; min-height:0; aspect-ratio:16 / 9; }
-.modalBody { position:absolute; inset:0 0 0 auto; width:390px; min-height:0; padding:58px 36px 40px; overflow-y:auto; border-left:1px solid var(--line); scrollbar-width:thin; scrollbar-color:#8a3047 #e9decd; }
+.modalBody { position:absolute; inset:0 0 0 auto; width:390px; min-height:0; padding:58px 36px 40px; overflow-y:auto; border-left:1px solid var(--line); scrollbar-width:thin; scrollbar-color:#b76f81 #e9decd; }
 .modalBody::-webkit-scrollbar { width:10px; }
 .modalBody::-webkit-scrollbar-track { background:#e9decd; border-left:1px solid #d5c5ad; }
-.modalBody::-webkit-scrollbar-thumb { background:#8a3047; border:2px solid #e9decd; border-radius:999px; }
-.modalBody::-webkit-scrollbar-thumb:hover { background:#682136; }
+.modalBody::-webkit-scrollbar-thumb { background:#b76f81; border:2px solid #e9decd; border-radius:999px; }
+.modalBody::-webkit-scrollbar-thumb:hover { background:#9d5367; }
 .modalBody h2 { font-size:34px; line-height:1.08; font-weight:400; margin:15px 0 22px; }
 .price { padding:14px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:#6d6156; font-size:14px; }
 .price strong { color:var(--wine); font-weight:400; }
