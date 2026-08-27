@@ -23,6 +23,7 @@
 .price { padding:14px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:#6d6156; font-size:14px; }
 .price strong { color:var(--wine); font-weight:400; }
 .details { white-space:pre-wrap; margin-top:25px; color:#554c43; font-size:15px; line-height:1.75; }
+.details strong { color:var(--ink); font-weight:700; }
 .itemCard { padding:0; color:var(--ink); font-family:Georgia,'Times New Roman',serif; text-align:left; cursor:pointer; width:100%; }
 .itemCard .cardBody { display:block; padding:20px 24px; }
 .itemCard h3 { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; min-height:2.3em; max-height:2.3em; line-height:1.15; margin:0; }

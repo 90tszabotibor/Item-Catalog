@@ -16,6 +16,12 @@ function ItemArtwork({ item, modal = false }: { item: Item; modal?: boolean }) {
   </div>;
 }
 
+function DetailText({ text }: { text: string }) {
+  return <>{text.split(/(\*\*.*?\*\*)/g).map((part, index) => part.startsWith('**') && part.endsWith('**')
+    ? <strong key={index}>{part.slice(2, -2)}</strong>
+    : part)}</>;
+}
+
 export default function CatalogClient({ catalogItems }: { catalogItems: readonly CatalogItem[] }) {
   const categories = ['Mind', ...categoryOrder.filter((name) => catalogItems.some((item) => item.category === name))];
   const [query, setQuery] = useState('');
@@ -49,6 +55,6 @@ export default function CatalogClient({ catalogItems }: { catalogItems: readonly
       {filtered.length === 0 && <div className="empty">A kereséshez nem találtunk tárgyat. Próbálj más kifejezést.</div>}
     </section>
     <footer><span>Aurora Katalógusháza · {catalogItems.length} lajstromozott tárgy</span><span>„Nincs olyan ritkaság, amelyet ne tudnánk felkutatni.”</span></footer>
-    {selected && <div className="modalBack" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setSelected(null)}><section className="modal" role="dialog" aria-modal="true" aria-labelledby="item-title"><button className="close" onClick={() => setSelected(null)} aria-label="Bezárás">×</button><ItemArtwork item={selected} modal/><div className="modalBody"><div className="eyebrow">{selected.category}</div><h2 id="item-title">{selected.name}</h2>{selected.price && <div className="price">Érték: <strong>{selected.price.toLocaleString('hu-HU')} arany</strong></div>}<div className="details">{selected.details}</div></div></section></div>}
+    {selected && <div className="modalBack" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setSelected(null)}><section className="modal" role="dialog" aria-modal="true" aria-labelledby="item-title"><button className="close" onClick={() => setSelected(null)} aria-label="Bezárás">×</button><ItemArtwork item={selected} modal/><div className="modalBody"><div className="eyebrow">{selected.category}</div><h2 id="item-title">{selected.name}</h2>{selected.price && <div className="price">Érték: <strong>{selected.price.toLocaleString('hu-HU')} arany</strong></div>}<div className="details"><DetailText text={selected.details}/></div></div></section></div>}
   </main>;
 }
