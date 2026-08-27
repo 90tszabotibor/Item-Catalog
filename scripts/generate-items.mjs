@@ -30,7 +30,10 @@ const classify = (name, text) => {
   if (/scroll|bomb|shard|fenőkő|rúnakő/.test(value)) return 'Fogyóeszköz';
   return 'Mágikus tárgy';
 };
-const clean = (text) => text
+const clean = (text, hidePreparation = false) => (hidePreparation ? text
+  .replace(/^\s*\*\*Alapanyagok\*\*[\s\S]*$/gim, '')
+  .replace(/^\s*\*\*(?:Készítési DC|Készítési idő|Típus):\*\*[^\n]*$/gim, '')
+  : text)
   .replace(/!\[\[[^\]]+\]\]/g, '')
   .replace(/!\[[^\]]*\]\([^\)]+\)/g, '')
   .replace(/^!?[^\n]*(?:Gemini_Generated_Image|\.(?:jpe?g|png|webp|gif))[^\n]*$/gim, '')
@@ -39,7 +42,7 @@ const clean = (text) => text
   .replace(/^#+\s*/gm, '')
   .replace(/\n{3,}/g, '\n\n')
   .trim();
-const summary = (text) => clean(text).split(/\n\s*\n|\n/).find((line) => line.trim() && !/^\*\*/.test(line))?.replace(/^[-*]\s*/, '').slice(0, 170) || 'Ismeretlen eredetű mágikus tárgy.';
+const summary = (text, hidePreparation = false) => clean(text, hidePreparation).split(/\n\s*\n|\n/).find((line) => line.trim() && !/^\*\*/.test(line))?.replace(/^[-*]\s*/, '').slice(0, 170) || 'Ismeretlen eredetű mágikus tárgy.';
 const price = (text) => {
   const matches = [...text.matchAll(/([\d .]+)\s*(?:arany|Arany)/g)];
   if (!matches.length) return null;
@@ -48,7 +51,9 @@ const price = (text) => {
 const items = files.map((file, id) => {
   const raw = readFileSync(file, 'utf8').trim();
   const name = basename(file, '.md').replaceAll('ressistance', 'resistance').replaceAll('wishdom', 'wisdom').replaceAll('Cloack', 'Cloak');
-  return { id: id + 1, name, category: classify(name, raw), price: price(raw), summary: summary(raw), details: clean(raw) };
+  const category = classify(name, raw);
+  const hidePreparation = category === 'Főzet';
+  return { id: id + 1, name, category, price: price(raw), summary: summary(raw, hidePreparation), details: clean(raw, hidePreparation) };
 }).filter((item) => item.details).sort((a, b) => a.name.localeCompare(b.name, 'hu'));
 
 writeFileSync(new URL('../app/items.generated.ts', import.meta.url), `export const items = ${JSON.stringify(items, null, 2)} as const;\n`);
