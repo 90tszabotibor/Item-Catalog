@@ -372,8 +372,8 @@ export const items = [
     "name": "Immovable Rod",
     "category": "Mágikus tárgy",
     "price": 700,
-    "summary": "Mozdíthatatlan rúd",
-    "details": "Mozdíthatatlan rúd\nElmozdítás: Str DC30\nElmozdítani olyan mintha 3,5 tonnát próbálnál elmozdítani."
+    "summary": "Alaptulajdonság: Mágikus rúd",
+    "details": "Alaptulajdonság: Mágikus rúd\n\nImmovable:\n\nMozgatás: DC 30 Strength\nTeherbírás: 3,5 tonna\n\nAktiválásakor a rúd mozdíthatatlanná válik. Eltolásához vagy elmozdításához sikeres DC 30 Strength próba szükséges."
   },
   {
     "id": 26,
@@ -540,16 +540,16 @@ export const items = [
     "name": "Scrying Eye Orb",
     "category": "Mágikus tárgy",
     "price": 1000,
-    "summary": "A gömb átváltozik egy szemmé és irányíthatod 300 feeten belül. Láthatsz a szemével. Longrestenként 1x",
-    "details": "A gömb átváltozik egy szemmé és irányíthatod 300 feeten belül. Láthatsz a szemével. Longrestenként 1x"
+    "summary": "Alaptulajdonság: Mágikus gömb",
+    "details": "Alaptulajdonság: Mágikus gömb\n\nScrying Eye:\n\nHasználat: Hosszú pihenőnként 1x\nHatótáv: 300 ft\n\nA gömb lebegő szemmé változik, amelyet a hatótávolságon belül irányíthatsz. A szem látásán keresztül úgy érzékeled a környezetét, mintha a helyén lennél."
   },
   {
     "id": 2,
     "name": "Shatter shard",
     "category": "Mágikus tárgy",
     "price": 100,
-    "summary": "Egy lila kristályszilánk ami Shatter képességet okoz ha eldobják",
-    "details": "Egy lila kristályszilánk ami Shatter képességet okoz ha eldobják"
+    "summary": "Alaptulajdonság: Mágikus kristályszilánk",
+    "details": "Alaptulajdonság: Mágikus kristályszilánk\n\nShatter:\n\nAktiválás: A szilánk eldobása\n\nAmikor eldobod a szilánkot, az a becsapódás helyén létrehozza a Shatter varázslat hatását."
   },
   {
     "id": 13,
