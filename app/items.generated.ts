@@ -52,8 +52,8 @@ export const items = [
     "name": "Blinkdagger",
     "category": "Fegyver",
     "price": 3500,
-    "summary": "+1 dagger",
-    "details": "+1 dagger\n\nLongrestenként 3x Bónusz akcióként eldobhatod a tőrt, vagy elvégezhetsz vele egy közelharci támadást.\nA támadás pillanatában a tőr (és vele együtt te is) átkerültök az éteri síkra.\n- Ha a tőr eltalál egy célnak szánt lényt vagy egy általad látható, üres pontot 30 lábon belül, azonnal teleportálhatsz a tőr megérkezési helyére (vagy a célpont melletti legközelebbi szabad mezőre).\n- A tőr ezután mágikusan visszatér a kezedbe (vagy a lábadhoz esik, ha a kezed tele van).\n- Az így elvégzett támadás +1d6 force damage sebzést okoz."
+    "summary": "Alaptulajdonság: +1 tőr",
+    "details": "Alaptulajdonság: +1 tőr\n\nBlinkstep:\n\nAktiválás: Bónuszakció\nHasználat: Hosszú pihenőnként 3x\n\nEldobod a tőrt egy általad látható lény vagy üres pont felé. A dobás pillanatában a tőrrel együtt rövid időre az Éteri Síkra kerülsz.\n\nHa a tőr eltalálja a célpontot, vagy eléri a kijelölt pontot, azonnal a tőr mellé teleportálsz. Ha a Blinksteppel támadást hajtottál végre, a támadás további 1d6 force sebzést okoz.\n\nA tőr ezután mágikusan visszatér a kezedbe. Ha a kezed tele van, a lábadhoz esik."
   },
   {
     "id": 21,
@@ -101,7 +101,7 @@ export const items = [
     "category": "Fegyver",
     "price": 7990,
     "summary": "A Konyhai Kritikus Kongató",
-    "details": "A Konyhai Kritikus Kongató\n\n+2 Mace\nEggyel csökkenti a kritikus találat küszöbét\n**Kritikus találatkor** +1d6 force damage és Fülsüketítő Kongás.\nFülsüketítő Kongás:\n30 lábon belül mindenki:\n- 15 Cons save\n- Sikertelen mentőnél **3d8 thunder sebzést** szenvednek, és a használó következő körének kezdetéig **Deafened** állapotba kerülnek.\n- Save: fele sebzés"
+    "details": "A Konyhai Kritikus Kongató\n\nAlaptulajdonság: +2 buzogány\nPasszív hatás: A fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\nFülsüketítő Kongás:\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba."
   },
   {
     "id": 17,
@@ -581,7 +581,7 @@ export const items = [
     "category": "Fegyver",
     "price": 9990,
     "summary": "Szolmizáló Szoláris Szerenád-Sugársarló",
-    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n+2 Radiant hit, damage, DC\nLongrestenként 1x\nAkcióként, kilőhető belőle Sunbeam varázslat. A varázslat fenntartásához egy csapattaggal énekelni kell egy napfényről szóló dalt. Ugyan azt a dalt nem fogadja el a sarló."
+    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\nAlaptulajdonság: Sickle, +2 a radiant\n\nSzoláris Szerenád:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
   },
   {
     "id": 42,
