@@ -556,16 +556,16 @@ export const items = [
     "name": "Staff of Healing",
     "category": "Fegyver",
     "price": 1800,
-    "summary": "+1d4 minden gyógyító varázslathoz",
-    "details": "+1d4 minden gyógyító varázslathoz\nLongrestenként 3x Cure Wound\nSpellcasting focusként használható."
+    "summary": "Alaptulajdonság: +1d4 healing",
+    "details": "Alaptulajdonság: +1d4 healing\n\nCure Wounds:\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a staffból a Cure Wounds varázslatot."
   },
   {
     "id": 9,
     "name": "Staff of Sleep",
     "category": "Fegyver",
     "price": 300,
-    "summary": "Longrestenként 1x Sleep",
-    "details": "Longrestenként 1x Sleep\nSpellcasting focusként használható."
+    "summary": "Alaptulajdonság: Quarterstaff",
+    "details": "Alaptulajdonság: Quarterstaff\n\nSleep:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a staffból a Sleep varázslatot."
   },
   {
     "id": 49,
@@ -620,7 +620,7 @@ export const items = [
     "name": "Wand of Sickeness",
     "category": "Fegyver",
     "price": 400,
-    "summary": "Longrestenként 3x",
-    "details": "Longrestenként 3x\nRay od Sickess\nSpellcasting focusként használható."
+    "summary": "Alaptulajdonság: Spellcasting focus",
+    "details": "Alaptulajdonság: Spellcasting focus\n\nRay of Sickness:\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a wandból a Ray of Sickness varázslatot."
   }
 ] as const;
