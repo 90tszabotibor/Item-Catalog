@@ -3,7 +3,7 @@ export const items = [
     "id": 33,
     "name": "Adamantin Sisak",
     "category": "Páncél",
-    "price": 5000,
+    "price": 4990,
     "summary": "+1 AC",
     "details": "+1 AC\nAdvantage dex save sebzés / támadás elhárítására\nA viselő elleni kritikus találatok normál találatnak minősülnek."
   },
@@ -51,17 +51,17 @@ export const items = [
     "id": 31,
     "name": "Blinkdagger",
     "category": "Fegyver",
-    "price": 5500,
+    "price": 3500,
     "summary": "+1 dagger",
-    "details": "+1 dagger\n\nAkcióként eldobhatod a tőrt, vagy elvégezhetsz vele egy közelharci támadást. A támadás pillanatában a tőr (és vele együtt te is) átlépi a síkokat.\n- Ha a tőr eltalál egy célnak szánt lényt vagy egy általad látható, üres pontot 30 lábon belül, azonnal teleportálhatsz a tőr megérkezési helyére (vagy a célpont melletti legközelebbi szabad mezőre).\n- A tőr ezután mágikusan visszatér a kezedbe (vagy a lábadhoz esik, ha a kezed tele van)."
+    "details": "+1 dagger\n\nLongrestenként 3x Bónusz akcióként eldobhatod a tőrt, vagy elvégezhetsz vele egy közelharci támadást.\nA támadás pillanatában a tőr (és vele együtt te is) átkerültök az éteri síkra.\n- Ha a tőr eltalál egy célnak szánt lényt vagy egy általad látható, üres pontot 30 lábon belül, azonnal teleportálhatsz a tőr megérkezési helyére (vagy a célpont melletti legközelebbi szabad mezőre).\n- A tőr ezután mágikusan visszatér a kezedbe (vagy a lábadhoz esik, ha a kezed tele van).\n- Az így elvégzett támadás +1d6 force damage sebzést okoz."
   },
   {
     "id": 21,
     "name": "Boots of Striding and Springing",
     "category": "Páncél",
     "price": 1000,
-    "summary": "Megnöveli a viselője alap mozgási sebességét 10-el",
-    "details": "Megnöveli a viselője alap mozgási sebességét 10-el\nMegháromszorozza az ugrási távolságokat\nAz esési sebzést felezi"
+    "summary": "Longrestenként 1x",
+    "details": "Longrestenként 1x\nMegnöveli a viselője alap mozgási sebességét 10-el\nMegháromszorozza az ugrási távolságokat\nAz esési sebzést felezi"
   },
   {
     "id": 29,
@@ -91,17 +91,17 @@ export const items = [
     "id": 11,
     "name": "Broom of Flying",
     "category": "Mágikus tárgy",
-    "price": 1500,
-    "summary": "A seprű repülési képességének használata koncentrációt igényel, mintha varázslatra koncentrálnál.",
-    "details": "A seprű repülési képességének használata koncentrációt igényel, mintha varázslatra koncentrálnál."
+    "price": 4500,
+    "summary": "Egy repülő seprű",
+    "details": "Egy repülő seprű\nKoncentrációt igényel a használata"
   },
   {
     "id": 37,
     "name": "Cast-Iron Critical Clanger",
     "category": "Fegyver",
-    "price": 4000,
+    "price": 7990,
     "summary": "A Konyhai Kritikus Kongató",
-    "details": "A Konyhai Kritikus Kongató\n\n+2 Mace\n**Kritikus találatkor** Fülsüketítő Kongás.\n30 lábon belül mindenki:\n- 15 Cons save\n- Sikertelen mentőnél **3d8 thunder sebzést** szenvednek, és a használó következő körének kezdetéig **Deafened** állapotba kerülnek.\n- Save: fele sebzés"
+    "details": "A Konyhai Kritikus Kongató\n\n+2 Mace\nEggyel csökkenti a kritikus találat küszöbét\n**Kritikus találatkor** +1d6 force damage és Fülsüketítő Kongás.\nFülsüketítő Kongás:\n30 lábon belül mindenki:\n- 15 Cons save\n- Sikertelen mentőnél **3d8 thunder sebzést** szenvednek, és a használó következő körének kezdetéig **Deafened** állapotba kerülnek.\n- Save: fele sebzés"
   },
   {
     "id": 17,
@@ -131,7 +131,7 @@ export const items = [
     "id": 6,
     "name": "Crystal ball",
     "category": "Mágikus tárgy",
-    "price": 5000,
+    "price": 4990,
     "summary": "Longrestenként 1x scrying",
     "details": "Longrestenként 1x scrying\nDC 17"
   },
@@ -155,7 +155,7 @@ export const items = [
     "id": 23,
     "name": "Displacer’s Deceptive Duster",
     "category": "Páncél",
-    "price": 6000,
+    "price": 5990,
     "summary": "Délibábos Doromboló Duvad Daróc",
     "details": "Délibábos Doromboló Duvad Daróc\n\n+2 Studden leather armor (14+ dex mod)\nLongrestenként 1x aktiválható a Displacement képesség aminek hatására 10 körig minden támadás disadvantage lesz a használó ellen."
   },
@@ -331,7 +331,7 @@ export const items = [
     "id": 32,
     "name": "Flametongue shortsword",
     "category": "Fegyver",
-    "price": 1800,
+    "price": 2800,
     "summary": "+1 shortsword",
     "details": "+1 shortsword\n+1d6 fire damage\nfényforrásként is használható"
   },
@@ -379,9 +379,9 @@ export const items = [
     "id": 26,
     "name": "Javelin of Thunder Peaks",
     "category": "Fegyver",
-    "price": 500,
+    "price": 1500,
     "summary": "+1 Javelin",
-    "details": "+1 Javelin\n+1d4 thunder damage"
+    "details": "+1 Javelin\n+1d4 thunder damage minden támadáshoz"
   },
   {
     "id": 24,
@@ -396,8 +396,8 @@ export const items = [
     "name": "Lightbringer",
     "category": "Fegyver",
     "price": 1000,
-    "summary": "+1 light Hammer",
-    "details": "+1 light Hammer\n+1d4 minden radiant sebzéshez"
+    "summary": "+1 Hammer",
+    "details": "+1 Hammer\n+1d4 minden radiant sebzéshez"
   },
   {
     "id": 58,
@@ -419,7 +419,7 @@ export const items = [
     "id": 34,
     "name": "Mithral Láncing",
     "category": "Páncél",
-    "price": 5500,
+    "price": 5490,
     "summary": "+2 Chainshirt ( 15AC + dex mod)",
     "details": "+2 Chainshirt ( 15AC + dex mod)\n-1 Piercing és Slashing Damage"
   },
@@ -428,8 +428,8 @@ export const items = [
     "name": "Orb of Detect magic",
     "category": "Mágikus tárgy",
     "price": 500,
-    "summary": "Shorrestenként 1x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő.",
-    "details": "Shorrestenként 1x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő."
+    "summary": "Longrestenként 3x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő.",
+    "details": "Longrestenként 3x detect magic. A detect magic varázslat hatótávolsága 2x-ra nő."
   },
   {
     "id": 59,
@@ -467,9 +467,9 @@ export const items = [
     "id": 15,
     "name": "Prismatic Psychedelic Peepers",
     "category": "Mágikus tárgy",
-    "price": 3000,
+    "price": 7490,
     "summary": "Prizmatikus Pszichedelikus Pápaszem",
-    "details": "Prizmatikus Pszichedelikus Pápaszem\n\nShortrestenként 1x Hypnotic pattern"
+    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n+1 DC a használó illúzió varázslataira\nAz Illúzió képességek 1-el kisebb spellslotba kerülnek 5. szintig.\nAz 1. szintű képességek Cantripnek minősülnek\nLongrestenként 1x Hypnotic pattern"
   },
   {
     "id": 61,
@@ -524,8 +524,8 @@ export const items = [
     "name": "Ring of Spell Storing",
     "category": "Ékszer",
     "price": 4500,
-    "summary": "Bárki beletölthet varázslatokat max. 5. szintig a gyűrűbe, amit később bárki más (akár nem varázshasználó is) elsüthet belőle parancsszóra.",
-    "details": "Bárki beletölthet varázslatokat max. 5. szintig a gyűrűbe, amit később bárki más (akár nem varázshasználó is) elsüthet belőle parancsszóra.\nNem varázshasználó esetén a DC 14 és találathoz dex-et kell használni."
+    "summary": "Longrestenként 1x",
+    "details": "Longrestenként 1x\nBárki beletölthet varázslatokat max. 5. szintig a gyűrűbe, amit később bárki más (akár nem varázshasználó is) elsüthet belőle parancsszóra.\nNem varázshasználó esetén a DC 14 és találathoz dex-et kell használni."
   },
   {
     "id": 4,
@@ -557,7 +557,7 @@ export const items = [
     "category": "Fegyver",
     "price": 1800,
     "summary": "+1d4 minden gyógyító varázslathoz",
-    "details": "+1d4 minden gyógyító varázslathoz\nShortrestenként 1x Cure Wound"
+    "details": "+1d4 minden gyógyító varázslathoz\nLongrestenként 3x Cure Wound\nSpellcasting focusként használható."
   },
   {
     "id": 9,
@@ -579,9 +579,9 @@ export const items = [
     "id": 36,
     "name": "Sunshine-Singer’s Solar Serenade Sickle",
     "category": "Fegyver",
-    "price": 9999,
+    "price": 9990,
     "summary": "Szolmizáló Szoláris Szerenád-Sugársarló",
-    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n+2 Radiant hit, damage, DC\nAkcióként, **long restenként egyszer** kilőhető belőle Sunbeam varázslat. A varázslat fenntartásához egy csapattaggal énekelni kell egy napfényről szóló dalt. Ugyan azt a dalt nem fogadja el a sarló."
+    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n+2 Radiant hit, damage, DC\nLongrestenként 1x\nAkcióként, kilőhető belőle Sunbeam varázslat. A varázslat fenntartásához egy csapattaggal énekelni kell egy napfényről szóló dalt. Ugyan azt a dalt nem fogadja el a sarló."
   },
   {
     "id": 42,
@@ -620,7 +620,7 @@ export const items = [
     "name": "Wand of Sickeness",
     "category": "Fegyver",
     "price": 400,
-    "summary": "Shortrestenként 1x Ray od Sickess",
-    "details": "Shortrestenként 1x Ray od Sickess\nSpellcasting focusként használható."
+    "summary": "Longrestenként 3x",
+    "details": "Longrestenként 3x\nRay od Sickess\nSpellcasting focusként használható."
   }
 ] as const;
