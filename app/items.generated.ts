@@ -581,7 +581,7 @@ export const items = [
     "category": "Fegyver",
     "price": 9990,
     "summary": "Szolmizáló Szoláris Szerenád-Sugársarló",
-    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\nAlaptulajdonság: Sickle, +2 a radiant\n\nSzoláris Szerenád:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
+    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\nAlaptulajdonság: Sickle, +2 radiant\n\nSzoláris Szerenád:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
   },
   {
     "id": 42,
