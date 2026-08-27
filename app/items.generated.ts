@@ -469,7 +469,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 7490,
     "summary": "Prizmatikus Pszichedelikus Pápaszem",
-    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n**+1 illusion**\n\n**Hypnotic Pattern:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
+    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n**+2 illusion**\n\n**Hypnotic Pattern:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
   },
   {
     "id": 61,
