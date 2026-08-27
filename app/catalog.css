@@ -32,6 +32,6 @@
 .hero { border-bottom:0; }
 .hero h1 { font-family:'Cinzel', Georgia, serif; font-weight:600; line-height:1.05; letter-spacing:.01em; }
 .titleAurora { color:var(--wine); }
-.titleCatalog { color:var(--ink); }
+.titleCatalog { color:#8a6f56; }
 .catalog { padding-top:42px; }
 @media(max-width:760px) { .modal{display:flex;flex-direction:column;align-items:stretch}.modalBody{align-self:auto;max-height:none;padding:32px 24px;border-left:0;border-top:1px solid var(--line)}.modalBody h2{font-size:32px}.modalBack{padding:10px}.catalogTools{display:block}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filters button{white-space:nowrap}.sort{margin-top:14px;justify-content:space-between}.sortDropdown{flex:1;max-width:230px} }
