@@ -76,8 +76,8 @@ export const items = [
     "name": "Bracers of Defense",
     "category": "Páncél",
     "price": 3500,
-    "summary": "+2 AC ha a viselő nem hord egyéb páncélt",
-    "details": "+2 AC ha a viselő nem hord egyéb páncélt"
+    "summary": "A bónusz csak akkor érvényesül, ha a viselő nem hord más páncélt.",
+    "details": "**+2 AC**\n\n**Unarmored Defense:**\n\nA bónusz csak akkor érvényesül, ha a viselő nem hord más páncélt."
   },
   {
     "id": 38,
@@ -340,8 +340,8 @@ export const items = [
     "name": "Gauntlet of strong hands",
     "category": "Páncél",
     "price": 1200,
-    "summary": "Min Str: 12",
-    "details": "Min Str: 12\n+1 AC\nAdvantage str checkre"
+    "summary": "Minimum 12 Strength",
+    "details": "**+1 AC**\n\nMinimum 12 Strength\n\n**Strong Hands:**\n\nA kesztyű viselője előnnyel hajtja végre a Strength-próbákat."
   },
   {
     "id": 56,
@@ -420,8 +420,8 @@ export const items = [
     "name": "Mithral Láncing",
     "category": "Páncél",
     "price": 5490,
-    "summary": "+2 Chainshirt ( 15AC + dex mod)",
-    "details": "+2 Chainshirt ( 15AC + dex mod)\n-1 Piercing és Slashing Damage"
+    "summary": "A viselő által elszenvedett piercing és slashing sebzés **1-gyel csökken**.",
+    "details": "**15 AC + Dex mod**\n\nA viselő által elszenvedett piercing és slashing sebzés **1-gyel csökken**."
   },
   {
     "id": 3,
