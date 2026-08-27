@@ -52,8 +52,8 @@ export const items = [
     "name": "Blinkdagger",
     "category": "Fegyver",
     "price": 3500,
-    "summary": "Blinkstep:",
-    "details": "**+1 tőr**\n\nBlinkstep:\n\nAktiválás: Bónuszakció\nHasználat: Hosszú pihenőnként 3x\n\nEldobod a tőrt egy általad látható lény vagy üres pont felé. A dobás pillanatában a tőrrel együtt rövid időre az Éteri Síkra kerülsz.\n\nHa a tőr eltalálja a célpontot, vagy eléri a kijelölt pontot, azonnal a tőr mellé teleportálsz. Ha a Blinksteppel támadást hajtottál végre, a támadás további 1d6 force sebzést okoz.\n\nA tőr ezután mágikusan visszatér a kezedbe. Ha a kezed tele van, a lábadhoz esik."
+    "summary": "Aktiválás: Bónuszakció",
+    "details": "**+1 tőr**\n\n**Blinkstep:**\n\nAktiválás: Bónuszakció\nHasználat: Hosszú pihenőnként 3x\n\nEldobod a tőrt egy általad látható lény vagy üres pont felé. A dobás pillanatában a tőrrel együtt rövid időre az Éteri Síkra kerülsz.\n\nHa a tőr eltalálja a célpontot, vagy eléri a kijelölt pontot, azonnal a tőr mellé teleportálsz. Ha a Blinksteppel támadást hajtottál végre, a támadás további 1d6 force sebzést okoz.\n\nA tőr ezután mágikusan visszatér a kezedbe. Ha a kezed tele van, a lábadhoz esik."
   },
   {
     "id": 21,
@@ -92,8 +92,8 @@ export const items = [
     "name": "Broom of Flying",
     "category": "Mágikus tárgy",
     "price": 4500,
-    "summary": "Flying:",
-    "details": "**Repülő seprű**\n\nFlying:\n\nAktiválás: Akció, verbális\nKoncentráció: Igen\nRepülési sebesség: 60 ft\n\nA seprű repülési képességének használata koncentrációt igényel."
+    "summary": "Aktiválás: Akció, verbális",
+    "details": "**Repülő seprű**\n\n**Flying:**\n\nAktiválás: Akció, verbális\nKoncentráció: Igen\nRepülési sebesség: 60 ft\n\nA seprű repülési képességének használata koncentrációt igényel."
   },
   {
     "id": 37,
@@ -101,7 +101,7 @@ export const items = [
     "category": "Fegyver",
     "price": 7990,
     "summary": "A Konyhai Kritikus Kongató",
-    "details": "A Konyhai Kritikus Kongató\n\n**+2 buzogány**\nPasszív hatás: A fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\nFülsüketítő Kongás:\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba."
+    "details": "A Konyhai Kritikus Kongató\n\n**+2 buzogány**\nPasszív hatás: A fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba."
   },
   {
     "id": 17,
@@ -124,24 +124,24 @@ export const items = [
     "name": "Cloak of Invisibility",
     "category": "Páncél",
     "price": 1200,
-    "summary": "Invisibility:",
-    "details": "**Mágikus köpeny**\n\nInvisibility:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a köpenyből az Invisibility varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Mágikus köpeny**\n\n**Invisibility:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a köpenyből az Invisibility varázslatot."
   },
   {
     "id": 6,
     "name": "Crystal ball",
     "category": "Fókusz",
     "price": 4990,
-    "summary": "Scrying:",
-    "details": "**Mágikus kristálygömb**\n\nScrying:\n\nHasználat: Hosszú pihenőnként 1x\nMentődobás: DC 17\n\nElsütheted a kristálygömbből a Scrying varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Mágikus kristálygömb**\n\n**Scrying:**\n\nHasználat: Hosszú pihenőnként 1x\nMentődobás: DC 17\n\nElsütheted a kristálygömbből a Scrying varázslatot."
   },
   {
     "id": 12,
     "name": "Decanter of Endless Water",
     "category": "Mágikus tárgy",
     "price": 800,
-    "summary": "Endless Water:",
-    "details": "**Mágikus kancsó**\n\nEndless Water:\n\nAktiválás: Akció, verbális\n\nA kancsó parancsszóra korlátlan mennyiségű vizet képes kibocsátani."
+    "summary": "Aktiválás: Akció, verbális",
+    "details": "**Mágikus kancsó**\n\n**Endless Water:**\n\nAktiválás: Akció, verbális\n\nA kancsó parancsszóra korlátlan mennyiségű vizet képes kibocsátani."
   },
   {
     "id": 40,
@@ -157,7 +157,7 @@ export const items = [
     "category": "Páncél",
     "price": 5990,
     "summary": "Délibábos Doromboló Duvad Daróc",
-    "details": "Délibábos Doromboló Duvad Daróc\n\n**14 AC + Dexterity módosító**\n\nDisplacement:\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
+    "details": "Délibábos Doromboló Duvad Daróc\n\n**14 AC + Dexterity módosító**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
   },
   {
     "id": 50,
@@ -372,8 +372,8 @@ export const items = [
     "name": "Immovable Rod",
     "category": "Mágikus tárgy",
     "price": 700,
-    "summary": "Immovable:",
-    "details": "**Mágikus rúd**\n\nImmovable:\n\nMozgatás: DC 30 Strength\nTeherbírás: 3,5 tonna\n\nAktiválásakor a rúd mozdíthatatlanná válik. Eltolásához vagy elmozdításához sikeres DC 30 Strength próba szükséges."
+    "summary": "Mozgatás: DC 30 Strength",
+    "details": "**Mágikus rúd**\n\n**Immovable:**\n\nMozgatás: DC 30 Strength\nTeherbírás: 3,5 tonna\n\nAktiválásakor a rúd mozdíthatatlanná válik. Eltolásához vagy elmozdításához sikeres DC 30 Strength próba szükséges."
   },
   {
     "id": 26,
@@ -428,8 +428,8 @@ export const items = [
     "name": "Orb of Detect magic",
     "category": "Mágikus tárgy",
     "price": 500,
-    "summary": "Detect Magic:",
-    "details": "**Mágikus gömb**\n\nDetect Magic:\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a gömbből a Detect Magic varázslatot. A varázslat hatótávolsága a kétszeresére nő."
+    "summary": "Használat: Hosszú pihenőnként 3x",
+    "details": "**Mágikus gömb**\n\n**Detect Magic:**\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a gömbből a Detect Magic varázslatot. A varázslat hatótávolsága a kétszeresére nő."
   },
   {
     "id": 59,
@@ -469,7 +469,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 7490,
     "summary": "Prizmatikus Pszichedelikus Pápaszem",
-    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n**+1 illusion**\n\nHypnotic Pattern:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
+    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n**+1 illusion**\n\n**Hypnotic Pattern:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
   },
   {
     "id": 61,
@@ -516,8 +516,8 @@ export const items = [
     "name": "Ring of Remove Curse",
     "category": "Ékszer",
     "price": 1800,
-    "summary": "Remove Curse:",
-    "details": "**Mágikus gyűrű**\n\nRemove Curse:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből a Remove Curse varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Mágikus gyűrű**\n\n**Remove Curse:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből a Remove Curse varázslatot."
   },
   {
     "id": 46,
@@ -540,32 +540,32 @@ export const items = [
     "name": "Scrying Eye Orb",
     "category": "Mágikus tárgy",
     "price": 1000,
-    "summary": "Scrying Eye:",
-    "details": "**Mágikus gömb**\n\nScrying Eye:\n\nHasználat: Hosszú pihenőnként 1x\nHatótáv: 300 ft\n\nA gömb lebegő szemmé változik, amelyet a hatótávolságon belül irányíthatsz. A szem látásán keresztül úgy érzékeled a környezetét, mintha a helyén lennél."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Mágikus gömb**\n\n**Scrying Eye:**\n\nHasználat: Hosszú pihenőnként 1x\nHatótáv: 300 ft\n\nA gömb lebegő szemmé változik, amelyet a hatótávolságon belül irányíthatsz. A szem látásán keresztül úgy érzékeled a környezetét, mintha a helyén lennél."
   },
   {
     "id": 2,
     "name": "Shatter shard",
     "category": "Mágikus tárgy",
     "price": 100,
-    "summary": "Shatter:",
-    "details": "**Mágikus kristályszilánk**\n\nShatter:\n\nAktiválás: A szilánk eldobása\n\nAmikor eldobod a szilánkot, az a becsapódás helyén létrehozza a Shatter varázslat hatását."
+    "summary": "Aktiválás: A szilánk eldobása",
+    "details": "**Mágikus kristályszilánk**\n\n**Shatter:**\n\nAktiválás: A szilánk eldobása\n\nAmikor eldobod a szilánkot, az a becsapódás helyén létrehozza a Shatter varázslat hatását."
   },
   {
     "id": 13,
     "name": "Staff of Healing",
     "category": "Fegyver",
     "price": 1800,
-    "summary": "Cure Wounds:",
-    "details": "**+1d4 healing**\n\nCure Wounds:\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a staffból a Cure Wounds varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 3x",
+    "details": "**+1d4 healing**\n\n**Cure Wounds:**\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a staffból a Cure Wounds varázslatot."
   },
   {
     "id": 9,
     "name": "Staff of Sleep",
     "category": "Fegyver",
     "price": 300,
-    "summary": "Sleep:",
-    "details": "**Quarterstaff**\n\nSleep:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a staffból a Sleep varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Quarterstaff**\n\n**Sleep:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a staffból a Sleep varázslatot."
   },
   {
     "id": 49,
@@ -581,7 +581,7 @@ export const items = [
     "category": "Fegyver",
     "price": 9990,
     "summary": "Szolmizáló Szoláris Szerenád-Sugársarló",
-    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n**Sickle, +2 radiant**\n\nSzoláris Szerenád:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
+    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n**Sickle, +2 radiant**\n\n**Szoláris Szerenád:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
   },
   {
     "id": 42,
@@ -604,8 +604,8 @@ export const items = [
     "name": "Wand of Ice Knife",
     "category": "Fegyver",
     "price": 700,
-    "summary": "Ice Knife:",
-    "details": "**+1 a cold**\n\nIce Knife:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából az Ice Knife varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**+1 a cold**\n\n**Ice Knife:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából az Ice Knife varázslatot."
   },
   {
     "id": 14,
@@ -620,7 +620,7 @@ export const items = [
     "name": "Wand of Sickeness",
     "category": "Fegyver",
     "price": 400,
-    "summary": "Ray of Sickness:",
-    "details": "**Spellcasting focus**\n\nRay of Sickness:\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a wandból a Ray of Sickness varázslatot."
+    "summary": "Használat: Hosszú pihenőnként 3x",
+    "details": "**Spellcasting focus**\n\n**Ray of Sickness:**\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a wandból a Ray of Sickness varázslatot."
   }
 ] as const;
