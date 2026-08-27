@@ -395,7 +395,7 @@ export const items = [
     "id": 27,
     "name": "Lightbringer",
     "category": "Fegyver",
-    "price": 1000,
+    "price": 800,
     "summary": "Ismeretlen eredetű mágikus tárgy.",
     "details": "**+1 radiant**"
   },
