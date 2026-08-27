@@ -124,16 +124,16 @@ export const items = [
     "name": "Cloak of Invisibility",
     "category": "Páncél",
     "price": 1200,
-    "summary": "Longrestenként 1x Invisibility",
-    "details": "Longrestenként 1x Invisibility"
+    "summary": "Alaptulajdonság: Mágikus köpeny",
+    "details": "Alaptulajdonság: Mágikus köpeny\n\nInvisibility:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a köpenyből az Invisibility varázslatot."
   },
   {
     "id": 6,
     "name": "Crystal ball",
-    "category": "Mágikus tárgy",
+    "category": "Fókusz",
     "price": 4990,
-    "summary": "Longrestenként 1x scrying",
-    "details": "Longrestenként 1x scrying\nDC 17"
+    "summary": "Alaptulajdonság: Mágikus kristálygömb",
+    "details": "Alaptulajdonság: Mágikus kristálygömb\n\nScrying:\n\nHasználat: Hosszú pihenőnként 1x\nMentődobás: DC 17\n\nElsütheted a kristálygömbből a Scrying varázslatot."
   },
   {
     "id": 12,
@@ -516,8 +516,8 @@ export const items = [
     "name": "Ring of Remove Curse",
     "category": "Ékszer",
     "price": 1800,
-    "summary": "Longrestenként 1x Remove Curse",
-    "details": "Longrestenként 1x Remove Curse"
+    "summary": "Alaptulajdonság: Mágikus gyűrű",
+    "details": "Alaptulajdonság: Mágikus gyűrű\n\nRemove Curse:\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből a Remove Curse varázslatot."
   },
   {
     "id": 46,
