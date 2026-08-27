@@ -4,8 +4,8 @@ export const items = [
     "name": "Adamantin Sisak",
     "category": "Páncél",
     "price": 4990,
-    "summary": "+1 AC",
-    "details": "+1 AC\nAdvantage dex save sebzés / támadás elhárítására\nA viselő elleni kritikus találatok normál találatnak minősülnek."
+    "summary": "A sisak viselője advantage-dzsel dobja azokat a Dexterity-mentődobásokat, amelyekkel sebzést vagy támadást háríthat el.",
+    "details": "**+1 AC**\n\n**Adamantine Defense:**\n\nA sisak viselője advantage-dzsel dobja azokat a Dexterity-mentődobásokat, amelyekkel sebzést vagy támadást háríthat el.\n\nA viselő ellen elért kritikus találatok normál találatnak minősülnek."
   },
   {
     "id": 41,
@@ -332,8 +332,8 @@ export const items = [
     "name": "Flametongue shortsword",
     "category": "Fegyver",
     "price": 2800,
-    "summary": "+1 shortsword",
-    "details": "+1 shortsword\n+1d6 fire damage\nfényforrásként is használható"
+    "summary": "A penge fényforrásként is használható.",
+    "details": "**+1 Shortsword**\n\n**+1d6 fire sebzés**\n\nA penge fényforrásként is használható."
   },
   {
     "id": 30,
@@ -380,8 +380,8 @@ export const items = [
     "name": "Javelin of Thunder Peaks",
     "category": "Fegyver",
     "price": 1500,
-    "summary": "+1 Javelin",
-    "details": "+1 Javelin\n+1d4 thunder damage minden támadáshoz"
+    "summary": "Ismeretlen eredetű mágikus tárgy.",
+    "details": "**+1 Javelin**\n\n**+1d4 thunder sebzés**"
   },
   {
     "id": 24,
