@@ -348,8 +348,8 @@ export const items = [
     "name": "Greater healing potion",
     "category": "Főzet",
     "price": 200,
-    "summary": "4d4 + 4 HP gyógyítás.",
-    "details": "4d4 + 4 HP gyógyítás.\nMedicine check."
+    "summary": "A főzet elfogyasztása **4d4 + 4 HP-t gyógyít**.",
+    "details": "A főzet elfogyasztása **4d4 + 4 HP-t gyógyít**."
   },
   {
     "id": 25,
@@ -364,8 +364,8 @@ export const items = [
     "name": "Healing potion",
     "category": "Főzet",
     "price": 50,
-    "summary": "2d4 + 2 HP gyógyítás.",
-    "details": "2d4 + 2 HP gyógyítás.\nMedicine check."
+    "summary": "A főzet elfogyasztása **2d4 + 2 HP-t gyógyít**.",
+    "details": "A főzet elfogyasztása **2d4 + 2 HP-t gyógyít**."
   },
   {
     "id": 10,
@@ -404,8 +404,8 @@ export const items = [
     "name": "Méreg ellenszer",
     "category": "Főzet",
     "price": 20,
-    "summary": "Semlegesíti a poisoned állapotot.",
-    "details": "Semlegesíti a poisoned állapotot.\nMedicine check."
+    "summary": "A szer semlegesíti a célponton lévő Poisoned állapotot.",
+    "details": "A szer semlegesíti a célponton lévő Poisoned állapotot."
   },
   {
     "id": 1,
