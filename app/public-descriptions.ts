@@ -53,7 +53,7 @@ const descriptions: Record<string, [string, string]> = {
   'Legbreaker':['Nehéz fegyver, amelynek csapásai a földre kényszerítik az ellenfelet.','A heavy weapon whose blows can break an opponent’s momentum.'],
   'Lightbringer':['Fénylő harci kalapács, amely sugárzó energiával sújtja ellenfeleit.','A luminous warhammer that strikes its foes with radiant energy.'],
   'Méreg ellenszer':['Keserű ellenméreg, amely megtisztítja a szervezetet a mérgezéstől.','A bitter antidote that purges poison from the body.'],
-  'Misztikus Rúnakő':['Ritka rúnakő, amely mágikus képességekkel ruházhat fel egy tárgyat.','A rare runestone capable of imbuing an item with magical properties.'],
+  'Misztikus Rúnakő':['Egy rúnakő, amely mágikus képességekkel ruházhat fel egy tárgyat.','A rare runestone capable of imbuing an item with magical properties.'],
   'Mithral Láncing':['Pehelykönnyű láncing, amely kiváló védelmet nyújt a pengék ellen.','Feather-light chain armor offering excellent protection from blades.'],
   'Orb of Detect magic':['Mágikus gömb, amely felfedi a környezetében rejtőző varázserőt.','A magical orb that reveals arcane power hidden nearby.'],
   'Potion of arcane recovery':['A főzet felfrissíti a varázshasználó kimerült mágikus erejét.','This potion refreshes a spellcaster’s depleted arcane power.'],
