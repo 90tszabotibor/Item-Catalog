@@ -36,8 +36,8 @@ export const items = [
     "name": "Black Panter Studded Armor",
     "category": "Páncél",
     "price": 1200,
-    "summary": "13 AC (+ dex) +1 Studded leather armor",
-    "details": "13 AC (+ dex) +1 Studded leather armor\n+1 dexterity save"
+    "summary": "A viselő **+1 bónuszt kap a Dexterity-mentődobásokhoz**.",
+    "details": "**13 AC + Dex mod**\n\n**Panther’s Agility:**\n\nA viselő **+1 bónuszt kap a Dexterity-mentődobásokhoz**."
   },
   {
     "id": 16,
@@ -60,8 +60,8 @@ export const items = [
     "name": "Boots of Striding and Springing",
     "category": "Páncél",
     "price": 1000,
-    "summary": "Longrestenként 1x",
-    "details": "Longrestenként 1x\nMegnöveli a viselője alap mozgási sebességét 10-el\nMegháromszorozza az ugrási távolságokat\nAz esési sebzést felezi"
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Striding and Springing:**\n\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 1 perc\n\nA képesség aktiválásakor:\n\n- A viselő alap mozgási sebessége 10 ft-tel nő.\n- Az ugrási távolsága a háromszorosára nő.\n- Az elszenvedett esési sebzés a felére csökken."
   },
   {
     "id": 29,
@@ -356,8 +356,8 @@ export const items = [
     "name": "Handbreaker",
     "category": "Fegyver",
     "price": 1200,
-    "summary": "+1 Mace",
-    "details": "+1 Mace\nTalálat esetén a Sap állapot fennmarad mindaddig ameddig a célpont nem dob sikeres constitution mentőt DC10-re"
+    "summary": "Ha a használó proficient a Mace használatára, akkor a célpont Sap állapota addig marad fenn, amíg a célpont sikeres **DC 10 Constitution-mentődobást** nem tesz. Az első m",
+    "details": "**+1 Mace**\n\n**Handbreaker:**\n\nHa a használó proficient a Mace használatára, akkor a célpont Sap állapota addig marad fenn, amíg a célpont sikeres **DC 10 Constitution-mentődobást** nem tesz. Az első mentődobást az elszenvedő a saját első körében teheti meg."
   },
   {
     "id": 57,
