@@ -1,6 +1,6 @@
 import { items } from './items.generated';
 
-export type CatalogItem = (typeof items)[number];
+export type CatalogItem = { id: number; name: string; category: string; price: number | null; summary: string; details: string };
 
 export const itemImages: Record<string, string> = {
   'Adamantin Sisak': '/items/adamantin-sisak.jpeg',
@@ -88,5 +88,4 @@ export const itemKey = (name: string) => name
   .replace(/[^a-z0-9]+/g, '-')
   .replace(/^-|-$/g, '');
 
-export const allCatalogItems = items.filter((item) => Boolean(itemImages[item.name]));
-
+export const allCatalogItems: CatalogItem[] = items.filter((item) => Boolean(itemImages[item.name]));

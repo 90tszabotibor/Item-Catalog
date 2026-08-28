@@ -1,0 +1,392 @@
+{
+  "Adamantin Sisak": {
+    "huName": "Adamantin Sisak",
+    "enName": "Adamantin Sisak",
+    "enDetails": "* * + 1 AC * *\n\n♪ Adamantine Defense: ♪\n\nThe wearer of the helmet will use Advantage to throw away the Dexter rescue boxes that can deter wounds or attacks.\n\nCritical hits on the wearer are considered normal results."
+  },
+  "Amulet of wisdom": {
+    "huName": "A bölcsesség amulettje",
+    "enName": "Amulet of wisdom",
+    "enDetails": "♪ Sage's Resolve: ♪\n\nThe holder will receive * * + 1 bonus for the Wisdom rescue boxes * *."
+  },
+  "Basic poison": {
+    "huName": "Bázikus méreg",
+    "enName": "Basic poison",
+    "enDetails": "Activation: Bonus\nTarget: 1 weapon or up to 3 ammunition\nDuration: 1 minute or until the first hit\n\nAt the time of the hit, the target will have to do the DC 10 Facility rescue ball * *. * * * * * * * * * * * * * * * * * * * * * * * * * * The poison doesn't cause Poisoned."
+  },
+  "Belt of the Hill Giant": {
+    "huName": "A Hill Giant öve",
+    "enName": "Belt of the Hill Giant",
+    "enDetails": "Minimum 15 Strength\n\n♪ Giant Strength: ♪\n\nThe value of the wearing Strength is up to 21."
+  },
+  "Black Panter Studded Armor": {
+    "huName": "Black Panter Studded Armor",
+    "enName": "Black Panter Studded Armor",
+    "enDetails": "* * 13 AC + Dex mod * *\n\n* * Panther's Agency: * *\n\nThe holder will receive * * + 1 bonus for Dexter rescue boxes * *."
+  },
+  "Black Wolf Fur": {
+    "huName": "Fekete farkas szőrme",
+    "enName": "Black Wolf Fur",
+    "enDetails": "* * 13 AC + max 2 Dex mod * *\n\nWolf's Presence:\n\nThe wearer uses an advantage to perform the Intimidation tests."
+  },
+  "Blinkdagger": {
+    "huName": "Blinktőr",
+    "enName": "Blinkdagger",
+    "enDetails": "* * + 1 dagger * *\n\n♪ Blinkstep: ♪\n\nActivation: Bonus\nUsage: For a long rest 3x\n\nYou throw the dagger at a creature you see or an empty point. At the moment of the drop, you and the dagger will be on the Ether Flat for a short time.\n\nIf the dagger hits the target or reaches the designated point, you will teleport to the dagger immediately. If you did the Blinkstep attack, the attack will cause another 1d6 force wound.\n\nThen the dagger magically returns to your hand. When your hands are full, they fall to your feet."
+  },
+  "Boots of Striding and Springing": {
+    "huName": "Csizmás csiga",
+    "enName": "Boots of Striding and Springing",
+    "enDetails": "♪ Striding and Spring ♪\n\nUsage: 1 x per long rest\nDuration: 1 minute\n\nWhen the ability is activated:\n\n- Wearing base motion rate is increasing by 10 ft.\nHis jump distance is up three times.\nThe fall wound you sustained is down to half."
+  },
+  "Bracer of fire resistance": {
+    "huName": "Tűzállósági zárószerkezet",
+    "enName": "Bracer of fire resistance",
+    "enDetails": "♪ Fire Resistance: ♪\n\nThe man who wears the bracelet gets resistance to the fire wound."
+  },
+  "Bracers of Defense": {
+    "huName": "Védekezők",
+    "enName": "Bracers of Defense",
+    "enDetails": "* * + 2 AC * *\n\nUnarmored Defense:\n\nThe bonus only applies if the holder does not wear any other armor."
+  },
+  "Braclet of sleight hands": {
+    "huName": "Karperecek",
+    "enName": "Braclet of sleight hands",
+    "enDetails": "♪ Nimble Fingers: ♪\n\nThe owner of the bracelet has the advantage of performing Sleight of Hand trials."
+  },
+  "Broom of Flying": {
+    "huName": "Broom of Flying",
+    "enName": "Broom of Flying",
+    "enDetails": "♪ Flying broom ♪\n\n♪ Flying ♪\n\nActivation: Action, verbal\nFocus: yes\nFlight speed: 60 ft\n\nThe use of broom flight capability requires concentration."
+  },
+  "Cast-Iron Critical Clanger": {
+    "huName": "Cast- Iron Critical Cranger",
+    "enName": "Cast-Iron Critical Clanger",
+    "enDetails": "The Kitchen Critical Concert\n\n* * + 2 mace * *\n\n* * Critical Resonance: * *\n\nThe weapon reduces the value of a critical hit by one.\n\n* * Earring Kong: * *\n\nActivation: When you hit critical\nRange: area around the user 30 ft radius\nRescue Bay: DC 15 Constitution\n\nThe weapon creates a deafening noise. All other beings in the range must make a Constitution rescue throw.\n\nIn the event of a failure of a rescue bar, 3d8 thunder is damaged and will remain in Deafened until the next round of the user begins. In case of a successful rescue shot, half of them are injured and not in Deafened condition."
+  },
+  "Catpaw boots": {
+    "huName": "Csipkebogyó",
+    "enName": "Catpaw boots",
+    "enDetails": "♪ Silent Steps: ♪\n\nThe owner of the boots has an advantage in performing the Stealth trials."
+  },
+  "Circlet of Blasting": {
+    "huName": "Robbanókör",
+    "enName": "Circlet of Blasting",
+    "enDetails": "* * + 1 fire * *\n\n♪ Scorpion Ray: ♪\n\nUsage: 1 x per long rest\n\nYou can blow the Scorching Ray spell from the headdress."
+  },
+  "Cloak of Invisibility": {
+    "huName": "A láthatatlanság foltja",
+    "enName": "Cloak of Invisibility",
+    "enDetails": "♪ Magic cape ♪\n\n* * Invisibility: * *\n\nUsage: 1 x per long rest\n\nYou can burn the Invisibility spell from the cape."
+  },
+  "Crystal ball": {
+    "huName": "Kristálygömb",
+    "enName": "Crystal ball",
+    "enDetails": "♪ Magic crystal ball ♪\n\n* * Scriing: *\n\nUsage: 1 x per long rest\nRescue room: DC 17\n\nYou can blow the Scrying spell from the crystal ball."
+  },
+  "Decanter of Endless Water": {
+    "huName": "Végtelen víz dekanter",
+    "enName": "Decanter of Endless Water",
+    "enDetails": "♪ Magic jug ♪\n\n♪ Endless Water: ♪\n\nActivation: Action, verbal\n\nThe jug can release unlimited amounts of water by command."
+  },
+  "Diadem of arcane knowledge": {
+    "huName": "Az arnádtudás diademe",
+    "enName": "Diadem of arcane knowledge",
+    "enDetails": "♪ Arcane Knowledge: ♪\n\nThe winner of my triumph is performing Arcana trials with an advantage."
+  },
+  "Displacer’s Deceptive Duster": {
+    "huName": "Álcázó kotor",
+    "enName": "Displacer’s Deceptive Duster",
+    "enDetails": "Mirage Grinder Duvadar\n\n* * 14 AC + Dex mod * *\n\n* * Displacement: * *\n\nActivation: Action\nUsage: 1 x per long rest\nDuration: 10 laps\n\nWhen it is activated, the cloak distorts the wearer's position. During the duration of the action, all attacks against the wearer are carried out with disadvantage."
+  },
+  "Dragon rum": {
+    "huName": "Sárkányrum",
+    "enName": "Dragon rum",
+    "enDetails": "When you consume a dose, the user is under * * Dragon's Breath * * spell.\n\nA dose is a unit of alcohol. Each bottle contains 10 doses."
+  },
+  "Earrings of charm": {
+    "huName": "A báj fülei",
+    "enName": "Earrings of charm",
+    "enDetails": "* * Charming Presence: * *\n\nThe opponents throw their rescue balls at the ability of the wearing Charmed to cause a condition."
+  },
+  "Elixir of Aboleth": {
+    "huName": "Aboleth elixírje",
+    "enName": "Elixir of Aboleth",
+    "enDetails": "Your INT value will be 21 for 24 hours or the next long rest."
+  },
+  "Elixir of Acid Resistance": {
+    "huName": "Acid Rezisztencia Elixir",
+    "enName": "Elixir of Acid Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * acid * *."
+  },
+  "Elixir of Bear": {
+    "huName": "Medve elixírje",
+    "enName": "Elixir of Bear",
+    "enDetails": "Duration: 1 minute\n\nThe user will receive a bonus * * + 2 Strength * *."
+  },
+  "Elixir of Bloodlust": {
+    "huName": "Vérszomj elixírje",
+    "enName": "Elixir of Bloodlust",
+    "enDetails": "Duration: 1 hour\n\n1x per round, when the user kills an opponent, * * 5 temporary HP * * and another non-magic action or bonus.\n\nIn addition to fighting, the user * * DC has to do 10 Wisdom rescue boxes * *. In the event of a failure, you will attack the nearest target for 1 minute."
+  },
+  "Elixir of Cloud Giant": {
+    "huName": "A Cloud Giant elixírje",
+    "enName": "Elixir of Cloud Giant",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nUser's Strength value * * changes to 27 * *."
+  },
+  "Elixir of Cold Resistance": {
+    "huName": "A hideg ellenállás elixírje",
+    "enName": "Elixir of Cold Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * cold wound * *."
+  },
+  "Elixir of Fire Resistance": {
+    "huName": "A tűzállóság elixírje",
+    "enName": "Elixir of Fire Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * fire * *."
+  },
+  "Elixir of Hill Giant": {
+    "huName": "Elixir of Hill Giant",
+    "enName": "Elixir of Hill Giant",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe value of the user Strength * * changes to 21s * *."
+  },
+  "Elixir of Lightning Resistance": {
+    "huName": "A Villám Ellenállás Elixírje",
+    "enName": "Elixir of Lightning Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * light-lighting * *."
+  },
+  "Elixir of Lynx": {
+    "huName": "Lynx elixírje",
+    "enName": "Elixir of Lynx",
+    "enDetails": "Duration: 1 minute\n\nThe user will receive a bonus * * + 2 Dexter * *."
+  },
+  "Elixir of Necrotic Resistance": {
+    "huName": "A nekrotikus rezisztencia elixírje",
+    "enName": "Elixir of Necrotic Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user receives resistance to * * necrotic wound * *."
+  },
+  "Elixir of Owl": {
+    "huName": "Bagoly elixírje",
+    "enName": "Elixir of Owl",
+    "enDetails": "Duration: 1 minute\n\nThe user will receive * * + 2 Intelligence * * bonus."
+  },
+  "Elixir of Ox": {
+    "huName": "Ox elixír",
+    "enName": "Elixir of Ox",
+    "enDetails": "Duration: 1 minute\n\nThe user will receive * * + 2 Constitution * * bonus."
+  },
+  "Elixir of Peacock": {
+    "huName": "A páva elixírje",
+    "enName": "Elixir of Peacock",
+    "enDetails": "Duration: 1 minute\n\nThe user will receive * * + 2 Charisma * * bonus."
+  },
+  "Elixir of Poison Resistance": {
+    "huName": "Mérgezési rezisztencia elixírje",
+    "enName": "Elixir of Poison Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * poison * *."
+  },
+  "Elixir of Psychic Resistance": {
+    "huName": "A pszichés ellenállás elixírje",
+    "enName": "Elixir of Psychic Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * psychic * *."
+  },
+  "Elixir of Radiant Resistance": {
+    "huName": "A sugárrezisztencia elixírje",
+    "enName": "Elixir of Radiant Resistance",
+    "enDetails": "Duration: 24 hours or until the next long rest period\n\nThe user gets resistance to * * radiant damage * *."
+  },
+  "Elixir of Stag": {
+    "huName": "Stag elixírje",
+    "enName": "Elixir of Stag",
+    "enDetails": "Duration: 1 minute\n\nThe user will receive * * + 2 Wisdom * * bonus."
+  },
+  "Elixir of Tressym": {
+    "huName": "Tressym elixírje",
+    "enName": "Elixir of Tressym",
+    "enDetails": "The user gets * * Infravision * * ability."
+  },
+  "Flametongue shortsword": {
+    "huName": "Flamandus shortsword",
+    "enName": "Flametongue shortsword",
+    "enDetails": "* * + 1 Shortsword * *\n\n* * + 1d6 fire wound * *\n\nThe blade can also be used as a light source."
+  },
+  "Gauntlet of strong hands": {
+    "huName": "Erős kezek kesztyűje",
+    "enName": "Gauntlet of strong hands",
+    "enDetails": "* * + 1 AC * *\n\nMinimum 12 Strength\n\n♪ Strong Hands: ♪\n\nThe wearer of the glove has the advantage of performing the Strength trials."
+  },
+  "Greater healing potion": {
+    "huName": "Nagyobb gyógyító bájital",
+    "enName": "Greater healing potion",
+    "enDetails": "Consumption of the potion * * cure 4d4 + 4 HP * *."
+  },
+  "Handbreaker": {
+    "huName": "Kéztörő",
+    "enName": "Handbreaker",
+    "enDetails": "* * + 1 Mace * *\n\n♪ Handbreaker: ♪\n\nIf the user is professional for using Mace, the target is Sap's condition will be maintained until the target is successful * * DC 10 Configuration Rescue Point * *. The first rescue shot can be done by the sufferer in his own circle."
+  },
+  "Healing potion": {
+    "huName": "Gyógyító bájital",
+    "enName": "Healing potion",
+    "enDetails": "Consumption of the potion * * 2d4 + 2 HP * *."
+  },
+  "Immovable Rod": {
+    "huName": "Rúd",
+    "enName": "Immovable Rod",
+    "enDetails": "♪ Magic rod ♪\n\n* * Immovable: * *\n\nMotion: DC 30 Strength\nDescription: 3,5 tonnes\n\nWhen the bar is activated, it becomes unmovable. A successful DC 30 Strength test is required to push or move."
+  },
+  "Javelin of Thunder Peaks": {
+    "huName": "Thunder Peaks Javelin",
+    "enName": "Javelin of Thunder Peaks",
+    "enDetails": "* * + 1 Javelin * *\n\n* * + 1d4 thunder wound * *"
+  },
+  "Legbreaker": {
+    "huName": "Legbreaker",
+    "enName": "Legbreaker",
+    "enDetails": "* * + 1 Maul * *\n\nMinimum 15 Strength\n\n♪ Legbreaker: ♪\n\nThe opponent is throwing a disadvantage in the Constitution for Topple."
+  },
+  "Lightbringer": {
+    "huName": "Lightbringer",
+    "enName": "Lightbringer",
+    "enDetails": "* * + 1 Light hammer * *\n\n+ 1d4 radiant damage"
+  },
+  "Méreg ellenszer": {
+    "huName": "Mereg ellenszer",
+    "enName": "Méreg ellenszer",
+    "enDetails": "The drug eliminates the * * Poisoned status * * on the user."
+  },
+  "Misztikus Rúnakő": {
+    "huName": "Rúnakő Misztikus",
+    "enName": "Misztikus Rúnakő",
+    "enDetails": "* * Rune application: * *\n\nThe rune stone, applied on an object, makes it a magical object. Use * * two effects * * from the list below:\n\n- + 1 AC\n- + 1 for attack and wound throwing\n- + 1 for DC and for attack and wound throwing for a selected type of wound\n- + 1d4 damage from a selected type of wound\n- A selected level 1 spell is fired at a long rest of 1x\n- + 1d4 for all treatments\n- + 1 for rescue bars\n- Advantage to the trials of a chosen skill\n\nThe effects listed are just examples. Other magical effects of similar force may be chosen."
+  },
+  "Mithral Láncing": {
+    "huName": "Mithral Lancing",
+    "enName": "Mithral Láncing",
+    "enDetails": "♪ 15 AC + Dex mod ♪\n\nBreach and slashing wounds sustained by the wearer * * decrease by 1 * *."
+  },
+  "Orb of Detect magic": {
+    "huName": "A felfedező mágia gömbje",
+    "enName": "Orb of Detect magic",
+    "enDetails": "♪ Magic orb ♪\n\n♪ Detect Magic: ♪\n\nUsage: For a long rest 3x\n\nYou can blow the Detect Magic spell from the sphere. The range of magic increases twice."
+  },
+  "Potion of arcane recovery": {
+    "huName": "Az arnádvisszanyerés mértéke",
+    "enName": "Potion of arcane recovery",
+    "enDetails": "Consumption of the potion restores a * * Level 1 spell slot * *."
+  },
+  "Potion of feather fall": {
+    "huName": "A toll leesése",
+    "enName": "Potion of feather fall",
+    "enDetails": "When the potion is consumed, the user is under the influence of * * * * * * * * * * * *."
+  },
+  "Potion of Invisibility": {
+    "huName": "A láthatatlanság mértéke",
+    "enName": "Potion of Invisibility",
+    "enDetails": "When the potion is consumed, the user * * will become Invisible at 1 hour * *."
+  },
+  "Potion of Speed": {
+    "huName": "Sebességfokozat",
+    "enName": "Potion of Speed",
+    "enDetails": "When you consume the potion, the user is under * * Haste * * spell."
+  },
+  "Prismatic Psychedelic Peepers": {
+    "huName": "Prismatic Psychedelic Peepers",
+    "enName": "Prismatic Psychedelic Peepers",
+    "enDetails": "Prismatic Psychedelic Pope\n\n* * + 2 illusions * *\n\n* * Hypnotic Patterson: * *\n\nUsage: 1 x per long rest\n\nYou can burn the Hypnotic Pattern spell from the glasses."
+  },
+  "Purifying Incense": {
+    "huName": "Mérgezés tisztítása",
+    "enName": "Purifying Incense",
+    "enDetails": "Your incense can be used during short rest and smoked for 10 minutes.\n\nPlayers in smoke are removed from any minor curse. After use, your incense becomes ash."
+  },
+  "Quickly Powder": {
+    "huName": "Gyors por",
+    "enName": "Quickly Powder",
+    "enDetails": "Duration: 8 hours\n\nThe user cannot be put to sleep, the rate of movement * * increases by 5 ft * * and the condition of Exhaustion disappears.\n\nAt the end of the action, the user's Exhaustion level will be 1 higher than when the powder was used."
+  },
+  "Reinforced Leather Coat": {
+    "huName": "Megerősített bőrkabát",
+    "enName": "Reinforced Leather Coat",
+    "enDetails": "* * 13 AC + max 2 Dex mod * *\n\nBreach and slashing wounds sustained by the wearer * * decrease by 1 * *."
+  },
+  "Ring of Arcane Recovery": {
+    "huName": "Az Arcane Recovery gyűrűje",
+    "enName": "Ring of Arcane Recovery",
+    "enDetails": "♪ Arcane Recovery: ♪\n\n1 x\n\nThe ring reloads a level 1 spell slot."
+  },
+  "Ring of Brightness": {
+    "huName": "Fényesség gyűrűje",
+    "enName": "Ring of Brightness",
+    "enDetails": "♪ Brightness: ♪\n\nRange: 10 ft radius\n\nThe ring creates a weak light around the wearer."
+  },
+  "Ring of Remove Curse": {
+    "huName": "Az átkok eltávolítása gyűrűje",
+    "enName": "Ring of Remove Curse",
+    "enDetails": "♪ Magic ring ♪\n\n* * Remove Curse: *\n\nUsage: 1 x per long rest\n\nYou can burn the Remove Curse spell from the ring."
+  },
+  "Ring of Spell Storing": {
+    "huName": "Ring of Spell Storing",
+    "enName": "Ring of Spell Storing",
+    "enDetails": "♪ Magic ring ♪\n\n* * Spell Storing: * *\n\nUsage: 1 x per long rest\n\nAny person in the ring may place a maximum level 5 enchantment which may later be fired by the wearer. A stored spell can also be used by a creature who is otherwise incapable of magic.\n\nIn case of a non-magic user, the dc of the spell is 14, and for the attack point, the dexterity modifier must be used."
+  },
+  "Ritual Dagger": {
+    "huName": "Rituális tőr",
+    "enName": "Ritual Dagger",
+    "enDetails": "* * Dagger * *\n\n* * Ritual Focus: * *\n\nThe time of rituals using the dagger is half down."
+  },
+  "Scrying Eye Orb": {
+    "huName": "Szürke szemgömb",
+    "enName": "Scrying Eye Orb",
+    "enDetails": "♪ Magic orb ♪\n\n* * Scriing Eye: * *\n\nUsage: 1 x per long rest\nRange: 300 ft\n\nThe sphere becomes a floating eye, which you can control within range. Through the eyes, you sense the environment as if you were in place."
+  },
+  "Shatter shard": {
+    "huName": "Törmelék",
+    "enName": "Shatter shard",
+    "enDetails": "♪ Magic crystal shard ♪\n\n♪ Shatter: ♪\n\nActivation: Drop Shard\n\nWhen you throw the shard, it creates the effect of Shatter magic at the point of impact."
+  },
+  "Staff of Healing": {
+    "huName": "Gyógyító személyzet",
+    "enName": "Staff of Healing",
+    "enDetails": "* * + 1d4 healing * *\n\n♪ Cure Wounds: ♪\n\nUsage: For a long rest 3x\n\nYou can blow the Cure Wounds spell from the staff."
+  },
+  "Staff of Sleep": {
+    "huName": "Alvó személyzet",
+    "enName": "Staff of Sleep",
+    "enDetails": "♪ Quarterstaff ♪\n\n* * Sleep: *\n\nUsage: 1 x per long rest\n\nYou can make the sleep spell out of the staff."
+  },
+  "Strong poison": {
+    "huName": "Erős méreg",
+    "enName": "Strong poison",
+    "enDetails": "Activation: Bonus\nTarget: 1 weapon or up to 3 ammunition\nDuration: 1 minute or until the first hit\n\nAt the time of the hit, the target * * DC has to do 14 Constitution rescue boxes * *. * * * * * * * * * * * * * * * * * * * * * * * *"
+  },
+  "Sunshine-Singer’s Solar Serenade Sickle": {
+    "huName": "Sunshine- Singer 's Solar Serenade Sickle",
+    "enName": "Sunshine-Singer’s Solar Serenade Sickle",
+    "enDetails": "Solidarity Solar Serenade - Radiation sickle\n\n♪ Sickle, + 2 radiant ♪\n\n* * Solar Serenade: * *\n\nUsage: 1 x per long rest\n\nYou can burn the Sunbeam spell from the sickle.\n\nIn order to maintain the spell, you and a partner must continue to sing a song about sunlight. The sickle won't accept the same song twice."
+  },
+  "Tigereye Monocle of Darkvision": {
+    "huName": "Tigereye a sötétlátás monoklija",
+    "enName": "Tigereye Monocle of Darkvision",
+    "enDetails": "Darkvision:\n\nThe monocle wearer * * 60 ft Darkvision * * has the ability."
+  },
+  "Vestments of the Noble Snow-Leopard": {
+    "huName": "A Nemes Hó-Leopárd emlékei",
+    "enName": "Vestments of the Noble Snow-Leopard",
+    "enDetails": "* * 13 AC + max 2 Dex mod * *\n\n♪ Noble Presence: ♪\n\nThe wearer of the cloak has an advantage in conducting Persuasion tests."
+  },
+  "Wand of Ice Knife": {
+    "huName": "A jégkés pálcája",
+    "enName": "Wand of Ice Knife",
+    "enDetails": "* * + 1 a cold * *\n\n♪ Ice Knife: ♪\n\nUsage: 1 x per long rest\n\nYou can blow the Ice Knife spell from the wand."
+  },
+  "Wand of magic missile": {
+    "huName": "Mágikus rakéta pálca",
+    "enName": "Wand of magic missile",
+    "enDetails": "♪ Magic Missile: ♪\n\nUsage: 1 x per long rest\n\nYou can blow the Magic Missile spell from the wand."
+  },
+  "Wand of Sickeness": {
+    "huName": "Betegség pálcája",
+    "enName": "Wand of Sickeness",
+    "enDetails": "* * Spellcasting focus * *\n\n♪ Ray of Sickness: ♪\n\nUsage: For a long rest 3x\n\nYou can blow the Ray of Sickness spell from the wand."
+  }
+}
