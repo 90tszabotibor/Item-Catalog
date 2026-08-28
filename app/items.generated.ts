@@ -412,8 +412,8 @@ export const items = [
     "name": "Misztikus Rúnakő",
     "category": "Mágikus tárgy",
     "price": 500,
-    "summary": "Uncommon magic itemmé tesz bármilyen tárgyat.",
-    "details": "Uncommon magic itemmé tesz bármilyen tárgyat.\nArmor: +1 AC\nFegyver: +1 találat és sebzés\nV1: +1 DC, találat és sebezés sebzéstípusonként.\nV2: 1d4 sebzéstípusonként.\nV3: 1x lvl 1 spellslot\nV4: +1d4 minden healhez\nV5: +1 DC valameilyik DC-re"
+    "summary": "A rúnakő egy tárgyon alkalmazva mágikus tárggyá teszi azt. Alkalmazásakor válassz **két hatást** az alábbi listából:",
+    "details": "**Rúna alkalmazása:**\n\nA rúnakő egy tárgyon alkalmazva mágikus tárggyá teszi azt. Alkalmazásakor válassz **két hatást** az alábbi listából:\n\n- +1 AC\n- +1 a támadás- és sebzésdobásokhoz\n- +1 a DC-hez, valamint a támadás- és sebzésdobásokhoz egy választott sebzéstípus esetén\n- +1d4 sebzés egy választott sebzéstípusból\n- Egy választott 1. szintű varázslat elsütése hosszú pihenőnként 1x\n- +1d4 minden gyógyításhoz\n- +1 a mentődobásokhoz\n- Előny egy választott skill próbáira\n\nA felsorolt hatások csak példák. Más, hasonló erejű mágikus hatás is választható."
   },
   {
     "id": 34,
