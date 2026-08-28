@@ -46,9 +46,8 @@ export function DmModeControl({ dmMode, setDmMode, language }: { dmMode: boolean
   };
 
   return <>
-    <button className={`dmToggle ${dmMode ? 'active' : ''}`} type="button" role="switch" aria-checked={dmMode} onClick={toggle}>
-      <span className="dmToggleTrack" aria-hidden="true"><span /></span>
-      {language === 'hu' ? 'DM mód' : 'DM mode'}
+    <button className={`dmToggle ${dmMode ? 'active' : ''}`} type="button" aria-pressed={dmMode} onClick={toggle}>
+      {dmMode ? (language === 'hu' ? 'DM mód: be' : 'DM mode: on') : (language === 'hu' ? 'DM mód' : 'DM mode')}
     </button>
     {open && <div className="dmGateBack" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setOpen(false)}>
       <form className="dmGate" onSubmit={submit}>

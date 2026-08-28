@@ -9,6 +9,7 @@ import { DmModeControl, useDmMode } from './DmMode';
 import { categoryLabel, localizedItem, useLanguage } from './i18n';
 import type { Merchant } from './merchant-data';
 import { allCatalogItems, itemImages } from './catalog-data';
+import { publicDescription } from './public-descriptions';
 
 export default function MerchantDetailClient({ merchant }: { merchant: Merchant }) {
   const { language, setLanguage } = useLanguage();
@@ -66,6 +67,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
                   </div>
                   <div className="cardBody">
                     <h3>{item.name}</h3>
+                    <p className="publicSummary">{publicDescription(item, language)}</p>
                     <div className="cardInfo">
                       <span>{categoryLabel(item.category, language)}</span>
                       {dmMode && <strong>{item.price ? `${item.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} ${language === 'hu' ? 'arany' : 'gold'}` : (language === 'hu' ? 'Ár megegyezés szerint' : 'Price by agreement')}</strong>}
