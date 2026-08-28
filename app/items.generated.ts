@@ -635,7 +635,7 @@ export const items = [
     "id": 80,
     "name": "Blessing of Titania",
     "category": "Ékszer",
-    "price": 6500,
+    "price": 12990,
     "summary": "A Misty Step után vakító fényvillanást hozhat létre.",
     "details": "**+2 Charisma**\n\n**Vakító lépés:**\n\nA Misty Step varázslat használatát követően 10 lábon belül fényes villanást okozhatsz. A területen tartózkodó lényeknek **DC 17 Wisdom-mentődobást** kell tenniük, különben Blinded állapotba kerülnek."
   },
