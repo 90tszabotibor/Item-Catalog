@@ -622,5 +622,29 @@ export const items = [
     "price": 400,
     "summary": "Használat: Hosszú pihenőnként 3x",
     "details": "**Spellcasting focus**\n\n**Ray of Sickness:**\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a wandból a Ray of Sickness varázslatot."
+  },
+  {
+    "id": 79,
+    "name": "Evoker's Robe",
+    "category": "Páncél",
+    "price": 1800,
+    "summary": "Egy előkészített 1. szintű Evocation varázslat hosszú pihenőnként 1x spell slot nélkül elsüthető.",
+    "details": "**+1 Evocation**\n\n**Evokátor ereje:**\n\nHasználat: Hosszú pihenőnként 1x\n\nEgy előkészített 1. szintű Evocation varázslat spell slot felhasználása nélkül elsüthető."
+  },
+  {
+    "id": 80,
+    "name": "Blessing of Titania",
+    "category": "Ékszer",
+    "price": 6500,
+    "summary": "A Misty Step után vakító fényvillanást hozhat létre.",
+    "details": "**+2 Charisma**\n\n**Vakító lépés:**\n\nA Misty Step varázslat használatát követően 10 lábon belül fényes villanást okozhatsz. A területen tartózkodó lényeknek **DC 17 Wisdom-mentődobást** kell tenniük, különben Blinded állapotba kerülnek."
+  },
+  {
+    "id": 81,
+    "name": "Veil of Agony",
+    "category": "Páncél",
+    "price": 8500,
+    "summary": "A nekrotikus sebzés felét életerőként visszaadja.",
+    "details": "**+1 necrotic**\n\n**Életerőcsapolás:**\n\nAmikor nekrotikus sebzést okozol egy lénynek, a köpeny elszívja annak életerejét. Az okozott sebzés felét életerőként visszakapod."
   }
 ] as const;

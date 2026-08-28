@@ -14,7 +14,7 @@ export default function MerchantsClient() {
     <section className="merchantSection" aria-label={language === 'hu' ? 'Árusok' : 'Merchants'}>
       <div className="merchantGrid">{merchants.map((merchant) => <Link className="merchantCard" href={`/merchants/${merchant.slug}`} key={merchant.slug}>
         <div className={`merchantArtwork ${merchant.image ? 'hasImage' : ''}`}>{merchant.image ? <Image src={merchant.image} alt="" fill sizes="(max-width:760px) 100vw, (max-width:1000px) 50vw, 33vw"/> : <span aria-hidden="true">{(language === 'hu' ? merchant.hu : merchant.en).charAt(0)}</span>}</div>
-        <div className="merchantContent"><div className="merchantMeta"><span>{language === 'hu' ? merchant.roleHu : merchant.roleEn}</span></div><h2>{language === 'hu' ? merchant.hu : merchant.en}</h2>{(language === 'hu' ? merchant.noteHu : merchant.noteEn) && <p>{language === 'hu' ? merchant.noteHu : merchant.noteEn}</p>}</div>
+        <div className="merchantContent"><div className="merchantMeta"><span>{language === 'hu' ? merchant.roleHu : merchant.roleEn}</span></div><h2>{language === 'hu' ? merchant.hu : merchant.en}</h2></div>
       </Link>)}</div>
     </section>
     <footer><span>{language === 'hu' ? `${merchants.length} lajstromozott árus` : `${merchants.length} catalogued merchants`}</span><span>{language === 'hu' ? 'A portéka változhat, a jó alku örök.' : 'Wares may change; a good bargain endures.'}</span></footer>

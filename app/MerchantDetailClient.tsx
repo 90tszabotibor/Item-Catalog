@@ -2,13 +2,17 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useCallback, useState } from 'react';
 import SiteNav from './SiteNav';
+import ItemModal from './ItemModal';
 import { categoryLabel, localizedItem, useLanguage } from './i18n';
 import type { Merchant } from './merchant-data';
 import { allCatalogItems, itemImages } from './catalog-data';
 
 export default function MerchantDetailClient({ merchant }: { merchant: Merchant }) {
   const { language, setLanguage } = useLanguage();
+  const [selectedId, setSelectedId] = useState<number | null>(null);
+  const closeModal = useCallback(() => setSelectedId(null), []);
   const name = language === 'hu' ? merchant.hu : merchant.en;
   const inventory = allCatalogItems
     .filter((item) => merchant.inventory?.includes(item.name)
@@ -16,6 +20,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
       || (merchant.inventoryMode === 'gondeth' && (item.category === 'Főzet' || (item.category === 'Mágikus tárgy' && (item.price ?? Infinity) <= 1000))))
     .map((item) => localizedItem(item, language))
     .sort((a, b) => a.name.localeCompare(b.name, language));
+  const selected = inventory.find((item) => item.id === selectedId) ?? null;
 
   return (
     <main>
@@ -35,7 +40,6 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
           <div className="merchantProfileBody">
             <div className="eyebrow">{language === 'hu' ? merchant.roleHu : merchant.roleEn}</div>
             <h1>{name}</h1>
-            {(language === 'hu' ? merchant.noteHu : merchant.noteEn) && <p>{language === 'hu' ? merchant.noteHu : merchant.noteEn}</p>}
           </div>
         </div>
         <section className="merchantInventory" aria-labelledby="merchant-inventory-title">
@@ -50,7 +54,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
             <div className="merchantItemGrid">
               {inventory.map((item) => {
                 const image = itemImages[item.originalName ?? item.name];
-                return <article className="card merchantItemCard" key={item.id}>
+                return <button className="card itemCard merchantItemCard" key={item.id} onClick={() => setSelectedId(item.id)} aria-label={`${item.name} ${language === 'hu' ? 'részletei' : 'details'}`}>
                   <div className={`artifact artifact${item.id % 4}${image ? ' hasImage' : ''}`} aria-hidden="true">
                     {image ? <Image src={image} alt="" fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 33vw" /> : <span>{item.name.charAt(0)}</span>}
                   </div>
@@ -61,12 +65,13 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
                       <strong>{item.price ? `${item.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} ${language === 'hu' ? 'arany' : 'gold'}` : (language === 'hu' ? 'Ár megegyezés szerint' : 'Price by agreement')}</strong>
                     </div>
                   </div>
-                </article>;
+                </button>;
               })}
             </div>
           ) : <div className="merchantInventoryEmpty">{language === 'hu' ? 'Jelenleg nincs lajstromozott portéka.' : 'No catalogued wares are currently available.'}</div>}
         </section>
       </section>
+      {selected && <ItemModal item={selected} language={language} onClose={closeModal} />}
     </main>
   );
 }

@@ -3,6 +3,7 @@ import { createClient } from '@vercel/edge-config';
 import { allCatalogItems, itemKey } from '@/app/catalog-data';
 
 const allKeys = allCatalogItems.map((item) => itemKey(item.name));
+const newlyAddedKeys = ["Evoker's Robe", 'Blessing of Titania', 'Veil of Agony'].map(itemKey);
 
 export async function getEnabledItemKeys() {
   const connectionString = process.env.EDGE_CONFIG;
@@ -10,7 +11,10 @@ export async function getEnabledItemKeys() {
   const stored = await createClient(connectionString).get<unknown[]>('enabledItems');
   if (!Array.isArray(stored)) return allKeys;
   const known = new Set(allKeys);
-  return stored.filter((value): value is string => typeof value === 'string' && known.has(value));
+  return [...new Set([
+    ...stored.filter((value): value is string => typeof value === 'string' && known.has(value)),
+    ...newlyAddedKeys,
+  ])];
 }
 
 export async function getPublicCatalogItems() {

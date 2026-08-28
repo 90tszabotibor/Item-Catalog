@@ -79,6 +79,9 @@ export const itemImages: Record<string, string> = {
   'Wand of Ice Knife': '/items/wand-of-ice-knife.jpeg',
   'Wand of Sickeness': '/items/wand-of-sickeness.jpeg',
   'Wand of magic missile': '/items/wand-of-magic-missile.jpeg',
+  "Evoker's Robe": '/items/evokers-robe.jpeg',
+  'Blessing of Titania': '/items/blessing-of-titania.jpeg',
+  'Veil of Agony': '/items/veil-of-agony.jpeg',
 };
 
 export const itemKey = (name: string) => name
