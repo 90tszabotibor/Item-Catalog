@@ -12,8 +12,8 @@ export const items = [
     "name": "Amulet of wisdom",
     "category": "Ékszer",
     "price": 500,
-    "summary": "Ismeretlen eredetű mágikus tárgy.",
-    "details": "**+1 Wisdom-mentődobás**"
+    "summary": "A viselő **+1 bónuszt kap a Wisdom-mentődobásokhoz**.",
+    "details": "**Sage’s Resolve:**\n\nA viselő **+1 bónuszt kap a Wisdom-mentődobásokhoz**."
   },
   {
     "id": 48,
