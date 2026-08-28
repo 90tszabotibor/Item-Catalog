@@ -164,8 +164,8 @@ export const items = [
     "name": "Dragon rum",
     "category": "Főzet",
     "price": 100,
-    "summary": "Dragon's Breath. Egy egység alkohol. Egy palack 10 használatra elegendő.",
-    "details": "Dragon's Breath. Egy egység alkohol. Egy palack 10 használatra elegendő."
+    "summary": "Egy adag elfogyasztásakor a használó a **Dragon’s Breath** varázslat hatása alá kerül.",
+    "details": "Egy adag elfogyasztásakor a használó a **Dragon’s Breath** varázslat hatása alá kerül.\n\nEgy adag egy egység alkoholnak számít. Egy palack 10 adagot tartalmaz."
   },
   {
     "id": 39,
@@ -204,8 +204,8 @@ export const items = [
     "name": "Elixir of Bloodlust",
     "category": "Főzet",
     "price": 100,
-    "summary": "1 órán át, körönként egyszer egy ellenfél megölésekor 5 ideiglenes HP-t és egy extra, nem mágikus akciót vagy bónuszakciót kapsz. Harcon kívül DC 10 Wisdom mentő; sikerte",
-    "details": "1 órán át, körönként egyszer egy ellenfél megölésekor 5 ideiglenes HP-t és egy extra, nem mágikus akciót vagy bónuszakciót kapsz. Harcon kívül DC 10 Wisdom mentő; sikertelenségnél 1 percig a legközelebbi célpontra támadsz."
+    "summary": "Időtartam: 1 óra",
+    "details": "Időtartam: 1 óra\n\nKörönként 1x, amikor a használó megöl egy ellenfelet, **5 ideiglenes HP-t**, valamint egy további nem mágikus akciót vagy bónuszakciót kap.\n\nHarcon kívül a használónak **DC 10 Wisdom-mentődobást** kell tennie. Sikertelen mentődobás esetén 1 percig a hozzá legközelebbi célpontot támadja."
   },
   {
     "id": 53,
@@ -460,8 +460,8 @@ export const items = [
     "name": "Potion of Speed",
     "category": "Főzet",
     "price": 300,
-    "summary": "Haste hatás.",
-    "details": "Haste hatás."
+    "summary": "A főzet elfogyasztásakor a használó a **Haste** varázslat hatása alá kerül.",
+    "details": "A főzet elfogyasztásakor a használó a **Haste** varázslat hatása alá kerül."
   },
   {
     "id": 15,
@@ -476,16 +476,16 @@ export const items = [
     "name": "Purifying Incense",
     "category": "Főzet",
     "price": 100,
-    "summary": "Short rest alatt használható. Tíz percig füstöl; a füstjében tartózkodó játékosokról eltávolít minden enyhe átkot, majd hamuvá válik.",
-    "details": "Short rest alatt használható. Tíz percig füstöl; a füstjében tartózkodó játékosokról eltávolít minden enyhe átkot, majd hamuvá válik.\nMedicine check."
+    "summary": "Az incense rövid pihenő alatt használható, és 10 percig füstöl.",
+    "details": "Az incense rövid pihenő alatt használható, és 10 percig füstöl.\n\nA füstben tartózkodó játékosokról eltávolít minden enyhe átkot. A használat után az incense hamuvá válik."
   },
   {
     "id": 62,
     "name": "Quickly Powder",
     "category": "Főzet",
     "price": 25,
-    "summary": "8 órán át nem lehet elaltatni, +5 speedet kap és megszűnik az exhaustion állapota. A hatás végén a használatkor meglévő értéknél 1-gyel magasabb exhaustiont kap.",
-    "details": "8 órán át nem lehet elaltatni, +5 speedet kap és megszűnik az exhaustion állapota. A hatás végén a használatkor meglévő értéknél 1-gyel magasabb exhaustiont kap."
+    "summary": "Időtartam: 8 óra",
+    "details": "Időtartam: 8 óra\n\nA használót nem lehet elaltatni, a mozgási sebessége **5 ft-tel nő**, és megszűnik az Exhaustion állapota.\n\nA hatás végén a használó Exhaustion-szintje 1-gyel magasabb lesz, mint a por használatakor volt."
   },
   {
     "id": 20,
