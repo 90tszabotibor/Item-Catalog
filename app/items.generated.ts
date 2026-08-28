@@ -212,8 +212,8 @@ export const items = [
     "name": "Elixir of Cloud Giant",
     "category": "Főzet",
     "price": 500,
-    "summary": "Az STR értéked 27 lesz 24 óráig vagy a következő long restig.",
-    "details": "Az STR értéked 27 lesz 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó Strength értéke **27-re változik**."
   },
   {
     "id": 72,
@@ -236,8 +236,8 @@ export const items = [
     "name": "Elixir of Hill Giant",
     "category": "Főzet",
     "price": 250,
-    "summary": "Az STR értéked 21 lesz 24 óráig vagy a következő long restig.",
-    "details": "Az STR értéked 21 lesz 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó Strength értéke **21-re változik**."
   },
   {
     "id": 74,
@@ -316,16 +316,16 @@ export const items = [
     "name": "Elixir of Stag",
     "category": "Főzet",
     "price": 140,
-    "summary": "+2 WIS 1 percig.",
-    "details": "+2 WIS 1 percig."
+    "summary": "Időtartam: 1 perc",
+    "details": "Időtartam: 1 perc\n\nA használó **+2 Wisdom** bónuszt kap."
   },
   {
     "id": 64,
     "name": "Elixir of Tressym",
     "category": "Főzet",
     "price": 50,
-    "summary": "Infravision.",
-    "details": "Infravision."
+    "summary": "A használó **Infravision** képességet kap.",
+    "details": "A használó **Infravision** képességet kap."
   },
   {
     "id": 32,
