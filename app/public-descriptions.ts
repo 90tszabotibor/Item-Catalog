@@ -43,7 +43,7 @@ const descriptions: Record<string, [string, string]> = {
   'Elixir of Radiant Resistance':['Az elixír tompítja a vakító isteni energiák erejét.','This elixir tempers the force of searing divine radiance.'],
   'Elixir of Stag':['Szarvasszerű lendületet és biztos mozgást kölcsönöz.','Grants stag-like momentum and sure-footed movement.'],
   'Elixir of Tressym':['A tressym különleges látásával ruházza fel fogyasztóját.','Grants the drinker the unusual sight of a tressym.'],
-  'Flametongue shortsword':['Rövidkard, amelynek pengéjét parancsszóra lángok ölelik körül.','A shortsword whose blade can be wreathed in flame on command.'],
+  'Flametongue shortsword':['Rövidkard, amelynek pengéjét lángok ölelik körül.','A shortsword whose blade can be wreathed in flame on command.'],
   'Gauntlet of strong hands':['A kesztyű határozottabbá és erősebbé teszi viselője fogását.','The gauntlet makes its wearer’s grip firmer and stronger.'],
   'Greater healing potion':['Erőteljes gyógyital, amely súlyosabb sebeket is gyorsan összeforraszt.','A potent healing draught capable of rapidly closing serious wounds.'],
   'Handbreaker':['Buzogány, amelynek csapásai megbénítják az ellenfelet.','A heavy mace whose blows weaken an opponent’s ability to fight back.'],
