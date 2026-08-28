@@ -1,9 +1,5 @@
-import CatalogClient from './CatalogClient';
-import { getPublicCatalogItems } from '@/lib/catalog-store';
-
-export const dynamic = 'force-dynamic';
+import MerchantsClient from './MerchantsClient';
 
 export default async function Home() {
-  const catalogItems = await getPublicCatalogItems();
-  return <CatalogClient catalogItems={catalogItems} />;
+  return <MerchantsClient />;
 }

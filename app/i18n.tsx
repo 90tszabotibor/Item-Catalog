@@ -87,8 +87,8 @@ const enDetailOverrides: Record<string, string> = {
 
 export function useLanguage() {
   const [language, setLanguageState] = useState<Language>('hu');
-  useEffect(() => { const timer = window.setTimeout(() => { if (localStorage.getItem('aurora-language') === 'en') setLanguageState('en'); }, 0); return () => window.clearTimeout(timer); }, []);
-  const setLanguage = (next: Language) => { setLanguageState(next); localStorage.setItem('aurora-language', next); document.documentElement.lang = next; };
+  useEffect(() => { const timer = window.setTimeout(() => { if (localStorage.getItem('catalog-language') === 'en') setLanguageState('en'); }, 0); return () => window.clearTimeout(timer); }, []);
+  const setLanguage = (next: Language) => { setLanguageState(next); localStorage.setItem('catalog-language', next); document.documentElement.lang = next; };
   return { language, setLanguage };
 }
 

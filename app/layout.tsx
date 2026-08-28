@@ -15,19 +15,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://item-catalog.vercel.app'),
-  title: 'Aurora Katalógusháza | Mágikus tárgyak',
-  description: 'A kampány mágikus tárgyainak játékosi katalógusa.',
+  title: 'Faerûn árusai és mágikus tárgyai',
+  description: 'A kampány árusainak és mágikus tárgyainak játékosi katalógusa.',
   openGraph: {
-    title: 'Aurora Katalógusháza',
-    description: 'Mágikus tárgyak · Játékosi kiadás · 1502 DR',
-    images: [{ url: '/og.png', width: 1733, height: 909, alt: 'Aurora Katalógusháza' }],
+    title: 'Faerûn árusai és mágikus tárgyai',
+    description: 'Árusok és mágikus tárgyak · Játékosi kiadás · 1502 DR',
+    images: [{ url: '/og.png', width: 1733, height: 909, alt: 'Faerûn árusai és mágikus tárgyai' }],
     locale: 'hu_HU',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aurora Katalógusháza',
-    description: 'Mágikus tárgyak · Játékosi kiadás · 1502 DR',
+    title: 'Faerûn árusai és mágikus tárgyai',
+    description: 'Árusok és mágikus tárgyak · Játékosi kiadás · 1502 DR',
     images: ['/og.png'],
   },
 };
