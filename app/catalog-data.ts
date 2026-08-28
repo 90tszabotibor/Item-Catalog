@@ -82,6 +82,7 @@ export const itemImages: Record<string, string> = {
   "Evoker's Robe": '/items/evokers-robe.jpeg',
   'Blessing of Titania': '/items/blessing-of-titania.jpeg',
   'Veil of Agony': '/items/veil-of-agony.jpeg',
+  'Tears of the Frostmaiden': '/items/tears-of-the-frostmaiden.jpeg',
 };
 
 export const itemKey = (name: string) => name

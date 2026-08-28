@@ -646,5 +646,13 @@ export const items = [
     "price": 8500,
     "summary": "A nekrotikus sebzés felét életerőként visszaadja.",
     "details": "**+1 necrotic**\n\n**Életerőcsapolás:**\n\nAmikor nekrotikus sebzést okozol egy lénynek, a köpeny elszívja annak életerejét. Az okozott sebzés felét életerőként visszakapod."
+  },
+  {
+    "id": 82,
+    "name": "Tears of the Frostmaiden",
+    "category": "Ékszer",
+    "price": 7900,
+    "summary": "Hosszú pihenőnként 1x elsüthető belőle a Cone of Cold varázslat.",
+    "details": "**+2 cold**\n\n**Cone of Cold:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból a Cone of Cold varázslatot."
   }
 ] as const;

@@ -40,6 +40,7 @@ const huNames: Record<string, string> = {
   'Wand of magic missile':'Mágikus lövedék pálcája','Wand of Sickeness':'Betegségek pálcája',
   'Cast-Iron Critical Clanger':'A Konyhai Kritikus Kongató','Handbreaker':'Kéztörő','Misztikus Rúnakő':'Misztikus Rúnakő',
   "Evoker's Robe":'Evokátor köntöse','Blessing of Titania':'Titania áldása','Veil of Agony':'Gyötrelem fátyla',
+  'Tears of the Frostmaiden':'A Fagyistennő könnyei',
 };
 
 const enNames: Record<string, string> = {
@@ -61,6 +62,7 @@ const enDetailOverrides: Record<string, string> = {
   "Evoker's Robe": '**+1 Evocation**\n\n**Evoker’s Might:**\n\nUse: 1x per long rest\n\nYou can cast one prepared 1st-level Evocation spell without expending a spell slot.',
   'Blessing of Titania': '**+2 Charisma**\n\n**Blinding Step:**\n\nAfter using Misty Step, you can create a brilliant flash within 10 feet. Creatures in the area must succeed on a **DC 17 Wisdom saving throw** or become Blinded.',
   'Veil of Agony': '**+1 necrotic**\n\n**Life Tap:**\n\nWhen you deal necrotic damage to a creature, the cloak drains its vitality. You regain hit points equal to half the damage dealt.',
+  'Tears of the Frostmaiden': '**+2 cold**\n\n**Cone of Cold:**\n\nUse: 1x per long rest\n\nYou can cast Cone of Cold from the necklace.',
   'Adamantin Sisak': '**+1 AC**\n\n**Adamantine Defense:**\n\nThe wearer has advantage on Dexterity saving throws made to avoid damage or attacks.\n\nCritical hits against the wearer count as normal hits.',
   'Basic poison': 'Activation: Bonus Action\nTarget: 1 weapon or up to 3 pieces of ammunition\nDuration: 1 minute or until the first hit\n\nOn a hit, the target must make a **DC 10 Constitution saving throw**. On a failed save, it takes **1d4 poison damage**. The poison does not inflict the Poisoned condition.',
   'Amulet of wisdom': '**Sage’s Resolve:**\n\nThe wearer gains a **+1 bonus to Wisdom saving throws**.',
