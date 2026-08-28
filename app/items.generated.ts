@@ -188,8 +188,8 @@ export const items = [
     "name": "Elixir of Acid Resistance",
     "category": "Főzet",
     "price": 40,
-    "summary": "Ellenállást ad a(z) acid sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) acid sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap az **acid sebzéssel** szemben."
   },
   {
     "id": 65,
@@ -220,16 +220,16 @@ export const items = [
     "name": "Elixir of Cold Resistance",
     "category": "Főzet",
     "price": 40,
-    "summary": "Ellenállást ad a(z) cold sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) cold sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **cold sebzéssel** szemben."
   },
   {
     "id": 73,
     "name": "Elixir of Fire Resistance",
     "category": "Főzet",
     "price": 40,
-    "summary": "Ellenállást ad a(z) fire sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) fire sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **fire sebzéssel** szemben."
   },
   {
     "id": 52,
@@ -244,8 +244,8 @@ export const items = [
     "name": "Elixir of Lightning Resistance",
     "category": "Főzet",
     "price": 40,
-    "summary": "Ellenállást ad a(z) lightning sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) lightning sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **lightning sebzéssel** szemben."
   },
   {
     "id": 66,
@@ -292,8 +292,8 @@ export const items = [
     "name": "Elixir of Poison Resistance",
     "category": "Főzet",
     "price": 40,
-    "summary": "Ellenállást ad a(z) poison sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) poison sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **poison sebzéssel** szemben."
   },
   {
     "id": 77,
