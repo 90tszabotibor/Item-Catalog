@@ -50,7 +50,7 @@ const descriptions: Record<string, [string, string]> = {
   'Healing potion':['Gyógyital, amely gyorsan enyhíti a sérüléseket és visszaadja az erőt.','A healing draught that quickly eases wounds and restores strength.'],
   'Immovable Rod':['Mágikus rúd, amely aktiválva rendíthetetlenül rögzül a helyén.','A magical rod that becomes unshakably fixed in place when activated.'],
   'Javelin of Thunder Peaks':['Mágikus dárda, amelyben a Mennydörgő-csúcsok vihara visszhangzik.','A magical javelin echoing with the storms of the Thunder Peaks.'],
-  'Legbreaker':['Nehéz fegyver, amelynek csapásai megtörik az ellenfél lendületét.','A heavy weapon whose blows can break an opponent’s momentum.'],
+  'Legbreaker':['Nehéz fegyver, amelynek csapásai a földre kényszerítik az ellenfelet.','A heavy weapon whose blows can break an opponent’s momentum.'],
   'Lightbringer':['Fénylő harci kalapács, amely sugárzó energiával sújtja ellenfeleit.','A luminous warhammer that strikes its foes with radiant energy.'],
   'Méreg ellenszer':['Keserű ellenméreg, amely megtisztítja a szervezetet a mérgezéstől.','A bitter antidote that purges poison from the body.'],
   'Misztikus Rúnakő':['Ritka rúnakő, amely mágikus képességekkel ruházhat fel egy tárgyat.','A rare runestone capable of imbuing an item with magical properties.'],
