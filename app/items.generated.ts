@@ -84,8 +84,8 @@ export const items = [
     "name": "Braclet of sleight hands",
     "category": "Ékszer",
     "price": 400,
-    "summary": "Advantage Sleight of hands checkre",
-    "details": "Advantage Sleight of hands checkre"
+    "summary": "A karkötő viselője előnnyel hajtja végre a Sleight of Hand-próbákat.",
+    "details": "**Nimble Fingers:**\n\nA karkötő viselője előnnyel hajtja végre a Sleight of Hand-próbákat."
   },
   {
     "id": 11,
@@ -148,8 +148,8 @@ export const items = [
     "name": "Diadem of arcane knowledge",
     "category": "Ékszer",
     "price": 400,
-    "summary": "Advantage arcana checkre",
-    "details": "Advantage arcana checkre"
+    "summary": "A diadém viselője előnnyel hajtja végre az Arcana-próbákat.",
+    "details": "**Arcane Knowledge:**\n\nA diadém viselője előnnyel hajtja végre az Arcana-próbákat."
   },
   {
     "id": 23,
@@ -172,8 +172,8 @@ export const items = [
     "name": "Earrings of charm",
     "category": "Ékszer",
     "price": 1700,
-    "summary": "Az ellenfél disadvantagevel dob a charmed condition-t okozó képességek ellen",
-    "details": "Az ellenfél disadvantagevel dob a charmed condition-t okozó képességek ellen"
+    "summary": "Az ellenfelek hátránnyal dobják a mentődobásaikat a viselő Charmed állapotot okozó képességei ellen.",
+    "details": "**Charming Presence:**\n\nAz ellenfelek hátránnyal dobják a mentődobásaikat a viselő Charmed állapotot okozó képességei ellen."
   },
   {
     "id": 55,
