@@ -388,8 +388,8 @@ export const items = [
     "name": "Legbreaker",
     "category": "Fegyver",
     "price": 1400,
-    "summary": "15 str",
-    "details": "15 str\n+1 Maul\nA topple elleni constitution mentőt disadvantagevel dobja az ellenfél."
+    "summary": "Minimum 15 Strength",
+    "details": "**+1 Maul**\n\nMinimum 15 Strength\n\n**Legbreaker:**\n\nAz ellenfél hátránnyal dobja a Topple elleni Constitution-mentődobást."
   },
   {
     "id": 27,
@@ -500,16 +500,16 @@ export const items = [
     "name": "Ring of Arcane Recovery",
     "category": "Ékszer",
     "price": 1000,
-    "summary": "Longrestenként 1x visszaad 1 db lvl 1 spellsotot",
-    "details": "Longrestenként 1x visszaad 1 db lvl 1 spellsotot"
+    "summary": "Longrestenként 1x",
+    "details": "**Arcane Recovery:**\n\nLongrestenként 1x\n\nA gyűrű visszatölt egy 1. szintű spell slotot."
   },
   {
     "id": 47,
     "name": "Ring of Brightness",
     "category": "Ékszer",
     "price": 100,
-    "summary": "Egy gyűrű amivel gyenge fényt lehet varázsolni. A hatótávolsága 10 láb sugarú kör.",
-    "details": "Egy gyűrű amivel gyenge fényt lehet varázsolni. A hatótávolsága 10 láb sugarú kör."
+    "summary": "Hatótáv: 10 ft sugarú kör",
+    "details": "**Brightness:**\n\nHatótáv: 10 ft sugarú kör\n\nA gyűrű gyenge fényt hoz létre a viselője körül."
   },
   {
     "id": 44,
