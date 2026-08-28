@@ -9,7 +9,6 @@ import { DmModeControl, useDmMode } from './DmMode';
 import { categoryLabel, localizedItem, useLanguage } from './i18n';
 import type { Merchant } from './merchant-data';
 import { allCatalogItems, itemImages } from './catalog-data';
-import { publicDescription } from './public-descriptions';
 
 export default function MerchantDetailClient({ merchant }: { merchant: Merchant }) {
   const { language, setLanguage } = useLanguage();
@@ -18,7 +17,6 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
   const closeModal = useCallback(() => setSelectedId(null), []);
   const changeDmMode = (enabled: boolean) => {
     setDmMode(enabled);
-    if (!enabled) setSelectedId(null);
   };
   const name = language === 'hu' ? merchant.hu : merchant.en;
   const inventory = allCatalogItems
@@ -27,7 +25,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
       || (merchant.inventoryMode === 'gondeth' && (item.category === 'Főzet' || (item.category === 'Mágikus tárgy' && (item.price ?? Infinity) <= 1000))))
     .map((item) => localizedItem(item, language))
     .sort((a, b) => a.name.localeCompare(b.name, language));
-  const selected = dmMode ? inventory.find((item) => item.id === selectedId) ?? null : null;
+  const selected = inventory.find((item) => item.id === selectedId) ?? null;
 
   return (
     <main>
@@ -61,13 +59,12 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
             <div className="merchantItemGrid">
               {inventory.map((item) => {
                 const image = itemImages[item.originalName ?? item.name];
-                return <button className={`card itemCard merchantItemCard ${dmMode ? '' : 'playerCard'}`} key={item.id} onClick={() => dmMode && setSelectedId(item.id)} aria-label={dmMode ? `${item.name} ${language === 'hu' ? 'részletei' : 'details'}` : item.name} aria-disabled={!dmMode}>
+                return <button className="card itemCard merchantItemCard" key={item.id} onClick={() => setSelectedId(item.id)} aria-label={`${item.name} ${language === 'hu' ? 'részletei' : 'details'}`}>
                   <div className={`artifact artifact${item.id % 4}${image ? ' hasImage' : ''}`} aria-hidden="true">
                     {image ? <Image src={image} alt="" fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 33vw" /> : <span>{item.name.charAt(0)}</span>}
                   </div>
                   <div className="cardBody">
                     <h3>{item.name}</h3>
-                    <p className="publicSummary">{publicDescription(item, language)}</p>
                     <div className="cardInfo">
                       <span>{categoryLabel(item.category, language)}</span>
                       {dmMode && <strong>{item.price ? `${item.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} ${language === 'hu' ? 'arany' : 'gold'}` : (language === 'hu' ? 'Ár megegyezés szerint' : 'Price by agreement')}</strong>}
@@ -79,7 +76,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
           ) : <div className="merchantInventoryEmpty">{language === 'hu' ? 'Jelenleg nincs lajstromozott portéka.' : 'No catalogued wares are currently available.'}</div>}
         </section>
       </section>
-      {selected && <ItemModal item={selected} language={language} onClose={closeModal} />}
+      {selected && <ItemModal item={selected} language={language} dmMode={dmMode} onClose={closeModal} />}
     </main>
   );
 }

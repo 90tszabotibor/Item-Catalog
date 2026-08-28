@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import { itemImages, type CatalogItem } from './catalog-data';
 import { categoryLabel, type Language } from './i18n';
+import { publicDescription } from './public-descriptions';
 
 type DisplayItem = CatalogItem & { originalName?: string };
 
@@ -13,7 +14,7 @@ function DetailText({ text }: { text: string }) {
     : part)}</>;
 }
 
-export default function ItemModal({ item, language, onClose }: { item: DisplayItem; language: Language; onClose: () => void }) {
+export default function ItemModal({ item, language, dmMode, onClose }: { item: DisplayItem; language: Language; dmMode: boolean; onClose: () => void }) {
   const image = itemImages[item.originalName ?? item.name];
 
   useEffect(() => {
@@ -32,8 +33,9 @@ export default function ItemModal({ item, language, onClose }: { item: DisplayIt
       <div className="modalBody">
         <div className="eyebrow">{categoryLabel(item.category, language)}</div>
         <h2 id="merchant-item-title">{item.name}</h2>
-        {item.price && <div className="price">{language === 'hu' ? 'Érték' : 'Value'}: <strong>{item.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} {language === 'hu' ? 'arany' : 'gold'}</strong></div>}
-        <div className="details"><DetailText text={item.details} /></div>
+        {dmMode && item.price && <div className="price">{language === 'hu' ? 'Érték' : 'Value'}: <strong>{item.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} {language === 'hu' ? 'arany' : 'gold'}</strong></div>}
+        <div className="details publicDetails">{publicDescription(item, language)}</div>
+        {dmMode && <div className="details"><DetailText text={item.details} /></div>}
       </div>
     </section>
   </div>;
