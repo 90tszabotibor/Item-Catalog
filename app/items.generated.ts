@@ -612,8 +612,8 @@ export const items = [
     "name": "Wand of magic missile",
     "category": "Fegyver",
     "price": 300,
-    "summary": "Longrestenként 1x Magic Missles",
-    "details": "Longrestenként 1x Magic Missles\nSpellcasting focusként használható."
+    "summary": "Használat: Hosszú pihenőnként 1x",
+    "details": "**Magic Missile:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából a Magic Missile varázslatot."
   },
   {
     "id": 8,
