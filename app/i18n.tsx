@@ -13,11 +13,11 @@ const categoryLabels: Record<string, [string, string]> = {
 };
 
 const huNames: Record<string, string> = {
-  'Amulet of wisdom':'Bölcsesség amulettje','Basic poison':'Alapméreg','Belt of the Hill Giant':'Hegyi óriás öve',
-  'Black Panter Studded Armor':'Fekete párduc szegecselt bőrpáncél','Black Wolf Fur':'Fekete farkasprém','Blinkdagger':'Pislogótőr',
+  'Amulet of wisdom':'Bölcsesség amulettje','Basic poison':'Egyszerű méreg','Belt of the Hill Giant':'Hegyi óriás öve',
+  'Black Panter Studded Armor':'Fekete párduc szegecselt bőrpáncél','Black Wolf Fur':'Fekete farkasprém','Blinkdagger':'Villanótőr',
   'Boots of Striding and Springing':'Lépés és szökkenés csizmája','Bracer of fire resistance':'Tűzellenállás karperece',
   'Bracers of Defense':'Védelem karperecei','Braclet of sleight hands':'Fürge kezek karkötője','Broom of Flying':'Repülő seprű',
-  'Catpaw boots':'Macskatalp csizma','Circlet of Blasting':'Robbanás fejdísze','Cloak of Invisibility':'Láthatatlanság köpenye',
+  'Catpaw boots':'Macskatalp csizma','Circlet of Blasting':'Gyújtogatók diadémja','Cloak of Invisibility':'Láthatatlanság köpenye',
   'Crystal ball':'Kristálygömb','Decanter of Endless Water':'Kifogyhatatlan vizű kancsó','Diadem of arcane knowledge':'Arkán tudás diadémja',
   'Displacer’s Deceptive Duster':'Délibábos Doromboló Duvad Daróc','Dragon rum':'Sárkányrum','Earrings of charm':'Bájolás fülbevalói',
   'Elixir of Aboleth':'Aboleth elixírje','Elixir of Acid Resistance':'Savellenállás elixírje','Elixir of Bear':'Medve elixírje',
@@ -34,11 +34,11 @@ const huNames: Record<string, string> = {
   'Purifying Incense':'Tisztító füstölő','Quickly Powder':'Éberség pora','Reinforced Leather Coat':'Megerősített bőrkabát',
   'Ring of Arcane Recovery':'Arkán visszanyerés gyűrűje','Ring of Brightness':'Fényesség gyűrűje','Ring of Remove Curse':'Átoktörés gyűrűje',
   'Ring of Spell Storing':'Varázslattárolás gyűrűje','Ritual Dagger':'Rituális tőr','Scrying Eye Orb':'Fürkésző szem gömbje',
-  'Shatter shard':'Törőszilánk','Staff of Healing':'Gyógyítás botja','Staff of Sleep':'Álom botja','Strong poison':'Erős méreg',
-  'Sunshine-Singer’s Solar Serenade Sickle':'Napdalnok Szoláris Szerenád Sarlója','Tigereye Monocle of Darkvision':'Sötétlátás tigrisszem monoklija',
-  'Vestments of the Noble Snow-Leopard':'A Nemes Hópárduc Öltözéke','Wand of Ice Knife':'Jégkés pálcája',
-  'Wand of magic missile':'Mágikus lövedék pálcája','Wand of Sickeness':'Betegsugár pálcája',
-  'Cast-Iron Critical Clanger':'Öntöttvas Kritikus Kongató','Handbreaker':'Kéztörő','Misztikus Rúnakő':'Misztikus Rúnakő',
+  'Shatter shard':'Törőszilánk','Staff of Healing':'Gyógyítás botja','Staff of Sleep':'Álmok botja','Strong poison':'Erős méreg',
+  'Sunshine-Singer’s Solar Serenade Sickle':'Szolmizáló Szoláris Szerenád-Sugársarló','Tigereye Monocle of Darkvision':'Sötétlátás tigrisszem monoklija',
+  'Vestments of the Noble Snow-Leopard':'A Nemes Hópárduc Öltözéke','Wand of Ice Knife':'Jégcsap pálca',
+  'Wand of magic missile':'Mágikus lövedék pálcája','Wand of Sickeness':'Betegségek pálcája',
+  'Cast-Iron Critical Clanger':'A Konyhai Kritikus Kongató','Handbreaker':'Kéztörő','Misztikus Rúnakő':'Misztikus Rúnakő',
 };
 
 const enNames: Record<string, string> = {
