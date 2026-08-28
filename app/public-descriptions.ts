@@ -60,7 +60,7 @@ const descriptions: Record<string, [string, string]> = {
   'Potion of feather fall':['A főzet könnyűvé teszi a testet, és biztonságossá a zuhanást.','This potion lightens the body and makes a fall safe.'],
   'Potion of Invisibility':['A főzet egy időre eltünteti fogyasztóját a szem elől.','This potion hides its drinker from sight for a time.'],
   'Potion of Speed':['A főzet természetfeletti gyorsasággal és lendülettel tölti el fogyasztóját.','This potion fills the drinker with supernatural speed and momentum.'],
-  'Prismatic Psychedelic Peepers':['Színjátszó szemüveg, amely megbabonázó illúziókkal ejti rabul a tekintetet.','Iridescent spectacles that captivate onlookers with mesmerizing illusions.'],
+  'Prismatic Psychedelic Peepers':['Észvesztő szemüveg, amely megbabonázó illúziókkal ejti rabul a tekintetet.','Iridescent spectacles that captivate onlookers with mesmerizing illusions.'],
   'Purifying Incense':['Tisztító füstölő, amelynek illata eloszlatja az enyhébb átkokat.','Purifying incense whose smoke dispels lesser curses.'],
   'Quickly Powder':['Élénkítő por, amely éberen tartja és felgyorsítja használóját.','An invigorating powder that keeps its user alert and quick-footed.'],
   'Reinforced Leather Coat':['Megerősített bőrkabát, amely tompítja a pengék és nyilak erejét.','A reinforced leather coat that softens the impact of blades and arrows.'],
