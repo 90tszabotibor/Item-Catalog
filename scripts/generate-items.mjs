@@ -16,6 +16,7 @@ const files = [...new Set(auroraItemNames)].map((name) => fileByName.get(name)).
 
 const classify = (name, text) => {
   const value = `${name} ${text}`.toLowerCase();
+  if (/crystal ball/.test(value)) return 'Mágikus tárgy';
   if (/potion|elixir|poison|dragon rum|incense|powder|ellenszer|csillapító|stout of valor/.test(value)) return 'Főzet';
   if (/\bstaff\b|\bwand\b/.test(value)) return 'Fegyver';
   if (/shatter shard/.test(value)) return 'Mágikus tárgy';

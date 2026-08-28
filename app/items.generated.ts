@@ -130,7 +130,7 @@ export const items = [
   {
     "id": 6,
     "name": "Crystal ball",
-    "category": "Fókusz",
+    "category": "Mágikus tárgy",
     "price": 4990,
     "summary": "Használat: Hosszú pihenőnként 1x",
     "details": "**Mágikus kristálygömb**\n\n**Scrying:**\n\nHasználat: Hosszú pihenőnként 1x\nMentődobás: DC 17\n\nElsütheted a kristálygömbből a Scrying varázslatot."
