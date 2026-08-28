@@ -260,8 +260,8 @@ export const items = [
     "name": "Elixir of Necrotic Resistance",
     "category": "Főzet",
     "price": 120,
-    "summary": "Ellenállást ad a(z) necrotic sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) necrotic sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **necrotic sebzéssel** szemben."
   },
   {
     "id": 68,
@@ -300,16 +300,16 @@ export const items = [
     "name": "Elixir of Psychic Resistance",
     "category": "Főzet",
     "price": 120,
-    "summary": "Ellenállást ad a(z) psychic sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) psychic sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **psychic sebzéssel** szemben."
   },
   {
     "id": 78,
     "name": "Elixir of Radiant Resistance",
     "category": "Főzet",
     "price": 120,
-    "summary": "Ellenállást ad a(z) radiant sebzéssel szemben 24 óráig vagy a következő long restig.",
-    "details": "Ellenállást ad a(z) radiant sebzéssel szemben 24 óráig vagy a következő long restig."
+    "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
+    "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **radiant sebzéssel** szemben."
   },
   {
     "id": 70,
@@ -404,8 +404,8 @@ export const items = [
     "name": "Méreg ellenszer",
     "category": "Főzet",
     "price": 20,
-    "summary": "A szer semlegesíti a célponton lévő Poisoned állapotot.",
-    "details": "A szer semlegesíti a célponton lévő Poisoned állapotot."
+    "summary": "A szer megszünteti a használón lévő **Poisoned állapotot**.",
+    "details": "A szer megszünteti a használón lévő **Poisoned állapotot**."
   },
   {
     "id": 1,
