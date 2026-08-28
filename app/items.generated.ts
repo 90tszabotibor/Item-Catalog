@@ -20,8 +20,8 @@ export const items = [
     "name": "Basic poison",
     "category": "Főzet",
     "price": 25,
-    "summary": "Tárgy típusa: fiola",
-    "details": "Tárgy típusa: fiola\nKenegetési idő: 1 akció\nCélpont: 1 fegyver vagy legfeljebb 3 lőszer\nIdőtartam: 1 perc, vagy amíg találatot nem ér el.\nA célpont DC 10 Constitution mentőt dob. Sikertelenségnél 1d4 méregsebzést szenved. Nem okoz poisoned állapotot."
+    "summary": "Aktiválás: Bónuszakció",
+    "details": "Aktiválás: Bónuszakció\nCélpont: 1 fegyver vagy legfeljebb 3 lőszer\nIdőtartam: 1 perc vagy az első találatig\n\nTalálatkor a célpontnak **DC 10 Constitution-mentődobást** kell tennie. Sikertelen mentődobás esetén **1d4 poison sebzést** szenved. A méreg nem okoz Poisoned állapotot."
   },
   {
     "id": 28,
@@ -436,24 +436,24 @@ export const items = [
     "name": "Potion of arcane recovery",
     "category": "Főzet",
     "price": 110,
-    "summary": "Visszatölt egy 1. szintű spell slotot.",
-    "details": "Visszatölt egy 1. szintű spell slotot."
+    "summary": "A főzet elfogyasztása visszatölt egy **1. szintű spell slotot**.",
+    "details": "A főzet elfogyasztása visszatölt egy **1. szintű spell slotot**."
   },
   {
     "id": 63,
     "name": "Potion of feather fall",
     "category": "Főzet",
     "price": 40,
-    "summary": "Feather Fall hatás.",
-    "details": "Feather Fall hatás."
+    "summary": "A főzet elfogyasztásakor a használó a **Feather Fall** varázslat hatása alá kerül.",
+    "details": "A főzet elfogyasztásakor a használó a **Feather Fall** varázslat hatása alá kerül."
   },
   {
     "id": 54,
     "name": "Potion of Invisibility",
     "category": "Főzet",
     "price": 160,
-    "summary": "Invisibility 1 órára.",
-    "details": "Invisibility 1 órára."
+    "summary": "A főzet elfogyasztásakor a használó **1 órára Invisible állapotba kerül**.",
+    "details": "A főzet elfogyasztásakor a használó **1 órára Invisible állapotba kerül**."
   },
   {
     "id": 60,
@@ -572,8 +572,8 @@ export const items = [
     "name": "Strong poison",
     "category": "Főzet",
     "price": 100,
-    "summary": "Bónuszakcióként egy fegyverre vagy legfeljebb három lőszerre kenhető. A célpont DC 14 Constitution mentőt dob; a méreg 2d8 extra méregsebzést okoz. Hatása 1 percig vagy a",
-    "details": "Bónuszakcióként egy fegyverre vagy legfeljebb három lőszerre kenhető. A célpont DC 14 Constitution mentőt dob; a méreg 2d8 extra méregsebzést okoz. Hatása 1 percig vagy az első sebzésig tart."
+    "summary": "Aktiválás: Bónuszakció",
+    "details": "Aktiválás: Bónuszakció\nCélpont: 1 fegyver vagy legfeljebb 3 lőszer\nIdőtartam: 1 perc vagy az első találatig\n\nTalálatkor a célpontnak **DC 14 Constitution-mentődobást** kell tennie. Sikertelen mentődobás esetén **2d8 poison sebzést** szenved."
   },
   {
     "id": 36,
