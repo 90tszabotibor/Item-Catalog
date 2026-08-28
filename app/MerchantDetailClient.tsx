@@ -35,7 +35,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
           <div className="merchantProfileBody">
             <div className="eyebrow">{language === 'hu' ? merchant.roleHu : merchant.roleEn}</div>
             <h1>{name}</h1>
-            <p>{language === 'hu' ? merchant.noteHu : merchant.noteEn}</p>
+            {(language === 'hu' ? merchant.noteHu : merchant.noteEn) && <p>{language === 'hu' ? merchant.noteHu : merchant.noteEn}</p>}
           </div>
         </div>
         <section className="merchantInventory" aria-labelledby="merchant-inventory-title">
