@@ -196,8 +196,8 @@ export const items = [
     "name": "Elixir of Bear",
     "category": "Főzet",
     "price": 140,
-    "summary": "+2 STR 1 percig.",
-    "details": "+2 STR 1 percig."
+    "summary": "Időtartam: 1 perc",
+    "details": "Időtartam: 1 perc\n\nA használó **+2 Strength** bónuszt kap."
   },
   {
     "id": 51,
@@ -252,8 +252,8 @@ export const items = [
     "name": "Elixir of Lynx",
     "category": "Főzet",
     "price": 140,
-    "summary": "+2 DEX 1 percig.",
-    "details": "+2 DEX 1 percig."
+    "summary": "Időtartam: 1 perc",
+    "details": "Időtartam: 1 perc\n\nA használó **+2 Dexterity** bónuszt kap."
   },
   {
     "id": 76,
@@ -268,24 +268,24 @@ export const items = [
     "name": "Elixir of Owl",
     "category": "Főzet",
     "price": 140,
-    "summary": "+2 INT 1 percig.",
-    "details": "+2 INT 1 percig."
+    "summary": "Időtartam: 1 perc",
+    "details": "Időtartam: 1 perc\n\nA használó **+2 Intelligence** bónuszt kap."
   },
   {
     "id": 67,
     "name": "Elixir of Ox",
     "category": "Főzet",
     "price": 140,
-    "summary": "+2 CON 1 percig.",
-    "details": "+2 CON 1 percig."
+    "summary": "Időtartam: 1 perc",
+    "details": "Időtartam: 1 perc\n\nA használó **+2 Constitution** bónuszt kap."
   },
   {
     "id": 69,
     "name": "Elixir of Peacock",
     "category": "Főzet",
     "price": 140,
-    "summary": "+2 CHA 1 percig.",
-    "details": "+2 CHA 1 percig."
+    "summary": "Időtartam: 1 perc",
+    "details": "Időtartam: 1 perc\n\nA használó **+2 Charisma** bónuszt kap."
   },
   {
     "id": 75,
