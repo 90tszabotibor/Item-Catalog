@@ -46,7 +46,7 @@ const descriptions: Record<string, [string, string]> = {
   'Flametongue shortsword':['Rövidkard, amelynek pengéjét parancsszóra lángok ölelik körül.','A shortsword whose blade can be wreathed in flame on command.'],
   'Gauntlet of strong hands':['A kesztyű határozottabbá és erősebbé teszi viselője fogását.','The gauntlet makes its wearer’s grip firmer and stronger.'],
   'Greater healing potion':['Erőteljes gyógyital, amely súlyosabb sebeket is gyorsan összeforraszt.','A potent healing draught capable of rapidly closing serious wounds.'],
-  'Handbreaker':['Súlyos buzogány, amelynek csapásai elgyengítik az ellenfél védekezését.','A heavy mace whose blows weaken an opponent’s ability to fight back.'],
+  'Handbreaker':['Buzogány, amelynek csapásai megbénítják az ellenfelet.','A heavy mace whose blows weaken an opponent’s ability to fight back.'],
   'Healing potion':['Gyógyital, amely gyorsan enyhíti a sérüléseket és visszaadja az erőt.','A healing draught that quickly eases wounds and restores strength.'],
   'Immovable Rod':['Mágikus rúd, amely aktiválva rendíthetetlenül rögzül a helyén.','A magical rod that becomes unshakably fixed in place when activated.'],
   'Javelin of Thunder Peaks':['Mágikus dárda, amelyben a Mennydörgő-csúcsok vihara visszhangzik.','A magical javelin echoing with the storms of the Thunder Peaks.'],
