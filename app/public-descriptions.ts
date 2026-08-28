@@ -66,7 +66,7 @@ const descriptions: Record<string, [string, string]> = {
   'Reinforced Leather Coat':['Megerősített bőrkabát, amely tompítja a pengék és nyilak erejét.','A reinforced leather coat that softens the impact of blades and arrows.'],
   'Ring of Arcane Recovery':['A gyűrű segít visszanyerni a varázslás során elvesztett mágikus erőt.','The ring helps restore magical power spent through spellcasting.'],
   'Ring of Brightness':['A gyűrű szelíd fényt áraszt viselője körül.','The ring sheds a gentle light around its wearer.'],
-  'Ring of Remove Curse':['A gyűrűben rejlő mágia képes megtörni egy átkot.','The magic held within this ring can break a curse.'],
+  'Ring of Remove Curse':['A gyűrűben rejlő mágia képes megtörni az átkokat.','The magic held within this ring can break a curse.'],
   'Ring of Spell Storing':['A gyűrű varázslatot őrizhet meg későbbi felhasználásra.','The ring can preserve a spell for later use.'],
   'Ritual Dagger':['Arkán tőr, amely meggyorsítja a vele végzett mágikus szertartásokat.','An arcane dagger that hastens magical rituals performed with it.'],
   'Scrying Eye Orb':['A gömb távolról irányítható szemmé változhat.','The orb can transform into an eye controlled from afar.'],
@@ -83,7 +83,7 @@ const descriptions: Record<string, [string, string]> = {
   "Evoker's Robe":['Varázslóköntös, amely felerősíti a romboló mágiák erejét.','A wizard’s robe that amplifies the power of destructive magic.'],
   'Blessing of Titania':['Tündérkirálynői tiara, amely ragyogó kisugárzással és vakító fénnyel áldja meg viselőjét.','A fey queen’s tiara that blesses its wearer with radiant presence and blinding light.'],
   'Veil of Agony':['Sötét köpeny, amely az okozott fájdalomból táplálja viselője életerejét.','A dark cloak that feeds its wearer’s vitality with the pain they inflict.'],
-  'Tears of the Frostmaiden':['Jeges nyaklánc, amelyben a Fagyistennő dermesztő haragja szunnyad.','An icy necklace holding the Frostmaiden’s freezing wrath.'],
+  'Tears of the Frostmaiden':['Jeges nyaklánc, amelyben a Auril istennő dermesztő haragja szunnyad.','An icy necklace holding the Frostmaiden’s freezing wrath.'],
 };
 
 export function publicDescription(item: CatalogItem & { originalName?: string }, language: Language) {
