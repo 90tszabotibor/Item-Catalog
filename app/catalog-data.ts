@@ -16,7 +16,7 @@ export const itemImages: Record<string, string> = {
   'Bracer of fire resistance': '/items/bracer-of-fire-resistance.jpeg',
   'Braclet of sleight hands': '/items/braclet-of-sleight-hands.jpeg',
   'Catpaw boots': '/items/catpaw-boots.jpeg',
-  'Circlet of Blasting': '/items/circlet-of-blasting.jpeg',
+  'Circlet of scorching': '/items/circlet-of-blasting.jpeg',
   'Cloak of Invisibility': '/items/cloak-of-invisibility.png',
   'Crystal ball': '/items/crystal-ball.jpeg',
   'Decanter of Endless Water': '/items/decanter-of-endless-water.jpeg',

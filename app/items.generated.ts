@@ -101,7 +101,7 @@ export const items = [
     "category": "Fegyver",
     "price": 7990,
     "summary": "A Konyhai Kritikus Kongató",
-    "details": "A Konyhai Kritikus Kongató\n\n**+2 buzogány**\n\n**Kritikus Rezonancia:**\n\nA fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba."
+    "details": "**+2 buzogány**\n\n**Kritikus Rezonancia:**\n\nA fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba."
   },
   {
     "id": 17,
@@ -113,7 +113,7 @@ export const items = [
   },
   {
     "id": 45,
-    "name": "Circlet of Blasting",
+    "name": "Circlet of scorching",
     "category": "Ékszer",
     "price": 1800,
     "summary": "Használat: Hosszú pihenőnként 1x",
@@ -157,7 +157,7 @@ export const items = [
     "category": "Páncél",
     "price": 5990,
     "summary": "Délibábos Doromboló Duvad Daróc",
-    "details": "Délibábos Doromboló Duvad Daróc\n\n**14 AC + Dex mod**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
+    "details": "**14 AC + Dex mod**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
   },
   {
     "id": 50,
@@ -469,7 +469,7 @@ export const items = [
     "category": "Mágikus tárgy",
     "price": 7490,
     "summary": "Prizmatikus Pszichedelikus Pápaszem",
-    "details": "Prizmatikus Pszichedelikus Pápaszem\n\n**+2 illusion**\n\n**Hypnotic Pattern:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
+    "details": "**+2 illusion**\n\n**Hypnotic Pattern:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a szemüvegből a Hypnotic Pattern varázslatot."
   },
   {
     "id": 61,
@@ -581,7 +581,7 @@ export const items = [
     "category": "Fegyver",
     "price": 9990,
     "summary": "Szolmizáló Szoláris Szerenád-Sugársarló",
-    "details": "Szolmizáló Szoláris Szerenád-Sugársarló\n\n**Sickle, +2 radiant**\n\n**Szoláris Szerenád:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
+    "details": "**Sickle, +2 radiant**\n\n**Szoláris Szerenád:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a sarlóból a Sunbeam varázslatot.\n\nA varázslat fenntartásához neked és egy társadnak folyamatosan egy napfényről szóló dalt kell énekelnetek. A sarló ugyanazt a dalt nem fogadja el két alkalommal."
   },
   {
     "id": 42,
