@@ -643,9 +643,9 @@ export const items = [
     "id": 81,
     "name": "Veil of Agony",
     "category": "Páncél",
-    "price": 8500,
-    "summary": "A nekrotikus sebzés felét életerőként visszaadja.",
-    "details": "**+1 necrotic**\n\n**Életerőcsapolás:**\n\nAmikor nekrotikus sebzést okozol egy lénynek, a köpeny elszívja annak életerejét. Az okozott sebzés felét életerőként visszakapod."
+    "price": 5500,
+    "summary": "Hosszú pihenőnként 3x a nekrotikus sebzés felét életerőként visszaadja.",
+    "details": "**+1 necrotic**\n\n**Életerőcsapolás:**\n\nHasználat: Hosszú pihenőnként 3x\n\nAmikor nekrotikus sebzést okozol egy lénynek, a köpeny elszívhatja annak életerejét. Az okozott sebzés felét életerőként visszakapod."
   },
   {
     "id": 82,
