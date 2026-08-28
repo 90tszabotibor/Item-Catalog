@@ -12,8 +12,8 @@ export const items = [
     "name": "Amulet of wisdom",
     "category": "Ékszer",
     "price": 500,
-    "summary": "+1 wishdom savere",
-    "details": "+1 wishdom savere"
+    "summary": "Ismeretlen eredetű mágikus tárgy.",
+    "details": "**+1 Wisdom-mentődobás**"
   },
   {
     "id": 48,
@@ -68,8 +68,8 @@ export const items = [
     "name": "Bracer of fire resistance",
     "category": "Páncél",
     "price": 1200,
-    "summary": "Fire ressistancet ad",
-    "details": "Fire ressistancet ad"
+    "summary": "A karperec viselője ellenállást kap a fire sebzéssel szemben.",
+    "details": "**Fire Resistance:**\n\nA karperec viselője ellenállást kap a fire sebzéssel szemben."
   },
   {
     "id": 35,
@@ -108,8 +108,8 @@ export const items = [
     "name": "Catpaw boots",
     "category": "Páncél",
     "price": 500,
-    "summary": "Advantage stealth checkre",
-    "details": "Advantage stealth checkre"
+    "summary": "A csizma viselője előnnyel hajtja végre a Stealth-próbákat.",
+    "details": "**Silent Steps:**\n\nA csizma viselője előnnyel hajtja végre a Stealth-próbákat."
   },
   {
     "id": 45,
