@@ -101,7 +101,7 @@ export const items = [
     "category": "Fegyver",
     "price": 7990,
     "summary": "A Konyhai Kritikus Kongató",
-    "details": "**+2 buzogány**\n\n**Kritikus Rezonancia:**\n\nA fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba."
+    "details": "**+2 buzogány**\n\n**Kritikus Rezonancia:**\n\nA fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba.\n\n**Tökéletes Steak:**\n\nA benne készült steak fogyasztása 5 THP-t biztosít a fogyasztójának."
   },
   {
     "id": 17,
