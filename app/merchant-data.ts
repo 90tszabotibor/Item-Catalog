@@ -11,7 +11,6 @@ export const merchants: Merchant[] = [
   { slug:'robert-flatwater', hu:'Robert Flatwater', en:'Robert Flatwater', roleHu:'Tapasztalt alkimista', roleEn:'Experienced alchemist', location:'', noteHu:'Orvosságokat, főzeteket és alkímiai szakkönyveket kínál.', noteEn:'Offers medicines, potions, and alchemical manuals.', inventoryMode:'potions' },
   { slug:'arnyekfozo-vesryn', hu:'Árnyékfőző Vesryn', en:'Shadowbrewer Vesryn', roleHu:'Szakértő alkimista', roleEn:'Expert alchemist', location:'Selgaunt', noteHu:'Orvosságokat, főzeteket és magasabb szintű szakkönyveket kínál.', noteEn:'Offers medicines, potions, and advanced alchemical manuals.', inventoryMode:'potions' },
   { slug:'sara-bowsuntide', hu:'Sara Bowsuntide', en:'Sara Bowsuntide', roleHu:'Műkereskedő és értékbecslő', roleEn:'Art dealer and appraiser', location:'Selgaunt', noteHu:'A Bowsuntide műkereskedés képviselője.', noteEn:'Representative of the Bowsuntide art dealership.' },
-  { slug:'alpharra-anabravvur', hu:'Alpharra Anabravvur', en:'Alpharra Anabravvur', roleHu:'Hajóépítő műhely vezetője', roleEn:'Shipyard proprietor', location:'Selgaunt', noteHu:'Fényűző luxushajók építésével és értékesítésével foglalkozik.', noteEn:'Builds and sells lavish luxury ships.' },
 ];
 
 export const merchantBySlug = (slug: string) => merchants.find((merchant) => merchant.slug === slug);
