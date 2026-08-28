@@ -74,7 +74,7 @@ const descriptions: Record<string, [string, string]> = {
   'Staff of Healing':['Bot, amely gyógyító mágiával támogatja a sebesülteket.','A staff that aids the wounded with restorative magic.'],
   'Staff of Sleep':['Bot, amely mágikus álmot bocsáthat a közelben lévőkre.','A staff capable of casting nearby creatures into magical slumber.'],
   'Strong poison':['Erős fegyverméreg, amely súlyos következményekkel járó sebet okozhat.','A potent weapon poison capable of making a wound far more severe.'],
-  'Sunshine-Singer’s Solar Serenade Sickle':['Ragyogó sarló, amely dalra és napfényre ébred fel igazán.','A radiant sickle that truly awakens through song and sunlight.'],
+  'Sunshine-Singer’s Solar Serenade Sickle':['Ragyogó sarló, amely dalra és napfényre ébred fel igazán. Napszemüveg használata javasolt.','A radiant sickle that truly awakens through song and sunlight.'],
   'Tigereye Monocle of Darkvision':['Tigrisszem monokli, amely áthatol a természetes sötétségen.','A tiger-eye monocle that pierces natural darkness.'],
   'Vestments of the Noble Snow-Leopard':['Előkelő öltözék, amely tekintélyt és meggyőző jelenlétet kölcsönöz.','Noble vestments that lend authority and a persuasive presence.'],
   'Wand of Ice Knife':['Fagyos pálca, amely jégből formált lövedéket idéz.','A frost-covered wand that conjures a blade of ice.'],
