@@ -35,11 +35,6 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
           <div className="merchantProfileBody">
             <div className="eyebrow">{language === 'hu' ? merchant.roleHu : merchant.roleEn}</div>
             <h1>{name}</h1>
-            {merchant.location && (
-              <div className="merchantLocation">
-                {language === 'hu' ? 'Helyszín' : 'Location'}: <strong>{merchant.location}</strong>
-              </div>
-            )}
             <p>{language === 'hu' ? merchant.noteHu : merchant.noteEn}</p>
           </div>
         </div>
