@@ -44,8 +44,8 @@ export const items = [
     "name": "Black Wolf Fur",
     "category": "Páncél",
     "price": 500,
-    "summary": "13 AC (+2 dex) +1 Hide armor",
-    "details": "13 AC (+2 dex) +1 Hide armor\nAdvantage Intimidation-re"
+    "summary": "A viselő előnnyel hajtja végre az Intimidation-próbákat.",
+    "details": "**13 AC + max 2 Dex mod**\n\n**Wolf’s Presence:**\n\nA viselő előnnyel hajtja végre az Intimidation-próbákat."
   },
   {
     "id": 31,
@@ -492,8 +492,8 @@ export const items = [
     "name": "Reinforced Leather Coat",
     "category": "Páncél",
     "price": 700,
-    "summary": "13 AC (max 2 dex)",
-    "details": "13 AC (max 2 dex)\nPiercing és Slashing damage -1"
+    "summary": "A viselő által elszenvedett piercing és slashing sebzés **1-gyel csökken**.",
+    "details": "**13 AC + max 2 Dex mod**\n\nA viselő által elszenvedett piercing és slashing sebzés **1-gyel csökken**."
   },
   {
     "id": 43,
@@ -596,8 +596,8 @@ export const items = [
     "name": "Vestments of the Noble Snow-Leopard",
     "category": "Páncél",
     "price": 600,
-    "summary": "13 AC (+2 dex) +1 Hide armor",
-    "details": "13 AC (+2 dex) +1 Hide armor\nAdvantage persuation checkre"
+    "summary": "A köpeny viselője előnnyel hajtja végre a Persuasion-próbákat.",
+    "details": "**13 AC + max 2 Dex mod**\n\n**Noble Presence:**\n\nA köpeny viselője előnnyel hajtja végre a Persuasion-próbákat."
   },
   {
     "id": 7,
