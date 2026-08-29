@@ -11,7 +11,7 @@ export const items = [
     "id": 41,
     "name": "Amulet of wisdom",
     "category": "Ékszer",
-    "price": 490,
+    "price": 499,
     "summary": "A viselő **+1 bónuszt kap a Wisdom-mentődobásokhoz**.",
     "details": "**Sage’s Resolve:**\n\nA viselő **+1 bónuszt kap a Wisdom-mentődobásokhoz**."
   },
@@ -43,7 +43,7 @@ export const items = [
     "id": 16,
     "name": "Black Wolf Fur",
     "category": "Páncél",
-    "price": 490,
+    "price": 499,
     "summary": "A viselő előnnyel hajtja végre az Intimidation-próbákat.",
     "details": "**13 AC + max 2 Dex mod**\n\n**Wolf’s Presence:**\n\nA viselő előnnyel hajtja végre az Intimidation-próbákat."
   },
@@ -59,7 +59,7 @@ export const items = [
     "id": 21,
     "name": "Boots of Striding and Springing",
     "category": "Páncél",
-    "price": 990,
+    "price": 999,
     "summary": "Használat: Hosszú pihenőnként 1x",
     "details": "**Striding and Springing:**\n\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 1 perc\n\nA képesség aktiválásakor:\n\n- A viselő alap mozgási sebessége 10 ft-tel nő.\n- Az ugrási távolsága a háromszorosára nő.\n- Az elszenvedett esési sebzés a felére csökken."
   },
@@ -83,7 +83,7 @@ export const items = [
     "id": 38,
     "name": "Braclet of sleight hands",
     "category": "Ékszer",
-    "price": 390,
+    "price": 399,
     "summary": "A karkötő viselője előnnyel hajtja végre a Sleight of Hand-próbákat.",
     "details": "**Nimble Fingers:**\n\nA karkötő viselője előnnyel hajtja végre a Sleight of Hand-próbákat."
   },
@@ -107,7 +107,7 @@ export const items = [
     "id": 17,
     "name": "Catpaw boots",
     "category": "Páncél",
-    "price": 490,
+    "price": 499,
     "summary": "A csizma viselője előnnyel hajtja végre a Stealth-próbákat.",
     "details": "**Silent Steps:**\n\nA csizma viselője előnnyel hajtja végre a Stealth-próbákat."
   },
@@ -139,7 +139,7 @@ export const items = [
     "id": 12,
     "name": "Decanter of Endless Water",
     "category": "Mágikus tárgy",
-    "price": 790,
+    "price": 799,
     "summary": "Aktiválás: Akció, verbális",
     "details": "**Mágikus kancsó**\n\n**Endless Water:**\n\nAktiválás: Akció, verbális\n\nA kancsó parancsszóra korlátlan mennyiségű vizet képes kibocsátani."
   },
@@ -147,7 +147,7 @@ export const items = [
     "id": 40,
     "name": "Diadem of arcane knowledge",
     "category": "Ékszer",
-    "price": 390,
+    "price": 399,
     "summary": "A diadém viselője előnnyel hajtja végre az Arcana-próbákat.",
     "details": "**Arcane Knowledge:**\n\nA diadém viselője előnnyel hajtja végre az Arcana-próbákat."
   },
@@ -163,7 +163,7 @@ export const items = [
     "id": 50,
     "name": "Dragon rum",
     "category": "Főzet",
-    "price": 90,
+    "price": 99,
     "summary": "Egy adag elfogyasztásakor a használó a **Dragon’s Breath** varázslat hatása alá kerül.",
     "details": "Egy adag elfogyasztásakor a használó a **Dragon’s Breath** varázslat hatása alá kerül.\n\nEgy adag egy egység alkoholnak számít. Egy palack 10 adagot tartalmaz."
   },
@@ -179,7 +179,7 @@ export const items = [
     "id": 55,
     "name": "Elixir of Aboleth",
     "category": "Főzet",
-    "price": 240,
+    "price": 249,
     "summary": "Az INT értéked 21 lesz 24 óráig vagy a következő long restig.",
     "details": "Az INT értéked 21 lesz 24 óráig vagy a következő long restig."
   },
@@ -195,7 +195,7 @@ export const items = [
     "id": 65,
     "name": "Elixir of Bear",
     "category": "Főzet",
-    "price": 130,
+    "price": 139,
     "summary": "Időtartam: 1 perc",
     "details": "Időtartam: 1 perc\n\nA használó **+2 Strength** bónuszt kap."
   },
@@ -203,7 +203,7 @@ export const items = [
     "id": 51,
     "name": "Elixir of Bloodlust",
     "category": "Főzet",
-    "price": 90,
+    "price": 99,
     "summary": "Időtartam: 1 óra",
     "details": "Időtartam: 1 óra\n\nKörönként 1x, amikor a használó megöl egy ellenfelet, **5 ideiglenes HP-t**, valamint egy további nem mágikus akciót vagy bónuszakciót kap.\n\nHarcon kívül a használónak **DC 10 Wisdom-mentődobást** kell tennie. Sikertelen mentődobás esetén 1 percig a hozzá legközelebbi célpontot támadja."
   },
@@ -211,7 +211,7 @@ export const items = [
     "id": 53,
     "name": "Elixir of Cloud Giant",
     "category": "Főzet",
-    "price": 490,
+    "price": 499,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó Strength értéke **27-re változik**."
   },
@@ -235,7 +235,7 @@ export const items = [
     "id": 52,
     "name": "Elixir of Hill Giant",
     "category": "Főzet",
-    "price": 240,
+    "price": 249,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó Strength értéke **21-re változik**."
   },
@@ -251,7 +251,7 @@ export const items = [
     "id": 66,
     "name": "Elixir of Lynx",
     "category": "Főzet",
-    "price": 130,
+    "price": 139,
     "summary": "Időtartam: 1 perc",
     "details": "Időtartam: 1 perc\n\nA használó **+2 Dexterity** bónuszt kap."
   },
@@ -259,7 +259,7 @@ export const items = [
     "id": 76,
     "name": "Elixir of Necrotic Resistance",
     "category": "Főzet",
-    "price": 110,
+    "price": 119,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **necrotic sebzéssel** szemben."
   },
@@ -267,7 +267,7 @@ export const items = [
     "id": 68,
     "name": "Elixir of Owl",
     "category": "Főzet",
-    "price": 130,
+    "price": 139,
     "summary": "Időtartam: 1 perc",
     "details": "Időtartam: 1 perc\n\nA használó **+2 Intelligence** bónuszt kap."
   },
@@ -275,7 +275,7 @@ export const items = [
     "id": 67,
     "name": "Elixir of Ox",
     "category": "Főzet",
-    "price": 130,
+    "price": 139,
     "summary": "Időtartam: 1 perc",
     "details": "Időtartam: 1 perc\n\nA használó **+2 Constitution** bónuszt kap."
   },
@@ -283,7 +283,7 @@ export const items = [
     "id": 69,
     "name": "Elixir of Peacock",
     "category": "Főzet",
-    "price": 130,
+    "price": 139,
     "summary": "Időtartam: 1 perc",
     "details": "Időtartam: 1 perc\n\nA használó **+2 Charisma** bónuszt kap."
   },
@@ -299,7 +299,7 @@ export const items = [
     "id": 77,
     "name": "Elixir of Psychic Resistance",
     "category": "Főzet",
-    "price": 110,
+    "price": 119,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **psychic sebzéssel** szemben."
   },
@@ -307,7 +307,7 @@ export const items = [
     "id": 78,
     "name": "Elixir of Radiant Resistance",
     "category": "Főzet",
-    "price": 110,
+    "price": 119,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **radiant sebzéssel** szemben."
   },
@@ -315,7 +315,7 @@ export const items = [
     "id": 70,
     "name": "Elixir of Stag",
     "category": "Főzet",
-    "price": 130,
+    "price": 139,
     "summary": "Időtartam: 1 perc",
     "details": "Időtartam: 1 perc\n\nA használó **+2 Wisdom** bónuszt kap."
   },
@@ -347,7 +347,7 @@ export const items = [
     "id": 56,
     "name": "Greater healing potion",
     "category": "Főzet",
-    "price": 190,
+    "price": 199,
     "summary": "A főzet elfogyasztása **4d4 + 4 HP-t gyógyít**.",
     "details": "A főzet elfogyasztása **4d4 + 4 HP-t gyógyít**."
   },
@@ -371,7 +371,7 @@ export const items = [
     "id": 10,
     "name": "Immovable Rod",
     "category": "Mágikus tárgy",
-    "price": 690,
+    "price": 699,
     "summary": "Mozgatás: DC 30 Strength",
     "details": "**Mágikus rúd**\n\n**Immovable:**\n\nMozgatás: DC 30 Strength\nTeherbírás: 3,5 tonna\n\nAktiválásakor a rúd mozdíthatatlanná válik. Eltolásához vagy elmozdításához sikeres DC 30 Strength próba szükséges."
   },
@@ -411,7 +411,7 @@ export const items = [
     "id": 1,
     "name": "Misztikus Rúnakő",
     "category": "Mágikus tárgy",
-    "price": 490,
+    "price": 499,
     "summary": "A rúnakő egy tárgyon alkalmazva mágikus tárggyá teszi azt. Alkalmazásakor válassz **két hatást** az alábbi listából:",
     "details": "**Rúna alkalmazása:**\n\nA rúnakő egy tárgyon alkalmazva mágikus tárggyá teszi azt. Alkalmazásakor válassz **két hatást** az alábbi listából:\n\n- +1 AC\n- +1 a támadás- és sebzésdobásokhoz\n- +1 a DC-hez, valamint a támadás- és sebzésdobásokhoz egy választott sebzéstípus esetén\n- +1d4 sebzés egy választott sebzéstípusból\n- Egy választott 1. szintű varázslat elsütése hosszú pihenőnként 1x\n- +1d4 minden gyógyításhoz\n- +1 a mentődobásokhoz\n- Előny egy választott skill próbáira\n\nA felsorolt hatások csak példák. Más, hasonló erejű mágikus hatás is választható."
   },
@@ -427,7 +427,7 @@ export const items = [
     "id": 3,
     "name": "Orb of Detect magic",
     "category": "Mágikus tárgy",
-    "price": 490,
+    "price": 499,
     "summary": "Használat: Hosszú pihenőnként 3x",
     "details": "**Mágikus gömb**\n\n**Detect Magic:**\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a gömbből a Detect Magic varázslatot. A varázslat hatótávolsága a kétszeresére nő."
   },
@@ -435,7 +435,7 @@ export const items = [
     "id": 59,
     "name": "Potion of arcane recovery",
     "category": "Főzet",
-    "price": 100,
+    "price": 109,
     "summary": "A főzet elfogyasztása visszatölt egy **1. szintű spell slotot**.",
     "details": "A főzet elfogyasztása visszatölt egy **1. szintű spell slotot**."
   },
@@ -451,7 +451,7 @@ export const items = [
     "id": 54,
     "name": "Potion of Invisibility",
     "category": "Főzet",
-    "price": 150,
+    "price": 159,
     "summary": "A főzet elfogyasztásakor a használó **1 órára Invisible állapotba kerül**.",
     "details": "A főzet elfogyasztásakor a használó **1 órára Invisible állapotba kerül**."
   },
@@ -459,7 +459,7 @@ export const items = [
     "id": 60,
     "name": "Potion of Speed",
     "category": "Főzet",
-    "price": 290,
+    "price": 299,
     "summary": "A főzet elfogyasztásakor a használó a **Haste** varázslat hatása alá kerül.",
     "details": "A főzet elfogyasztásakor a használó a **Haste** varázslat hatása alá kerül."
   },
@@ -475,7 +475,7 @@ export const items = [
     "id": 61,
     "name": "Purifying Incense",
     "category": "Főzet",
-    "price": 90,
+    "price": 99,
     "summary": "Az incense rövid pihenő alatt használható, és 10 percig füstöl.",
     "details": "Az incense rövid pihenő alatt használható, és 10 percig füstöl.\n\nA füstben tartózkodó játékosokról eltávolít minden enyhe átkot. A használat után az incense hamuvá válik."
   },
@@ -491,7 +491,7 @@ export const items = [
     "id": 20,
     "name": "Reinforced Leather Coat",
     "category": "Páncél",
-    "price": 690,
+    "price": 699,
     "summary": "A viselő által elszenvedett piercing és slashing sebzés **1-gyel csökken**.",
     "details": "**13 AC + max 2 Dex mod**\n\nA viselő által elszenvedett piercing és slashing sebzés **1-gyel csökken**."
   },
@@ -499,7 +499,7 @@ export const items = [
     "id": 43,
     "name": "Ring of Arcane Recovery",
     "category": "Ékszer",
-    "price": 990,
+    "price": 999,
     "summary": "Longrestenként 1x",
     "details": "**Arcane Recovery:**\n\nLongrestenként 1x\n\nA gyűrű visszatölt egy 1. szintű spell slotot."
   },
@@ -507,7 +507,7 @@ export const items = [
     "id": 47,
     "name": "Ring of Brightness",
     "category": "Ékszer",
-    "price": 90,
+    "price": 99,
     "summary": "Hatótáv: 10 ft sugarú kör",
     "details": "**Brightness:**\n\nHatótáv: 10 ft sugarú kör\n\nA gyűrű gyenge fényt hoz létre a viselője körül."
   },
@@ -531,7 +531,7 @@ export const items = [
     "id": 4,
     "name": "Ritual Dagger",
     "category": "Fegyver",
-    "price": 290,
+    "price": 299,
     "summary": "A tőr használatával végzett rituálék ideje a felére csökken.",
     "details": "**Dagger**\n\n**Ritual Focus:**\n\nA tőr használatával végzett rituálék ideje a felére csökken."
   },
@@ -539,7 +539,7 @@ export const items = [
     "id": 5,
     "name": "Scrying Eye Orb",
     "category": "Mágikus tárgy",
-    "price": 990,
+    "price": 999,
     "summary": "Használat: Hosszú pihenőnként 1x",
     "details": "**Mágikus gömb**\n\n**Scrying Eye:**\n\nHasználat: Hosszú pihenőnként 1x\nHatótáv: 300 ft\n\nA gömb lebegő szemmé változik, amelyet a hatótávolságon belül irányíthatsz. A szem látásán keresztül úgy érzékeled a környezetét, mintha a helyén lennél."
   },
@@ -547,7 +547,7 @@ export const items = [
     "id": 2,
     "name": "Shatter shard",
     "category": "Mágikus tárgy",
-    "price": 90,
+    "price": 99,
     "summary": "Aktiválás: A szilánk eldobása",
     "details": "**Mágikus kristályszilánk**\n\n**Shatter:**\n\nAktiválás: A szilánk eldobása\n\nAmikor eldobod a szilánkot, az a becsapódás helyén létrehozza a Shatter varázslat hatását."
   },
@@ -563,7 +563,7 @@ export const items = [
     "id": 9,
     "name": "Staff of Sleep",
     "category": "Fegyver",
-    "price": 290,
+    "price": 299,
     "summary": "Használat: Hosszú pihenőnként 1x",
     "details": "**Quarterstaff**\n\n**Sleep:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a staffból a Sleep varázslatot."
   },
@@ -571,7 +571,7 @@ export const items = [
     "id": 49,
     "name": "Strong poison",
     "category": "Főzet",
-    "price": 90,
+    "price": 99,
     "summary": "Aktiválás: Bónuszakció",
     "details": "Aktiválás: Bónuszakció\nCélpont: 1 fegyver vagy legfeljebb 3 lőszer\nIdőtartam: 1 perc vagy az első találatig\n\nTalálatkor a célpontnak **DC 14 Constitution-mentődobást** kell tennie. Sikertelen mentődobás esetén **2d8 poison sebzést** szenved."
   },
@@ -587,7 +587,7 @@ export const items = [
     "id": 42,
     "name": "Tigereye Monocle of Darkvision",
     "category": "Mágikus tárgy",
-    "price": 190,
+    "price": 199,
     "summary": "A monokli viselője **60 ft Darkvision** képességet kap.",
     "details": "**Darkvision:**\n\nA monokli viselője **60 ft Darkvision** képességet kap."
   },
@@ -595,7 +595,7 @@ export const items = [
     "id": 19,
     "name": "Vestments of the Noble Snow-Leopard",
     "category": "Páncél",
-    "price": 590,
+    "price": 599,
     "summary": "A köpeny viselője előnnyel hajtja végre a Persuasion-próbákat.",
     "details": "**13 AC + max 2 Dex mod**\n\n**Noble Presence:**\n\nA köpeny viselője előnnyel hajtja végre a Persuasion-próbákat."
   },
@@ -603,7 +603,7 @@ export const items = [
     "id": 7,
     "name": "Wand of Ice Knife",
     "category": "Fegyver",
-    "price": 690,
+    "price": 699,
     "summary": "Használat: Hosszú pihenőnként 1x",
     "details": "**+1 a cold**\n\n**Ice Knife:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából az Ice Knife varázslatot."
   },
@@ -611,7 +611,7 @@ export const items = [
     "id": 14,
     "name": "Wand of magic missile",
     "category": "Fegyver",
-    "price": 290,
+    "price": 299,
     "summary": "Használat: Hosszú pihenőnként 1x",
     "details": "**Magic Missile:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a pálcából a Magic Missile varázslatot."
   },
@@ -619,7 +619,7 @@ export const items = [
     "id": 8,
     "name": "Wand of Sickeness",
     "category": "Fegyver",
-    "price": 390,
+    "price": 399,
     "summary": "Használat: Hosszú pihenőnként 3x",
     "details": "**Spellcasting focus**\n\n**Ray of Sickness:**\n\nHasználat: Hosszú pihenőnként 3x\n\nElsütheted a wandból a Ray of Sickness varázslatot."
   },
@@ -667,7 +667,7 @@ export const items = [
     "id": 84,
     "name": "Trailstone of the Known Path",
     "category": "Mágikus tárgy",
-    "price": 990,
+    "price": 999,
     "summary": "A kő egyszer átjárót nyithat egy korábban megjelölt helyre.",
     "details": "**Az Ismert Ösvény Rúnája:**\n\nAktiválás: 10 perces rituálé (verbális, szomatikus)\n\nMegjelölhetsz egy helyet egy rúnával, amely a rituálé után láthatatlanná válik. A rúna Detect Magic segítségével észlelhető.\n\n**Átjáró az Ismert Ösvényre:**\n\nAktiválás: 10 perces rituálé (verbális, szomatikus)\nIdőtartam: 10 másodperc, de hamarabb is bezárható\n\nAz aktiválás megnyit egy 2 méter átmérőjű, kör alakú, kék portált, amely a megjelölt helyre vezet. A portálon bárki átmehet.\n\n**A Portál Bezárása:**\n\nAktiválás: Akció (verbális, szomatikus)\n\nAzonnal bezárja a portált. A portál bezárulásakor a kő elveszíti a mágiáját, a rúna pedig eltűnik. A tárgy csak egyszer használható."
   }
