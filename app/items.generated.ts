@@ -403,7 +403,7 @@ export const items = [
     "id": 58,
     "name": "Méreg ellenszer",
     "category": "Főzet",
-    "price": 29,
+    "price": 19,
     "summary": "A szer megszünteti a használón lévő **Poisoned állapotot**.",
     "details": "A szer megszünteti a használón lévő **Poisoned állapotot**."
   },
@@ -483,7 +483,7 @@ export const items = [
     "id": 62,
     "name": "Quickly Powder",
     "category": "Főzet",
-    "price": 29,
+    "price": 19,
     "summary": "Időtartam: 8 óra",
     "details": "Időtartam: 8 óra\n\nA használót nem lehet elaltatni, a mozgási sebessége **5 ft-tel nő**, és megszűnik az Exhaustion állapota.\n\nA hatás végén a használó Exhaustion-szintje 1-gyel magasabb lesz, mint a por használatakor volt."
   },
