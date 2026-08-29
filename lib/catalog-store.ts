@@ -3,7 +3,7 @@ import { createClient } from '@vercel/edge-config';
 import { allCatalogItems, itemKey } from '@/app/catalog-data';
 
 const allKeys = allCatalogItems.map((item) => itemKey(item.name));
-const newlyAddedKeys = ["Evoker's Robe", 'Blessing of Titania', 'Veil of Agony', 'Tears of the Frostmaiden'].map(itemKey);
+const newlyAddedKeys = ["Evoker's Robe", 'Moonflower Diadem', 'Veil of Agony', 'Tears of the Frostmaiden'].map(itemKey);
 
 export async function getEnabledItemKeys() {
   const connectionString = process.env.EDGE_CONFIG;
