@@ -637,7 +637,7 @@ export const items = [
     "category": "Ékszer",
     "price": 12990,
     "summary": "A Misty Step után vakító fényvillanást hozhat létre.",
-    "details": "**+2 Charisma**\n\n**Vakító Lépés:**\n\nA Misty Step varázslat használatát követően 10 lábon belül fényes villanást okozhatsz. A területen tartózkodó lényeknek **DC 17 Wisdom-mentődobást** kell tenniük, különben Blinded állapotba kerülnek.\n\n**Evermeet Áldása:**\n\nAktiválás: Reakció, amikor a viselőt vagy egy 30 lábon belüli szövetségesét találat éri\nHatótáv: 30 láb\nHasználat: Hosszú pihenőnként 1x\n\nA diadém ragyogó holdfénypajzsot idéz a célpont köré. A pajzs a kiváltó találat sebzéséből **4d6 + a viselő spellcasting módosítójával** megegyező mennyiséget fog fel."
+    "details": "**+1 Charisma**\n\n**Vakító Lépés:**\n\nA Misty Step varázslat használatát követően 10 lábon belül fényes villanást okozhatsz. A területen tartózkodó lényeknek **DC 17 Wisdom-mentődobást** kell tenniük, különben Blinded állapotba kerülnek.\n\n**Evermeet Áldása:**\n\nAktiválás: Reakció, amikor a viselőt vagy egy 30 lábon belüli szövetségesét találat éri\nHatótáv: 30 láb\nHasználat: Hosszú pihenőnként 1x\n\nA diadém ragyogó holdfénypajzsot idéz a célpont köré. A pajzs a kiváltó találat sebzéséből **4d6 + a viselő spellcasting módosítójával** megegyező mennyiséget fog fel."
   },
   {
     "id": 81,
