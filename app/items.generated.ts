@@ -662,5 +662,13 @@ export const items = [
     "price": 10990,
     "summary": "Hosszú pihenőnként 1x egyszerre elsüthető belőle a Mass Cure Wounds és a Daylight varázslat.",
     "details": "**+2 healing**\n\n**Lathander Fénye:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből egyszerre a Mass Cure Wounds és a Daylight varázslatot."
+  },
+  {
+    "id": 84,
+    "name": "Trailstone of the Known Path",
+    "category": "Mágikus tárgy",
+    "price": 14990,
+    "summary": "A kő egy előre megjelölt helyre vezető portált képes nyitni.",
+    "details": "**Az Ismert Ösvény Rúnája:**\n\nHasználat: Hosszú pihenőnként 1x\nAktiválás: 1 perces rituálé (verbális, szomatikus)\n\nMegjelölhetsz egy helyet egy rúnával, amely a rituálé után láthatatlanná válik. A rúna Detect Magic segítségével észlelhető. Egyszerre csak egy rúnát helyezhetsz el.\n\n**Átjáró az Ismert Ösvényre:**\n\nHasználat: Hosszú pihenőnként 1x\nAktiválás: 1 perces rituálé (verbális, szomatikus)\nIdőtartam: 10 másodperc, de hamarabb is bezárható\n\nAz aktiválás megnyit egy 2 méter átmérőjű, kör alakú, kék portált, amely a megjelölt helyre vezet. A portálon bárki átmehet.\n\n**A Portál Bezárása:**\n\nAktiválás: Akció (verbális, szomatikus)\n\nAzonnal bezárja a portált."
   }
 ] as const;
