@@ -80,7 +80,7 @@ export const itemImages: Record<string, string> = {
   'Wand of Sickeness': '/items/wand-of-sickeness.jpeg',
   'Wand of magic missile': '/items/wand-of-magic-missile.jpeg',
   "Evoker's Robe": '/items/evokers-robe.jpeg',
-  'Blessing of Titania': '/items/blessing-of-titania.jpeg',
+  'Moonflower Diadem': '/items/moonflower-diadem.jpeg',
   'Veil of Agony': '/items/veil-of-agony.jpeg',
   'Tears of the Frostmaiden': '/items/tears-of-the-frostmaiden.jpeg',
 };

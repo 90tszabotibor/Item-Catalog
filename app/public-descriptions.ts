@@ -81,7 +81,7 @@ const descriptions: Record<string, [string, string]> = {
   'Wand of magic missile':['Pálca, amely tévedhetetlen mágikus lövedékeket bocsát ki.','A wand that releases unerring bolts of magical force.'],
   'Wand of Sickeness':['Baljós pálca, amely betegséget és gyengeséget sugároz áldozatára.','An ominous wand that projects sickness and weakness onto its victim.'],
   "Evoker's Robe":['Varázslóköntös, amely felerősíti a romboló mágiák erejét.','A wizard’s robe that amplifies the power of destructive magic.'],
-  'Blessing of Titania':['Tündérkirálynői tiara, amely ragyogó kisugárzással és vakító fénnyel áldja meg viselőjét.','A fey queen’s tiara that blesses its wearer with radiant presence and blinding light.'],
+  'Moonflower Diadem':['Amlaruil Moonflower elveszett diadémja.','The lost diadem of Amlaruil Moonflower.'],
   'Veil of Agony':['Sötét köpeny, amely az okozott fájdalomból táplálja viselője életerejét.','A dark cloak that feeds its wearer’s vitality with the pain they inflict.'],
   'Tears of the Frostmaiden':['Jeges nyaklánc, amelyben a Auril istennő dermesztő haragja szunnyad.','An icy necklace holding the Frostmaiden’s freezing wrath.'],
 };

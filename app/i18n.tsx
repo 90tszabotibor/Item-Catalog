@@ -39,7 +39,7 @@ const huNames: Record<string, string> = {
   'Vestments of the Noble Snow-Leopard':'A Nemes Hópárduc Öltözéke','Wand of Ice Knife':'Jégcsap pálca',
   'Wand of magic missile':'Mágikus lövedék pálcája','Wand of Sickeness':'Betegségek pálcája',
   'Cast-Iron Critical Clanger':'A Konyhai Kritikus Kongató','Handbreaker':'Kéztörő','Misztikus Rúnakő':'Misztikus Rúnakő',
-  "Evoker's Robe":'Evokátor köntöse','Blessing of Titania':'Titania áldása','Veil of Agony':'Gyötrelem fátyla',
+  "Evoker's Robe":'Evokátor köntöse','Moonflower Diadem':'Moonflower Diadem','Veil of Agony':'Gyötrelem fátyla',
   'Tears of the Frostmaiden':'A Fagyistennő könnyei',
 };
 
@@ -60,7 +60,7 @@ const repairEnglish = (value: string) => value
 
 const enDetailOverrides: Record<string, string> = {
   "Evoker's Robe": '**+1 Evocation**\n\n**Evoker’s Might:**\n\nUse: 1x per long rest\n\nYou can cast one prepared 1st-level Evocation spell without expending a spell slot.',
-  'Blessing of Titania': '**+2 Charisma**\n\n**Blinding Step:**\n\nAfter using Misty Step, you can create a brilliant flash within 10 feet. Creatures in the area must succeed on a **DC 17 Wisdom saving throw** or become Blinded.',
+  'Moonflower Diadem': '**+2 Charisma**\n\n**Blinding Step:**\n\nAfter using Misty Step, you can create a brilliant flash within 10 feet. Creatures in the area must succeed on a **DC 17 Wisdom saving throw** or become Blinded.\n\n**Blessing of Evermeet:**\n\nActivation: Reaction, when the wearer or an ally within 30 feet is hit\nRange: 30 feet\nUse: 1x per long rest\n\nThe diadem conjures a radiant shield of moonlight around the target. The shield absorbs **4d6 + the wearer’s spellcasting ability modifier** damage from the triggering hit.',
   'Veil of Agony': '**+1 necrotic**\n\n**Life Tap:**\n\nUses: 3x per long rest\n\nWhen you deal necrotic damage to a creature, the cloak can drain its vitality. You regain hit points equal to half the damage dealt.',
   'Tears of the Frostmaiden': '**+2 cold**\n\n**Cone of Cold:**\n\nUse: 1x per long rest\n\nYou can cast Cone of Cold from the necklace.',
   'Adamantin Sisak': '**+1 AC**\n\n**Adamantine Defense:**\n\nThe wearer has advantage on Dexterity saving throws made to avoid damage or attacks.\n\nCritical hits against the wearer count as normal hits.',
