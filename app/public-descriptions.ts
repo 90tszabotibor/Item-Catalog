@@ -84,7 +84,7 @@ const descriptions: Record<string, [string, string]> = {
   'Moonflower Diadem':['Amlaruil Moonflower elveszett diadémja, mely ragyogó fénnyel és védelemmel áldja meg viselőjét.','The lost diadem of Amlaruil Moonflower, blessing its wearer with radiant light and protection.'],
   'Veil of Agony':['Sötét köpeny, amely az okozott fájdalomból táplálja viselője életerejét.','A dark cloak that feeds its wearer’s vitality with the pain they inflict.'],
   'Tears of the Frostmaiden':['Jeges nyaklánc, amelyben a Auril istennő dermesztő haragja szunnyad.','An icy necklace holding the Frostmaiden’s freezing wrath.'],
-  'Lost Dawn':['Lathander elveszett nyaklánca, amely a hajnal fényével gyógyítja a sebesülteket.','Lathander’s lost necklace, healing the wounded with the light of dawn.'],
+  'Lost Dawn':['Lathander elveszett gyűrűje, amely a hajnal fényével gyógyítja a sebesülteket.','Lathander’s lost ring, healing the wounded with the light of dawn.'],
 };
 
 export function publicDescription(item: CatalogItem & { originalName?: string }, language: Language) {
