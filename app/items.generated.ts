@@ -654,5 +654,13 @@ export const items = [
     "price": 7900,
     "summary": "Hosszú pihenőnként 1x elsüthető belőle a Cone of Cold varázslat.",
     "details": "**+2 cold**\n\n**Cone of Cold:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból a Cone of Cold varázslatot."
+  },
+  {
+    "id": 83,
+    "name": "Lost Dawn",
+    "category": "Ékszer",
+    "price": 8990,
+    "summary": "Hosszú pihenőnként 1x egyszerre elsüthető belőle a Mass Cure Wounds és a Daylight varázslat.",
+    "details": "**+1 healing**\n\n**Lathander Fénye:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból egyszerre a Mass Cure Wounds és a Daylight varázslatot."
   }
 ] as const;

@@ -83,6 +83,7 @@ export const itemImages: Record<string, string> = {
   'Moonflower Diadem': '/items/moonflower-diadem.jpeg',
   'Veil of Agony': '/items/veil-of-agony.jpeg',
   'Tears of the Frostmaiden': '/items/tears-of-the-frostmaiden.jpeg',
+  'Lost Dawn': '/items/lost-dawn.jpeg',
 };
 
 export const itemKey = (name: string) => name
