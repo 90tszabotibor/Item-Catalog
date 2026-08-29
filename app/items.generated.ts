@@ -659,8 +659,8 @@ export const items = [
     "id": 83,
     "name": "Lost Dawn",
     "category": "Ékszer",
-    "price": 8990,
+    "price": 10990,
     "summary": "Hosszú pihenőnként 1x egyszerre elsüthető belőle a Mass Cure Wounds és a Daylight varázslat.",
-    "details": "**+1 healing**\n\n**Lathander Fénye:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből egyszerre a Mass Cure Wounds és a Daylight varázslatot."
+    "details": "**+2 healing**\n\n**Lathander Fénye:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből egyszerre a Mass Cure Wounds és a Daylight varázslatot."
   }
 ] as const;
