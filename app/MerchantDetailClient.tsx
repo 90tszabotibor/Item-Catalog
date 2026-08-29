@@ -20,6 +20,7 @@ export default function MerchantDetailClient({ merchant }: { merchant: Merchant 
   };
   const name = language === 'hu' ? merchant.hu : merchant.en;
   const inventory = allCatalogItems
+    .filter((item) => !merchant.inventoryExclude?.includes(item.name))
     .filter((item) => merchant.inventory?.includes(item.name)
       || (merchant.inventoryMode === 'potions' && item.category === 'Főzet')
       || (merchant.inventoryMode === 'gondeth' && (item.category === 'Főzet' || (item.category === 'Mágikus tárgy' && (item.price ?? Infinity) <= 1000))))
