@@ -19,7 +19,7 @@ export const items = [
     "id": 48,
     "name": "Basic poison",
     "category": "Főzet",
-    "price": 15,
+    "price": 29,
     "summary": "Aktiválás: Bónuszakció",
     "details": "Aktiválás: Bónuszakció\nCélpont: 1 fegyver vagy legfeljebb 3 lőszer\nIdőtartam: 1 perc vagy az első találatig\n\nTalálatkor a célpontnak **DC 10 Constitution-mentődobást** kell tennie. Sikertelen mentődobás esetén **1d4 poison sebzést** szenved. A méreg nem okoz Poisoned állapotot."
   },
@@ -187,7 +187,7 @@ export const items = [
     "id": 71,
     "name": "Elixir of Acid Resistance",
     "category": "Főzet",
-    "price": 30,
+    "price": 49,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap az **acid sebzéssel** szemben."
   },
@@ -219,7 +219,7 @@ export const items = [
     "id": 72,
     "name": "Elixir of Cold Resistance",
     "category": "Főzet",
-    "price": 30,
+    "price": 49,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **cold sebzéssel** szemben."
   },
@@ -227,7 +227,7 @@ export const items = [
     "id": 73,
     "name": "Elixir of Fire Resistance",
     "category": "Főzet",
-    "price": 30,
+    "price": 49,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **fire sebzéssel** szemben."
   },
@@ -243,7 +243,7 @@ export const items = [
     "id": 74,
     "name": "Elixir of Lightning Resistance",
     "category": "Főzet",
-    "price": 30,
+    "price": 49,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **lightning sebzéssel** szemben."
   },
@@ -291,7 +291,7 @@ export const items = [
     "id": 75,
     "name": "Elixir of Poison Resistance",
     "category": "Főzet",
-    "price": 30,
+    "price": 49,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó ellenállást kap a **poison sebzéssel** szemben."
   },
@@ -323,7 +323,7 @@ export const items = [
     "id": 64,
     "name": "Elixir of Tressym",
     "category": "Főzet",
-    "price": 40,
+    "price": 59,
     "summary": "A használó **Infravision** képességet kap.",
     "details": "A használó **Infravision** képességet kap."
   },
@@ -363,7 +363,7 @@ export const items = [
     "id": 57,
     "name": "Healing potion",
     "category": "Főzet",
-    "price": 40,
+    "price": 59,
     "summary": "A főzet elfogyasztása **2d4 + 2 HP-t gyógyít**.",
     "details": "A főzet elfogyasztása **2d4 + 2 HP-t gyógyít**."
   },
@@ -403,7 +403,7 @@ export const items = [
     "id": 58,
     "name": "Méreg ellenszer",
     "category": "Főzet",
-    "price": 10,
+    "price": 29,
     "summary": "A szer megszünteti a használón lévő **Poisoned állapotot**.",
     "details": "A szer megszünteti a használón lévő **Poisoned állapotot**."
   },
@@ -443,7 +443,7 @@ export const items = [
     "id": 63,
     "name": "Potion of feather fall",
     "category": "Főzet",
-    "price": 30,
+    "price": 49,
     "summary": "A főzet elfogyasztásakor a használó a **Feather Fall** varázslat hatása alá kerül.",
     "details": "A főzet elfogyasztásakor a használó a **Feather Fall** varázslat hatása alá kerül."
   },
@@ -483,7 +483,7 @@ export const items = [
     "id": 62,
     "name": "Quickly Powder",
     "category": "Főzet",
-    "price": 15,
+    "price": 29,
     "summary": "Időtartam: 8 óra",
     "details": "Időtartam: 8 óra\n\nA használót nem lehet elaltatni, a mozgási sebessége **5 ft-tel nő**, és megszűnik az Exhaustion állapota.\n\nA hatás végén a használó Exhaustion-szintje 1-gyel magasabb lesz, mint a por használatakor volt."
   },
