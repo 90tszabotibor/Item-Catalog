@@ -12,7 +12,6 @@
     "lint": "eslint . --ignore-pattern .next --ignore-pattern dist"
   },
   "dependencies": {
-    "@vercel/edge-config": "^1.5.1",
     "next": "^16.3.3",
     "react": "19.2.6",
     "react-dom": "19.2.6"

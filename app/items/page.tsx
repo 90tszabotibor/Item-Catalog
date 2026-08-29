@@ -1,9 +1,6 @@
 import CatalogClient from '../CatalogClient';
-import { getPublicCatalogItems } from '@/lib/catalog-store';
+import { allCatalogItems } from '../catalog-data';
 
-export const dynamic = 'force-dynamic';
-
-export default async function ItemsPage() {
-  const catalogItems = await getPublicCatalogItems();
-  return <CatalogClient catalogItems={catalogItems} />;
+export default function ItemsPage() {
+  return <CatalogClient catalogItems={allCatalogItems} />;
 }
