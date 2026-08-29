@@ -651,7 +651,7 @@ export const items = [
     "id": 82,
     "name": "Tears of the Frostmaiden",
     "category": "Ékszer",
-    "price": 7900,
+    "price": 7990,
     "summary": "Hosszú pihenőnként 1x elsüthető belőle a Cone of Cold varázslat.",
     "details": "**+2 cold**\n\n**Cone of Cold:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból a Cone of Cold varázslatot."
   },
