@@ -14,7 +14,7 @@ const descriptions: Record<string, [string, string]> = {
   'Bracers of Defense':['Védelmező karperecek, amelyek páncél nélkül óvják igazán viselőjüket.','Protective bracers that work best when their wearer is otherwise unarmored.'],
   'Braclet of sleight hands':['A karkötő gyorsabbá és ügyesebbé teszi viselője ujjait.','The bracelet makes its wearer’s fingers quicker and more dexterous.'],
   'Broom of Flying':['Elvarázsolt seprű, amely parancsszóra a magasba emelkedik.','An enchanted broom that rises into the air at its rider’s command.'],
-  'Cast-Iron Critical Clanger':['Öntöttvas fegyver, amelynek pusztító csapásait fülsüketítő kongás kíséri. Ráadásul rendkívül ízletes steak készül benne.','A cast-iron weapon whose devastating blows ring with a deafening clang.'],
+  'Cast-Iron Critical Clanger':['Öntöttvas fegyver, amelynek pusztító csapásait fülsüketítő kongás kíséri. Ráadásul rendkívül ízletes steak készül benne.','A cast-iron weapon whose devastating blows ring with a deafening clang. It also cooks an exceptionally delicious steak.'],
   'Catpaw boots':['Puha csizma, amely hangtalan, macskaszerű lépteket biztosít.','Soft boots that grant quiet, cat-like footsteps.'],
   'Circlet of scorching':['Tüzes diadém, amely perzselő sugarakat képes szabadjára engedni.','A fiery circlet capable of unleashing scorching rays.'],
   'Cloak of Invisibility':['Titokzatos köpeny, amely képes eltüntetni viselőjét a kíváncsi szemek elől.','A mysterious cloak that can hide its wearer from prying eyes.'],
