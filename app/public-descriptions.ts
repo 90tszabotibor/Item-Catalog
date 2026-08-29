@@ -85,7 +85,7 @@ const descriptions: Record<string, [string, string]> = {
   'Veil of Agony':['Sötét köpeny, amely az okozott fájdalomból táplálja viselője életerejét.','A dark cloak that feeds its wearer’s vitality with the pain they inflict.'],
   'Tears of the Frostmaiden':['Jeges nyaklánc, amelyben a Auril istennő dermesztő haragja szunnyad.','An icy necklace holding the Frostmaiden’s freezing wrath.'],
   'Lost Dawn':['Lathander elveszett gyűrűje, amely a hajnal fényével gyógyítja a sebesülteket.','Lathander’s lost ring, healing the wounded with the light of dawn.'],
-  'Trailstone of the Known Path':['Rúnakő, amely átjárót nyit egy korábban megjelölt helyre.','A runestone that opens a passage to a previously marked location.'],
+  'Trailstone of the Known Path':['Egyszer használható rúnakő, amely átjárót nyit egy korábban megjelölt helyre.','A single-use runestone that opens a passage to a previously marked location.'],
 };
 
 export function publicDescription(item: CatalogItem & { originalName?: string }, language: Language) {

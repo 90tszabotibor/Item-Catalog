@@ -667,8 +667,8 @@ export const items = [
     "id": 84,
     "name": "Trailstone of the Known Path",
     "category": "Mágikus tárgy",
-    "price": 14990,
-    "summary": "A kő egy előre megjelölt helyre vezető portált képes nyitni.",
-    "details": "**Az Ismert Ösvény Rúnája:**\n\nHasználat: Hosszú pihenőnként 1x\nAktiválás: 1 perces rituálé (verbális, szomatikus)\n\nMegjelölhetsz egy helyet egy rúnával, amely a rituálé után láthatatlanná válik. A rúna Detect Magic segítségével észlelhető. Egyszerre csak egy rúnát helyezhetsz el.\n\n**Átjáró az Ismert Ösvényre:**\n\nHasználat: Hosszú pihenőnként 1x\nAktiválás: 1 perces rituálé (verbális, szomatikus)\nIdőtartam: 10 másodperc, de hamarabb is bezárható\n\nAz aktiválás megnyit egy 2 méter átmérőjű, kör alakú, kék portált, amely a megjelölt helyre vezet. A portálon bárki átmehet.\n\n**A Portál Bezárása:**\n\nAktiválás: Akció (verbális, szomatikus)\n\nAzonnal bezárja a portált."
+    "price": 2990,
+    "summary": "A kő egyszer átjárót nyithat egy korábban megjelölt helyre.",
+    "details": "**Az Ismert Ösvény Rúnája:**\n\nAktiválás: 1 perces rituálé (verbális, szomatikus)\n\nMegjelölhetsz egy helyet egy rúnával, amely a rituálé után láthatatlanná válik. A rúna Detect Magic segítségével észlelhető.\n\n**Átjáró az Ismert Ösvényre:**\n\nAktiválás: 1 perces rituálé (verbális, szomatikus)\nIdőtartam: 10 másodperc, de hamarabb is bezárható\n\nAz aktiválás megnyit egy 2 méter átmérőjű, kör alakú, kék portált, amely a megjelölt helyre vezet. A portálon bárki átmehet.\n\n**A Portál Bezárása:**\n\nAktiválás: Akció (verbális, szomatikus)\n\nAzonnal bezárja a portált. A portál bezárulásakor a kő elveszíti a mágiáját, a rúna pedig eltűnik. A tárgy csak egyszer használható."
   }
 ] as const;
