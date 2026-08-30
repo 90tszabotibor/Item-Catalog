@@ -47,7 +47,7 @@
   "Bracers of Defense": {
     "huName": "Védekezők",
     "enName": "Bracers of Defense",
-    "enDetails": "* * + 2 AC * *\n\nUnarmored Defense:\n\nThe bonus only applies if the holder does not wear any other armor."
+    "enDetails": "**+1 AC**\n\n**Unarmored Defense:**\n\nThe bonus only applies if the wearer is not wearing other armor."
   },
   "Braclet of sleight hands": {
     "huName": "Karperecek",

@@ -75,9 +75,9 @@ export const items = [
     "id": 35,
     "name": "Bracers of Defense",
     "category": "Páncél",
-    "price": 3490,
+    "price": 1890,
     "summary": "A bónusz csak akkor érvényesül, ha a viselő nem hord más páncélt.",
-    "details": "**+2 AC**\n\n**Unarmored Defense:**\n\nA bónusz csak akkor érvényesül, ha a viselő nem hord más páncélt."
+    "details": "**+1 AC**\n\n**Unarmored Defense:**\n\nA bónusz csak akkor érvényesül, ha a viselő nem hord más páncélt."
   },
   {
     "id": 38,
