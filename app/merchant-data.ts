@@ -16,3 +16,11 @@ export const merchants: Merchant[] = [
 ];
 
 export const merchantBySlug = (slug: string) => merchants.find((merchant) => merchant.slug === slug);
+
+export const merchantsSellingItem = (item: { name: string; category: string; price: number | null }) => merchants.filter((merchant) => {
+  if (merchant.inventoryExclude?.includes(item.name)) return false;
+  if (merchant.inventory?.includes(item.name)) return true;
+  if (merchant.inventoryMode === 'potions') return item.category === 'Főzet';
+  if (merchant.inventoryMode === 'gondeth') return item.category === 'Főzet' || (item.category === 'Mágikus tárgy' && (item.price ?? Infinity) <= 1000);
+  return false;
+});

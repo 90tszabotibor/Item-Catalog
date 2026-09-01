@@ -22,6 +22,8 @@
 .modalBody h2 { font-size:34px; line-height:1.08; font-weight:400; margin:15px 0 22px; }
 .price { padding:14px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:#6d6156; font-size:14px; }
 .price strong { color:var(--wine); font-weight:400; }
+.availability { padding:14px 0; border-bottom:1px solid var(--line); color:#6d6156; font-size:14px; line-height:1.5; }
+.availability strong { color:var(--wine); font-weight:400; }
 .details { white-space:pre-wrap; margin-top:25px; color:#554c43; font-size:15px; line-height:1.75; }
 .details strong { color:var(--ink); font-weight:700; }
 .itemCard { padding:0; color:var(--ink); font-family:Georgia,'Times New Roman',serif; text-align:left; cursor:pointer; width:100%; }

@@ -7,6 +7,7 @@ import { categoryLabel, localizedItem, useLanguage } from './i18n';
 import SiteNav from './SiteNav';
 import { DmModeControl, useDmMode } from './DmMode';
 import { publicDescription } from './public-descriptions';
+import { merchantsSellingItem } from './merchant-data';
 
 type Item = CatalogItem;
 const categoryOrder = ['Főzet', 'Fegyver', 'Páncél', 'Ékszer', 'Fókusz', 'Fogyóeszköz', 'Mágikus tárgy'];
@@ -43,6 +44,7 @@ export default function CatalogClient({ catalogItems }: { catalogItems: readonly
     }
   };
   const selected = displayItems.find((item) => item.id === selectedId) ?? null;
+  const selectedSellers = selected ? merchantsSellingItem({ ...selected, name: selected.originalName ?? selected.name }) : [];
   const filtered = useMemo(() => displayItems.filter((item) => {
     const haystack = `${item.name} ${categoryLabel(item.category, language)} ${publicDescription(item, language)}${dmMode ? ` ${item.summary} ${item.details}` : ''}`.toLocaleLowerCase(language);
     return (category === 'Mind' || item.category === category) && haystack.includes(query.toLocaleLowerCase('hu').trim());
@@ -69,6 +71,6 @@ export default function CatalogClient({ catalogItems }: { catalogItems: readonly
       {filtered.length === 0 && <div className="empty">{language === 'hu' ? 'A kereséshez nem találtunk tárgyat. Próbálj más kifejezést.' : 'No items matched your search. Try another term.'}</div>}
     </section>
     <footer><span>{catalogItems.length} {language === 'hu' ? 'lajstromozott tárgy' : 'catalogued items'}</span><span>{language === 'hu' ? '„Nincs olyan ritkaság, amelyet ne lehetne felkutatni.”' : '“No rarity is beyond reach.”'}</span></footer>
-    {selected && <div className="modalBack" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setSelectedId(null)}><section className="modal" role="dialog" aria-modal="true" aria-labelledby="item-title"><button className="close" onClick={() => setSelectedId(null)} aria-label={language === 'hu' ? 'Bezárás' : 'Close'}>×</button><ItemArtwork item={selected} modal/><div className="modalBody"><div className="eyebrow">{categoryLabel(selected.category, language)}</div><h2 id="item-title">{selected.name}</h2>{dmMode && selected.price && <div className="price">{language === 'hu' ? 'Érték' : 'Value'}: <strong>{selected.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} {language === 'hu' ? 'arany' : 'gold'}</strong></div>}<div className="details publicDetails">{publicDescription(selected, language)}</div>{dmMode && <div className="details"><DetailText text={selected.details}/></div>}</div></section></div>}
+    {selected && <div className="modalBack" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setSelectedId(null)}><section className="modal" role="dialog" aria-modal="true" aria-labelledby="item-title"><button className="close" onClick={() => setSelectedId(null)} aria-label={language === 'hu' ? 'Bezárás' : 'Close'}>×</button><ItemArtwork item={selected} modal/><div className="modalBody"><div className="eyebrow">{categoryLabel(selected.category, language)}</div><h2 id="item-title">{selected.name}</h2>{dmMode && selected.price && <div className="price">{language === 'hu' ? 'Érték' : 'Value'}: <strong>{selected.price.toLocaleString(language === 'hu' ? 'hu-HU' : 'en-US')} {language === 'hu' ? 'arany' : 'gold'}</strong></div>}{dmMode && <div className="availability"><span>{language === 'hu' ? 'Elérhető' : 'Available from'}:</span> <strong>{selectedSellers.length > 0 ? selectedSellers.map((merchant) => language === 'hu' ? merchant.hu : merchant.en).join(', ') : (language === 'hu' ? 'jelenleg egyik árusnál sem' : 'currently no merchant')}</strong></div>}<div className="details publicDetails">{publicDescription(selected, language)}</div>{dmMode && <div className="details"><DetailText text={selected.details}/></div>}</div></section></div>}
   </main>;
 }
