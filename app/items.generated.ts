@@ -211,7 +211,7 @@ export const items = [
     "id": 53,
     "name": "Elixir of Cloud Giant",
     "category": "Főzet",
-    "price": 499,
+    "price": 1490,
     "summary": "Időtartam: 24 óra vagy a következő hosszú pihenőig",
     "details": "Időtartam: 24 óra vagy a következő hosszú pihenőig\n\nA használó Strength értéke **27-re változik**."
   },
