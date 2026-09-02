@@ -35,7 +35,7 @@ const descriptions: Record<string, [string, string]> = {
   'Elixir of Lightning Resistance':['Az elixír segít elviselni a villámok pusztító erejét.','This elixir helps the drinker withstand the destructive force of lightning.'],
   'Elixir of Lynx':['Hiúzszerű gyorsaságot és ragadozó reflexeket kölcsönöz.','Grants lynx-like speed and predatory reflexes.'],
   'Elixir of Necrotic Resistance':['Az elixír óvja az élő testet a halálenergiák rombolásától.','This elixir protects the living body from the ravages of deathly energy.'],
-  'Elixir of Owl':['Bagolyszerű éberséget és kifinomult érzékeket kölcsönöz.','Grants owl-like alertness and finely tuned senses.'],
+  'Elixir of Owl':['Bagolyszerű bölcsességet, éberséget és kifinomult érzékeket kölcsönöz.','Grants owl-like wisdom, alertness, and finely tuned senses.'],
   'Elixir of Ox':['Ökörszerű teherbírást és rendíthetetlen erőt kölcsönöz.','Grants ox-like stamina and steadfast strength.'],
   'Elixir of Peacock':['Feltűnő kisugárzással és magabiztossággal tölti el fogyasztóját.','Fills the drinker with striking presence and confidence.'],
   'Elixir of Poison Resistance':['Az elixír ellenállóbbá teszi a szervezetet a mérgekkel szemben.','This elixir makes the body more resistant to poisons.'],
