@@ -31,7 +31,7 @@ const huNames: Record<string, string> = {
   'Javelin of Thunder Peaks':'Mennydörgő csúcsok dárdája','Legbreaker':'Lábtörő','Lightbringer':'Fényhozó','Mithral Láncing':'Mithral láncing',
   'Orb of Detect magic':'Mágiadetektáló gömb','Potion of arcane recovery':'Arkán visszanyerés főzete','Potion of feather fall':'Tollhullás főzete',
   'Potion of Invisibility':'Láthatatlanság főzete','Potion of Speed':'Gyorsaság főzete','Prismatic Psychedelic Peepers':'Prizmatikus Pszichedelikus Pápaszem',
-  'Purifying Incense':'Tisztító füstölő','Quickly Powder':'Éberség pora','Reinforced Leather Coat':'Megerősített bőrkabát',
+  'Purifying Incense':'Tisztító füstölő','Quickly Powder':'Hamar por','Reinforced Leather Coat':'Megerősített bőrkabát',
   'Ring of Arcane Recovery':'Arkán visszanyerés gyűrűje','Ring of Brightness':'Fényesség gyűrűje','Ring of Remove Curse':'Átoktörés gyűrűje',
   'Ring of Spell Storing':'Varázslattárolás gyűrűje','Ritual Dagger':'Rituális tőr','Scrying Eye Orb':'Fürkésző szem gömbje',
   'Shatter shard':'Törőszilánk','Staff of Healing':'Gyógyítás botja','Staff of Sleep':'Álmok botja','Strong poison':'Erős méreg',
