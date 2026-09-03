@@ -107,7 +107,7 @@
   "Earrings of charm": {
     "huName": "A báj fülei",
     "enName": "Earrings of charm",
-    "enDetails": "* * Charming Presence: * *\n\nThe opponents throw their rescue balls at the ability of the wearing Charmed to cause a condition."
+    "enDetails": "**Charming Presence:**\n\nCreatures have disadvantage on saving throws against the wearer’s abilities that inflict the Charmed condition.\n\nThe wearer has advantage on Charisma checks made to seduce another creature."
   },
   "Elixir of Aboleth": {
     "huName": "Aboleth elixírje",

@@ -172,8 +172,8 @@ export const items = [
     "name": "Earrings of charm",
     "category": "Ékszer",
     "price": 1690,
-    "summary": "Az ellenfelek hátránnyal dobják a mentődobásaikat a viselő Charmed állapotot okozó képességei ellen.",
-    "details": "**Charming Presence:**\n\nAz ellenfelek hátránnyal dobják a mentődobásaikat a viselő Charmed állapotot okozó képességei ellen."
+    "summary": "Az ellenfelek hátránnyal dobják a mentődobásaikat a viselő Charmed állapotot okozó képességei ellen. A viselő előnnyel dobja az elcsábításra irányuló Charisma-próbákat.",
+    "details": "**Charming Presence:**\n\nAz ellenfelek hátránnyal dobják a mentődobásaikat a viselő Charmed állapotot okozó képességei ellen.\n\nA viselő előnnyel dobja az elcsábításra irányuló Charisma-próbákat."
   },
   {
     "id": 55,
