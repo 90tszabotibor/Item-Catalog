@@ -670,5 +670,13 @@ export const items = [
     "price": 999,
     "summary": "A kő egyszer átjárót nyithat egy korábban megjelölt helyre.",
     "details": "**Az Ismert Ösvény Rúnája:**\n\nAktiválás: 10 perces rituálé (verbális, szomatikus)\n\nMegjelölhetsz egy helyet egy rúnával, amely a rituálé után láthatatlanná válik. A rúna Detect Magic segítségével észlelhető.\n\n**Átjáró az Ismert Ösvényre:**\n\nAktiválás: 10 perces rituálé (verbális, szomatikus)\nIdőtartam: 10 másodperc, de hamarabb is bezárható\n\nAz aktiválás megnyit egy 2 méter átmérőjű, kör alakú, kék portált, amely a megjelölt helyre vezet. A portálon bárki átmehet.\n\n**A Portál Bezárása:**\n\nAktiválás: Akció (verbális, szomatikus)\n\nAzonnal bezárja a portált. A portál bezárulásakor a kő elveszíti a mágiáját, a rúna pedig eltűnik. A tárgy csak egyszer használható."
+  },
+  {
+    "id": 85,
+    "name": "Zsebvilág",
+    "category": "Mágikus tárgy",
+    "price": 6990,
+    "summary": "Naponta egyszer legfeljebb 24 órára egy lényt zárhat a belső világába.",
+    "details": "**Befogadás:**\n\nAktiválás: Akció\nHatótáv: 30 láb\nHasználat: Naponta 1x, hajnalban töltődik újra\n\nA Zsebvilág bármilyen típusú és méretű lényt befogadhat, de egyszerre legfeljebb egyet. A célpont viselt és hordozott tárgyai vele tartanak, más lények azonban nem.\n\nAz együttműködő célpont mentődobás és életerő-korlát nélkül beléphet. Nem együttműködő célpont csak akkor fogadható be, ha aktuális HP-ja legfeljebb a maximumának fele. A célpontnak **DC 13 Dexterity-mentődobást** kell tennie; sikertelenség esetén a gömb belső világába kerül. A befogadás naponta egyszer kísérelhető meg, sikerétől függetlenül.\n\n**A belső világ:**\n\nA belső táj a vendég méretéhez és természetes környezetéhez igazodik. A lény álomszerű nyugalomba merül, nem érzékeli a külvilágot, és nincs szüksége levegőre, táplálékra vagy folyadékra. Az itt töltött idő nem számít pihenőnek, és önmagában nem gyógyít. A lény és a külvilág nem hathat egymásra. A Zsebvilág nem változtatja meg a lény hozzáállását, és nem ad irányítást felette.\n\n**Visszatérés:**\n\nAktiválás: Akció, a „Hazatérés” parancsszó kimondásával\n\nA gömböt tartó személy visszahívhatja a lényt egy 10 lábon belüli, számára elegendő méretű üres helyre. A vendég legfeljebb 24 órán át maradhat bent, majd automatikusan visszatér. A gömb megsemmisülése szintén azonnali visszatérést okoz. A visszahívás nem használja el a napi befogadást."
   }
 ] as const;

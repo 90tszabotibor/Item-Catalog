@@ -86,6 +86,7 @@ const descriptions: Record<string, [string, string]> = {
   'Tears of the Frostmaiden':['Jeges nyaklánc, amelyben a Auril istennő dermesztő haragja szunnyad.','An icy necklace holding the Frostmaiden’s freezing wrath.'],
   'Lost Dawn':['Lathander elveszett gyűrűje, amely a hajnal fényével gyógyítja a sebesülteket.','Lathander’s lost ring, healing the wounded with the light of dawn.'],
   'Trailstone of the Known Path':['Egyszer használható rúnakő, amely átjárót nyit egy korábban megjelölt helyre.','A single-use runestone that opens a passage to a previously marked location.'],
+  'Zsebvilág':['Tenyérnyi kristálygömb, amelynek belsejében egy apró, élő világ rejtőzik.','A palm-sized crystal sphere containing a tiny living world.'],
 };
 
 export function publicDescription(item: CatalogItem & { originalName?: string }, language: Language) {

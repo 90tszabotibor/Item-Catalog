@@ -388,5 +388,10 @@
     "huName": "Betegség pálcája",
     "enName": "Wand of Sickeness",
     "enDetails": "* * Spellcasting focus * *\n\n♪ Ray of Sickness: ♪\n\nUsage: For a long rest 3x\n\nYou can blow the Ray of Sickness spell from the wand."
+  },
+  "Zsebvilág": {
+    "huName": "Zsebvilág",
+    "enName": "Pocket World",
+    "enDetails": "**Capture:**\n\nActivation: Action\nRange: 30 feet\nUse: 1x per day; recharges at dawn\n\nThe Pocket World can contain a creature of any type or size, but only one at a time. The target's worn and carried equipment travels with it, but other creatures do not.\n\nA willing target can enter without a saving throw or hit-point restriction. An unwilling target can be captured only if its current HP is no more than half its maximum. It must make a **DC 13 Dexterity saving throw**; on a failure, it enters the sphere's inner world. The capture can be attempted only once per day, whether it succeeds or fails.\n\n**The Inner World:**\n\nThe inner landscape adapts to the guest's size and natural environment. The creature falls into a dreamlike calm, cannot perceive the outside world, and needs no air, food, or water. Time spent inside does not count as a rest and provides no healing. The creature and the outside world cannot affect one another. The Pocket World does not change the creature's attitude or grant control over it.\n\n**Return:**\n\nActivation: Action, by speaking the command word “Homecoming”\n\nThe creature holding the sphere can return its guest to a sufficiently large unoccupied space within 10 feet. A guest can remain inside for up to 24 hours, after which it returns automatically. Destroying the sphere also causes an immediate return. Releasing the guest does not expend the daily capture."
   }
 }

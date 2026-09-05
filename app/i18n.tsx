@@ -40,14 +40,14 @@ const huNames: Record<string, string> = {
   'Wand of magic missile':'Mágikus lövedék pálcája','Wand of Sickeness':'Betegségek pálcája',
   'Cast-Iron Critical Clanger':'A Konyhai Kritikus Kongató','Handbreaker':'Kéztörő','Misztikus Rúnakő':'Misztikus Rúnakő',
   "Evoker's Robe":'Evokátor köntöse','Moonflower Diadem':'Moonflower Diadem','Veil of Agony':'Gyötrelem fátyla',
-  'Tears of the Frostmaiden':'A Fagyistennő könnyei','Lost Dawn':'Elveszett Hajnal','Trailstone of the Known Path':'Az Ismert Ösvény Köve',
+  'Tears of the Frostmaiden':'A Fagyistennő könnyei','Lost Dawn':'Elveszett Hajnal','Trailstone of the Known Path':'Az Ismert Ösvény Köve','Zsebvilág':'Zsebvilág',
 };
 
 const enNames: Record<string, string> = {
   'Adamantin Sisak':'Adamantine Helmet','Black Panter Studded Armor':'Black Panther Studded Armor',
   'Braclet of sleight hands':'Bracelet of Sleight of Hand','Méreg ellenszer':'Antidote','Misztikus Rúnakő':'Mystic Runestone',
   'Mithral Láncing':'Mithral Chain Shirt','Wand of magic missile':'Wand of Magic Missile','Wand of Sickeness':'Wand of Sickness',
-  'Flametongue shortsword':'Flametongue Shortsword','Gauntlet of strong hands':'Gauntlet of Strong Hands',
+  'Flametongue shortsword':'Flametongue Shortsword','Gauntlet of strong hands':'Gauntlet of Strong Hands','Zsebvilág':'Pocket World',
 };
 
 const repairEnglish = (value: string) => value
