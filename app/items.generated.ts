@@ -156,8 +156,8 @@ export const items = [
     "name": "Displacer’s Deceptive Duster",
     "category": "Páncél",
     "price": 5990,
-    "summary": "Délibábos Doromboló Duvad Daróc",
-    "details": "**14 AC + Dex mod**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a köpeny eltorzítja a viselő helyzetét. A hatás időtartama alatt minden, a viselő ellen végrehajtott támadás disadvantage-dzsel történik."
+    "summary": "A kabát mágikus illúziója megtéveszti a támadókat, és enyhén takarja viselőjét.",
+    "details": "**14 AC + Dex mod**\n\n**Displacement:**\n\nAktiválás: Akció\nHasználat: Hosszú pihenőnként 1x\nIdőtartam: 10 kör\n\nAktiválásakor a kabát mágikus illúziót vetít a viselő köré, amitől úgy tűnik, mintha a tényleges helyzete közelében, de máshol állna. Emiatt a viselő elleni támadódobások hátránnyal történnek. Amíg ez a hatás aktív, a viselő enyhén takartnak (lightly obscured) is számít.\n\nHa egy támadás eltalálja a viselőt, a hatás a viselő következő körének végéig szünetel. A hatás akkor is szünetel, amíg a viselő cselekvőképtelen (incapacitated), vagy a sebessége 0."
   },
   {
     "id": 50,

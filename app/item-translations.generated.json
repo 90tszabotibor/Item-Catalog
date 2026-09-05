@@ -97,7 +97,7 @@
   "Displacer’s Deceptive Duster": {
     "huName": "Álcázó kotor",
     "enName": "Displacer’s Deceptive Duster",
-    "enDetails": "Mirage Grinder Duvadar\n\n* * 14 AC + Dex mod * *\n\n* * Displacement: * *\n\nActivation: Action\nUsage: 1 x per long rest\nDuration: 10 laps\n\nWhen it is activated, the cloak distorts the wearer's position. During the duration of the action, all attacks against the wearer are carried out with disadvantage."
+    "enDetails": "**14 AC + Dex mod**\n\n**Displacement:**\n\nActivation: Action\nUse: 1x per long rest\nDuration: 10 rounds\n\nWhen activated, the coat projects a magical illusion around the wearer, making them appear to stand near their actual position but somewhere else. Attack rolls against the wearer are therefore made with disadvantage. While this effect is active, the wearer is also lightly obscured.\n\nIf an attack hits the wearer, the effect is suppressed until the end of the wearer’s next turn. The effect is also suppressed while the wearer is incapacitated or has a speed of 0."
   },
   "Dragon rum": {
     "huName": "Sárkányrum",
