@@ -13,6 +13,7 @@ export const merchants: Merchant[] = [
   { slug:'humber-klupler', hu:'Humber Klupler', en:'Humber Klupler', roleHu:'Drágakőcsiszoló és ékszerkészítő', roleEn:'Gemcutter and jeweler', location:'', noteHu:'', noteEn:'', image:'/merchants/humber-klupler.jpeg', inventory:[] },
   { slug:'noena-daendelos', hu:'Noena Daendelos', en:'Noena Daendelos', roleHu:'Szabó és bőrműves', roleEn:'Tailor and leatherworker', location:'', noteHu:'', noteEn:'', image:'/merchants/noena-daendelos.jpeg', inventory:[] },
   { slug:'sara-bowsuntide', hu:'Sara Bowsuntide', en:'Sara Bowsuntide', roleHu:'Műkereskedő és értékbecslő', roleEn:'Art dealer and appraiser', location:'Selgaunt', noteHu:'A Bowsuntide műkereskedés képviselője.', noteEn:'Representative of the Bowsuntide art dealership.', image:'/merchants/sara-bowsuntide.jpeg', inventory:['Moonflower Diadem','Tears of the Frostmaiden','Lost Dawn','Fekete gyémántos nyakék','A Lélekösvény Diadémja'] },
+  { slug:'juliem-imarlem', hu:'Juliem Imarlem', en:'Juliem Imarlem', roleHu:'Zhentarim kereskedő', roleEn:'Zhentarim merchant', location:'', noteHu:'', noteEn:'', image:'/merchants/juliem-imarlem.png', inventory:[] },
 ];
 
 export const merchantBySlug = (slug: string) => merchants.find((merchant) => merchant.slug === slug);
