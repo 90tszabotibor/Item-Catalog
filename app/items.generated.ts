@@ -678,5 +678,21 @@ export const items = [
     "price": 6990,
     "summary": "Naponta egyszer legfeljebb 24 órára egy lényt zárhat a belső világába.",
     "details": "**Befogadás:**\n\nAktiválás: Akció\nHatótáv: 30 láb\nHasználat: Naponta 1x, hajnalban töltődik újra\n\nA Zsebvilág bármilyen típusú és méretű lényt befogadhat, de egyszerre legfeljebb egyet. A célpont viselt és hordozott tárgyai vele tartanak, más lények azonban nem.\n\nAz együttműködő célpont mentődobás és életerő-korlát nélkül beléphet. Nem együttműködő célpont csak akkor fogadható be, ha aktuális HP-ja legfeljebb a maximumának fele. A célpontnak **DC 13 Dexterity-mentődobást** kell tennie; sikertelenség esetén a gömb belső világába kerül. A befogadás naponta egyszer kísérelhető meg, sikerétől függetlenül.\n\n**A belső világ:**\n\nA belső táj a vendég méretéhez és természetes környezetéhez igazodik. A lény álomszerű nyugalomba merül, nem érzékeli a külvilágot, és nincs szüksége levegőre, táplálékra vagy folyadékra. Az itt töltött idő nem számít pihenőnek, és önmagában nem gyógyít. A lény és a külvilág nem hathat egymásra. A Zsebvilág nem változtatja meg a lény hozzáállását, és nem ad irányítást felette.\n\n**Visszatérés:**\n\nAktiválás: Akció, a „Hazatérés” parancsszó kimondásával\n\nA gömböt tartó személy visszahívhatja a lényt egy 10 lábon belüli, számára elegendő méretű üres helyre. A vendég legfeljebb 24 órán át maradhat bent, majd automatikusan visszatér. A gömb megsemmisülése szintén azonnali visszatérést okoz. A visszahívás nem használja el a napi befogadást."
+  },
+  {
+    "id": 86,
+    "name": "Fekete gyémántos nyakék",
+    "category": "Ékszer",
+    "price": 5290,
+    "summary": "Briliáns csiszolású fekete gyémánt, amely kiváló mágikus hordozó.",
+    "details": "**Fekete gyémántos nyakék**\n\nBriliáns csiszolású fekete gyémánt, díszesen megmunkált platinalánccal és foglalattal. Nincs benne mágia, de kiváló mágikus hordozó, ha egy hozzáértő megmunkálja. Csodálatos rúnakő töltetét is képes elbírni."
+  },
+  {
+    "id": 87,
+    "name": "A Lélekösvény Diadémja",
+    "category": "Ékszer",
+    "price": 11990,
+    "summary": "A diadém rituáléval eggyé válik viselőjével, és megnyitja előtte a Lélekösvényt.",
+    "details": "**Attunementet igényel**\n\nHa valaki felveszi és elvégzi a hozzá tartozó rituálét, a diadém eggyé válik a testével. A Lélekösvény próbájához szükséges."
   }
 ] as const;

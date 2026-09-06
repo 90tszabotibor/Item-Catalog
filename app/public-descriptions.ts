@@ -87,6 +87,8 @@ const descriptions: Record<string, [string, string]> = {
   'Lost Dawn':['Lathander elveszett gyűrűje, amely a hajnal fényével gyógyítja a sebesülteket.','Lathander’s lost ring, healing the wounded with the light of dawn.'],
   'Trailstone of the Known Path':['Egyszer használható rúnakő, amely átjárót nyit egy korábban megjelölt helyre.','A single-use runestone that opens a passage to a previously marked location.'],
   'Zsebvilág':['Tenyérnyi kristálygömb, amelynek belsejében egy apró, élő világ rejtőzik.','A palm-sized crystal sphere containing a tiny living world.'],
+  'Fekete gyémántos nyakék':['Briliáns csiszolású fekete gyémánt, díszes platinalánccal és különleges mágikus lehetőségekkel.','A brilliant-cut black diamond on an ornate platinum chain, holding exceptional magical potential.'],
+  'A Lélekösvény Diadémja':['Ősi diadém, amely viselőjét a lények emlékeihez és szelleméhez kapcsolja.','An ancient diadem that connects its wearer to the memories and spirits of creatures.'],
 };
 
 export function publicDescription(item: CatalogItem & { originalName?: string }, language: Language) {

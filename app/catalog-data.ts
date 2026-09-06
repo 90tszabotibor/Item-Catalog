@@ -86,6 +86,8 @@ export const itemImages: Record<string, string> = {
   'Lost Dawn': '/items/lost-dawn.jpeg',
   'Trailstone of the Known Path': '/items/trailstone-of-the-known-path.jpeg',
   'Zsebvilág': '/items/zsebvilag.png',
+  'Fekete gyémántos nyakék': '/items/fekete-gyemantos-nyakek.jpeg',
+  'A Lélekösvény Diadémja': '/items/lelekosveny-diademja.jpeg',
 };
 
 export const itemKey = (name: string) => name

@@ -48,6 +48,7 @@ const enNames: Record<string, string> = {
   'Braclet of sleight hands':'Bracelet of Sleight of Hand','Méreg ellenszer':'Antidote','Misztikus Rúnakő':'Mystic Runestone',
   'Mithral Láncing':'Mithral Chain Shirt','Wand of magic missile':'Wand of Magic Missile','Wand of Sickeness':'Wand of Sickness',
   'Flametongue shortsword':'Flametongue Shortsword','Gauntlet of strong hands':'Gauntlet of Strong Hands','Zsebvilág':'Pocket World',
+  'Fekete gyémántos nyakék':'Black Diamond Necklace','A Lélekösvény Diadémja':'Diadem of the Soulpath',
 };
 
 const repairEnglish = (value: string) => value
@@ -59,6 +60,8 @@ const repairEnglish = (value: string) => value
   .replaceAll('You can blow the ', 'You can cast the ').replaceAll('You can burn the ', 'You can cast the ').replaceAll(' is fired at a long rest of 1x', ' can be cast 1x per long rest');
 
 const enDetailOverrides: Record<string, string> = {
+  'Fekete gyémántos nyakék': '**Black diamond necklace**\n\nA brilliant-cut black diamond set in an ornately worked platinum mount and chain. It holds no magic of its own, but is an exceptional vessel for enchantment and can bear the power of a wondrous runestone.',
+  'A Lélekösvény Diadémja': '**Attunement required**\n\nWhen a creature dons the diadem and completes its ritual, the diadem becomes one with their body. It is required for the Trial of the Soulpath.',
   "Evoker's Robe": '**+1 Evocation**\n\n**Evoker’s Might:**\n\nUse: 1x per long rest\n\nYou can cast one prepared 1st-level Evocation spell without expending a spell slot.',
   'Moonflower Diadem': '**+1 Charisma**\n\n**Blinding Step:**\n\nAfter using Misty Step, you can create a brilliant flash within 10 feet. Creatures in the area must succeed on a **DC 17 Wisdom saving throw** or become Blinded.\n\n**Blessing of Evermeet:**\n\nActivation: Reaction, when the wearer or an ally within 30 feet is hit\nRange: 30 feet\nUse: 1x per long rest\n\nThe diadem conjures a radiant shield of moonlight around the target. The shield absorbs **4d6 + the wearer’s spellcasting ability modifier** damage from the triggering hit.',
   'Lost Dawn': '**+2 healing**\n\n**Light of Lathander:**\n\nUse: 1x per long rest\n\nYou can cast Mass Cure Wounds and Daylight simultaneously from the ring.',
