@@ -99,7 +99,7 @@ export const items = [
     "id": 37,
     "name": "Cast-Iron Critical Clanger",
     "category": "Fegyver",
-    "price": 6990,
+    "price": 7990,
     "summary": "A Konyhai Kritikus Kongató",
     "details": "**+2 buzogány**\n\n**Kritikus Rezonancia:**\n\nA fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba.\n\n**Tökéletes Steak:**\n\nA benne készült steak fogyasztása 5 THP-t biztosít a fogyasztójának."
   },
@@ -635,7 +635,7 @@ export const items = [
     "id": 80,
     "name": "Moonflower Diadem",
     "category": "Ékszer",
-    "price": 8990,
+    "price": 6990,
     "summary": "A Misty Step után vakító fényvillanást hozhat létre.",
     "details": "**+1 Charisma**\n\n**Vakító Lépés:**\n\nA Misty Step varázslat használatát követően 10 lábon belül fényes villanást okozhatsz. A területen tartózkodó lényeknek **DC 17 Wisdom-mentődobást** kell tenniük, különben Blinded állapotba kerülnek."
   },
@@ -651,7 +651,7 @@ export const items = [
     "id": 82,
     "name": "Tears of the Frostmaiden",
     "category": "Ékszer",
-    "price": 7990,
+    "price": 4990,
     "summary": "Hosszú pihenőnként 1x elsüthető belőle a Cone of Cold varázslat.",
     "details": "**+1 cold**\n\n**Cone of Cold:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból a Cone of Cold varázslatot."
   },
@@ -659,7 +659,7 @@ export const items = [
     "id": 83,
     "name": "Lost Dawn",
     "category": "Ékszer",
-    "price": 8990,
+    "price": 5990,
     "summary": "Hosszú pihenőnként 1x egyszerre elsüthető belőle a Mass Healing Word és a Daylight varázslat.",
     "details": "**+1 healing**\n\n**Lathander Fénye:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a gyűrűből egyszerre a Mass Healing Word és a Daylight varázslatot."
   },
@@ -691,7 +691,7 @@ export const items = [
     "id": 87,
     "name": "A Lélekösvény fejdísze",
     "category": "Ékszer",
-    "price": 6990,
+    "price": 4990,
     "summary": "A fejdísz rituáléval eggyé válik viselőjével, és megnyitja előtte a Lélekösvényt.",
     "details": "**Attunementet igényel**\n\nHa valaki felveszi és elvégzi a hozzá tartozó rituálét, a fejdísz eggyé válik a testével. A Lélekösvény próbájához szükséges."
   }
