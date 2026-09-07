@@ -689,10 +689,10 @@ export const items = [
   },
   {
     "id": 87,
-    "name": "A Lélekösvény Diadémja",
+    "name": "A Lélekösvény fejdísze",
     "category": "Ékszer",
-    "price": 11990,
-    "summary": "A diadém rituáléval eggyé válik viselőjével, és megnyitja előtte a Lélekösvényt.",
-    "details": "**Attunementet igényel**\n\nHa valaki felveszi és elvégzi a hozzá tartozó rituálét, a diadém eggyé válik a testével. A Lélekösvény próbájához szükséges."
+    "price": 6990,
+    "summary": "A fejdísz rituáléval eggyé válik viselőjével, és megnyitja előtte a Lélekösvényt.",
+    "details": "**Attunementet igényel**\n\nHa valaki felveszi és elvégzi a hozzá tartozó rituálét, a fejdísz eggyé válik a testével. A Lélekösvény próbájához szükséges."
   }
 ] as const;
