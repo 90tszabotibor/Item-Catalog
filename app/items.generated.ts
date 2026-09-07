@@ -99,7 +99,7 @@ export const items = [
     "id": 37,
     "name": "Cast-Iron Critical Clanger",
     "category": "Fegyver",
-    "price": 7990,
+    "price": 6990,
     "summary": "A Konyhai Kritikus Kongató",
     "details": "**+2 buzogány**\n\n**Kritikus Rezonancia:**\n\nA fegyver eggyel csökkenti a kritikus találathoz szükséges dobásértéket.\n\n**Fülsüketítő Kongás:**\n\nAktiválás: Amikor kritikus találatot érsz el\nHatóterület: A használó körüli 30 láb sugarú terület\nMentődobás: DC 15 Constitution\n\nA fegyver fülsüketítő kongást kelt. A hatóterületen tartózkodó minden más lénynek Constitution-mentődobást kell tennie.\n\nSikertelen mentődobás esetén 3d8 thunder sebzést szenvednek, és a használó következő körének kezdetéig Deafened állapotba kerülnek. Sikeres mentődobás esetén fele sebzést szenvednek, és nem kerülnek Deafened állapotba.\n\n**Tökéletes Steak:**\n\nA benne készült steak fogyasztása 5 THP-t biztosít a fogyasztójának."
   },
@@ -653,7 +653,7 @@ export const items = [
     "category": "Ékszer",
     "price": 7990,
     "summary": "Hosszú pihenőnként 1x elsüthető belőle a Cone of Cold varázslat.",
-    "details": "**+2 cold**\n\n**Cone of Cold:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból a Cone of Cold varázslatot."
+    "details": "**+1 cold**\n\n**Cone of Cold:**\n\nHasználat: Hosszú pihenőnként 1x\n\nElsütheted a nyakláncból a Cone of Cold varázslatot."
   },
   {
     "id": 83,
